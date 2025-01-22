@@ -1,0 +1,217 @@
+Species	Country	Locality	Date	Year	Month	Temperature	Código	F0 (%)	F1 (%)	F2 (%)	F3 (%)	F4 (%)	M0 (%)	M1(%)	M2 (%)	
+E. crinita	Italy	Frigole (Lecce)	09/02/2020	2020	January 		J20	95	4	2	0	0	100	0	0	
+E. crinita	Italy	Frigole (Lecce)		2020	February		F20									
+E. crinita	Italy	Frigole (Lecce)		2020	March		M20									
+E. crinita	Italy	Frigole (Lecce)		2020	April		A20									
+E. crinita	Italy	Frigole (Lecce)	30/05/2020	2020	May		M20	0	74	23	3	0				
+E. crinita	Italy	Frigole (Lecce)		2020	June		J20									
+E. crinita	Italy	Frigole (Lecce)	29/07/2020	2020	July	28,1	J20	100	0	0	0	0				
+E. crinita	Italy	Frigole (Lecce)	25/08/2020	2020	Agost	27,8	A20	100	0	0	0	0	100	0	0	
+E. crinita	Italy	Frigole (Lecce)		2020	September	25,3	S20						40	52	8	
+E. crinita	Italy	Frigole (Lecce)	01/10/2020	2020	October	20,2	O20	100	0	0	0	0				
+E. crinita	Italy	Frigole (Lecce)	23/11/2020	2020	November	17,3	N20	100	0	0	0	0	100	0	0	
+E. crinita	Italy	Frigole (Lecce)	18/12/2020	2020	December 	14,7	D20	7	89	4	0	0	44	52	4	
+E. crinita	Italy	Frigole (Lecce)		2021	January 	12,4	J21						100	0	0	
+E. crinita	Italy	Frigole (Lecce)	26/02/2021	2021	February	12,7	F21	5	6	90	0	0	0	100	0	
+E. crinita	Italy	Frigole (Lecce)	27/03/2021	2021	March	12,9	M21	5	28	45	23	0	0	88	12	
+E. crinita	Italy	Frigole (Lecce)		2021	April	16,7	A21									
+E. crinita	Italy	Frigole (Lecce)	19/05/2021	2021	May	21,7	M21	0	18	31	15	36	0	68	32	
+E. crinita	Italy	Frigole (Lecce)	28/06/2021	2021	June	24,0	J21	100	0	0	0	0	100	0	0	
+E. crinita	Italy	Frigole (Lecce)	20/07/2021	2021	July	27,4	J21	100	0	0	0	0	100	0	0	
+E. crinita	Italy	Frigole (Lecce)	01/09/2021	2021	Agost	28,0	A21	100	0	0	0	0				
+E. crinita	Italy	Frigole (Lecce)	27/09/2021	2021	September	24,8	S21	100	0	0	0	0	100	0	0	
+E. crinita	Italy	Frigole (Lecce)	28/10/2021	2021	October	20,3	O21	57	43	0	0	0	32	68	0	
+E. crinita	Italy	Frigole (Lecce)		2021	November	17,3	N21						40	60	0	
+E. crinita	Italy	Frigole (Lecce)	10/12/2021	2021	December 	12,8	D21	48	52	0	0	0				
+E. crinita	Italy	Frigole (Lecce)	20/01/2022	2022	January 	11,5	J22	94	6	0	0	0	40	60	0	
+E. crinita	Italy	Frigole (Lecce)		2022	February	11,1	F22						32	68	0	
+E. crinita	Italy	Frigole (Lecce)		2022	March	12,5	M22						0	100	0	
+E. crinita	Italy	Frigole (Lecce)		2022	April	15,9	A22						4	96	0	
+E. crinita	Italy	Frigole (Lecce)	26/05/2022	2022	May	20,4	M22	0	90	10	0	0	0	100	0	
+E. crinita	Italy	Frigole (Lecce)		2022	June		J22									
+E. crinita	Italy	Frigole (Lecce)		2022	July		J22									
+E. crinita	Italy	Frigole (Lecce)		2022	Agost		A22									
+E. crinita	Italy	Frigole (Lecce)		2022	September		S22									
+E. crinita	Italy	Frigole (Lecce)		2022	October		O22									
+E. crinita	Italy	Frigole (Lecce)		2022	November		N22									
+E. crinita	Italy	Frigole (Lecce)		2022	December 		D22									
+E. crinita	Italy	Ischia (Napoli)		2020	January 		J20									
+E. crinita	Italy	Ischia (Napoli)		2020	February		F20						100	0	0	
+E. crinita	Italy	Ischia (Napoli)		2020	March		M20									
+E. crinita	Italy	Ischia (Napoli)		2020	April		A20						100	0	0	
+E. crinita	Italy	Ischia (Napoli)	22/05/2020	2020	May		M20	14	3	13	16	53	48	40	12	
+E. crinita	Italy	Ischia (Napoli)	26/06/2020	2020	June		J20	82	16	2	0	0	53	33	13	
+E. crinita	Italy	Ischia (Napoli)	24/07/2020	2020	July		J20	100	0	0	0	0	100	0	0	
+E. crinita	Italy	Ischia (Napoli)		2020	Agost		A20									
+E. crinita	Italy	Ischia (Napoli)	04/09/2020	2020	September	24,9	S20	100	0	0	0	0	100	0	0	
+E. crinita	Italy	Ischia (Napoli)	02/10/2020	2020	October	21,8	O20	100	0	0	0	0				
+E. crinita	Italy	Ischia (Napoli)	09/11/2020	2020	November	19,5	N20	100	0	0	0	0				
+E. crinita	Italy	Ischia (Napoli)	17/12/2020	2020	December 		D20	83	16	1	0	0	56	36	8	
+E. crinita	Italy	Ischia (Napoli)		2021	January 	16,1	J21						100	0	0	
+E. crinita	Italy	Ischia (Napoli)	24/02/2021	2021	February	15,2	F21	69	25	7	0	0	40	52	8	
+E. crinita	Italy	Ischia (Napoli)	23/03/2021	2021	March	15,1	M21	58	36	5	1	0	4	92	4	
+E. crinita	Italy	Ischia (Napoli)	14/04/2021	2021	April	15,9	A21	13	15	26	25	22	8	32	60	
+E. crinita	Italy	Ischia (Napoli)	11/05/2021	2021	May	18,8	M21	61	13	11	15	0				
+E. crinita	Italy	Ischia (Napoli)	28/06/2021	2021	June	24,1	J21	75	17	9	0	0	44	36	20	
+E. crinita	Italy	Ischia (Napoli)	21/07/2021	2021	July	26,6	J21	100	0	0	0	0				
+E. crinita	Italy	Ischia (Napoli)		2021	Agost	27,2	A21									
+E. crinita	Italy	Ischia (Napoli)	01/09/2021	2021	September	25,8	S21	100	0	0	0	0				
+E. crinita	Italy	Ischia (Napoli)		2021	October	22,1	O21									
+E. crinita	Italy	Ischia (Napoli)		2021	November	19,4	N21									
+E. crinita	Italy	Ischia (Napoli)	16/12/2021	2021	December 	17,7	D21	100	0	0	0	0	100	0	0	
+E. crinita	Italy	Ischia (Napoli)	28/01/2022	2022	January 		J22	88	10	2	0	0	100	0	0	
+E. crinita	Italy	Ischia (Napoli)		2022	February		F22						48	44	8	
+E. crinita	Italy	Ischia (Napoli)		2022	March		M22									
+E. crinita	Italy	Ischia (Napoli)	12/04/2022	2022	April		A22	75	14	11	1	0				
+E. crinita	Italy	Ischia (Napoli)	10/05/2022	2022	May		M22	49	23	25	3	0				
+E. crinita	Italy	Ischia (Napoli)		2022	June		J22									
+E. crinita	Italy	Ischia (Napoli)	01/07/2022	2022	July		J22	84	15	1	0	0				
+E. crinita	Italy	Ischia (Napoli)		2022	Agost		A22									
+E. crinita	Italy	Ischia (Napoli)		2022	September		S22									
+E. crinita	Italy	Ischia (Napoli)		2022	October		O22						4	24	72	
+E. crinita	Italy	Ischia (Napoli)		2022	November		N22									
+E. crinita	Italy	Ischia (Napoli)		2022	December 		D22						0	56	44	
+E. crinita	Spain	Port de la Selva		2020	January 	12,9	J20									
+E. crinita	Spain	Port de la Selva		2020	February	13,4	F20									
+E. crinita	Spain	Port de la Selva		2020	March		M20									
+E. crinita	Spain	Port de la Selva	01/05/2020	2020	April		A20	64	33	3	0	0				
+E. crinita	Spain	Port de la Selva	28/05/2020	2020	May	20,3	M20	0	39	44	17	0				
+E. crinita	Spain	Port de la Selva	25/06/2020	2020	June	22,4	J20	12	11	28	30	19				
+E. crinita	Spain	Port de la Selva	31/07/2020	2020	July	24,6	J20	10	14	24	32	20				
+E. crinita	Spain	Port de la Selva	25/08/2020	2020	Agost	22,0	A20	92	8	0	0	0				
+E. crinita	Spain	Port de la Selva	23/09/2020	2020	September	17,3	S20	48	37	14	1	0				
+E. crinita	Spain	Port de la Selva	19/10/2020	2020	October	17,4	O20	39	36	23	2	0				
+E. crinita	Spain	Port de la Selva		2020	November	15,6	N20									
+E. crinita	Spain	Port de la Selva		2020	December 	13,7	D20									
+E. crinita	Spain	Port de la Selva		2021	January 	12,0	J21									
+E. crinita	Spain	Port de la Selva	04/02/2021	2021	February	13,2	F21	100	0	0	0	0				
+E. crinita	Spain	Port de la Selva	24/03/2021	2021	March	12,7	M21	67	18	12	3	0				
+E. crinita	Spain	Port de la Selva		2021	April	13,7	A21									
+E. crinita	Spain	Port de la Selva	05/05/2021	2021	May	15,8	M21	29	18	23	21	9				
+E. crinita	Spain	Port de la Selva	01/06/2021	2021	June	21,0	J21	24	19	28	25	4				
+E. crinita	Spain	Port de la Selva	21/07/2021	2021	July	22,5	J21	34	16	18	19	12				
+E. crinita	Spain	Port de la Selva	23/08/2021	2021	Agost	23,0	A21	100	0	0	0	0				
+E. crinita	Spain	Port de la Selva		2021	September	22,4	S21									
+E. crinita	Spain	Port de la Selva	05/10/2021	2021	October	18,5	O21	83	17	0	0	0				
+E. crinita	Spain	Port de la Selva		2021	November	15,7	N21									
+E. crinita	Spain	Port de la Selva	17/12/2021	2021	December 	13,0	D21	53	34	12	1	0				
+E. crinita	Spain	Port de la Selva		2022	January 	10,5	J22									
+E. crinita	Spain	Port de la Selva		2022	February	12,2	F22									
+E. crinita	Spain	Port de la Selva		2022	March	12,8	M22									
+E. crinita	Spain	Port de la Selva		2022	April	15,4	A22									
+E. crinita	Spain	Port de la Selva		2022	May	21,6	M22									
+E. crinita	Spain	Port de la Selva		2022	June	23,4	J22									
+E. crinita	Spain	Port de la Selva		2022	July	26,6	J22									
+E. crinita	Spain	Port de la Selva		2022	Agost	26,0	A22									
+E. crinita	Spain	Port de la Selva		2022	September	23,2	S22									
+E. crinita	Spain	Port de la Selva		2022	October	20,7	O22									
+E. crinita	Spain	Port de la Selva		2022	November	17,8	N22									
+E. crinita	Spain	Port de la Selva		2022	December 	14,4	D22									
+E. crinita	Tunisia	Rimel (Bizerte)	19/01/2020	2020	January 		J20	100	0	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	29/02/2020	2020	February		F20	100	0	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)		2020	March		M20									
+E. crinita	Tunisia	Rimel (Bizerte)		2020	April		A20									
+E. crinita	Tunisia	Rimel (Bizerte)		2020	May		M20									
+E. crinita	Tunisia	Rimel (Bizerte)	15/06/2020	2020	June		J20	45	55	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	22/07/2020	2020	July		J20	35	65	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	27/08/2020	2020	Agost		A20	20	80	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	04/09/2020	2020	September		S20	25	75	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	15/10/2020	2020	October		O20	75	25	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	04/11/2020	2020	November		N20	100	0	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	14/12/2020	2020	December 		D20	100	0	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)		2021	January 		J21									
+E. crinita	Tunisia	Rimel (Bizerte)		2021	February		F21									
+E. crinita	Tunisia	Rimel (Bizerte)	21/3/2021	2021	March		M21	98	2	0	0	0	100	0	0	
+E. crinita	Tunisia	Rimel (Bizerte)	25/4/2021	2021	April		A21	50	24	16	10	0	48	48	4	
+E. crinita	Tunisia	Rimel (Bizerte)	23/5/2021	2021	May		M21	34	8	16	14	28	8	32	60	
+E. crinita	Tunisia	Rimel (Bizerte)	20/6/2021	2021	June		J21	10	8	10	16	56	8	16	76	
+E. crinita	Tunisia	Rimel (Bizerte)	17/7/2021	2021	July		J21	6	4	8	18	64				
+E. crinita	Tunisia	Rimel (Bizerte)	22/8/2021	2021	Agost		A21	16	24	16	14	30	8	36	56	
+E. crinita	Tunisia	Rimel (Bizerte)	26/9/2021	2021	September		S21	20	10	22	30	18	48	8	44	
+E. crinita	Tunisia	Rimel (Bizerte)	24/10/2021	2021	October		O21	56	14	22	4	4	84	0	16	
+E. crinita	Tunisia	Rimel (Bizerte)	21/11/2021	2021	November		N21	94	4	2	0	0	100	0	0	
+E. crinita	Tunisia	Rimel (Bizerte)	19/12/2021	2021	December 		D21	100	0	0	0	0	100	0	0	
+E. crinita	Tunisia	Rimel (Bizerte)	23/1/2022	2022	January 		J22	100	0	0	0	0	100	0	0	
+E. crinita	Tunisia	Rimel (Bizerte)	20/2/2022	2022	February		F22	100	0	0	0	0	100	0	0	
+E. crinita	Tunisia	Rimel (Bizerte)	27/3/2022	2022	March		M22	96	4	0	0	0	92	8	0	
+E. crinita	Tunisia	Rimel (Bizerte)	24/4/2022	2022	April		A22	44	18	20	14	4	28	64	8	
+E. crinita	Tunisia	Rimel (Bizerte)	22/5/2022	2022	May		M22	8	4	6	16	66	8	32	60	
+E. crinita	Tunisia	Rimel (Bizerte)	19/6/2022	2022	June		J22	6	6	12	14	62	0	24	76	
+E. crinita	Tunisia	Rimel (Bizerte)		2022	July		J22						16	24	60	
+E. crinita	Tunisia	Rimel (Bizerte)		2022	Agost		A22									
+E. crinita	Tunisia	Rimel (Bizerte)		2022	September		S22									
+E. crinita	Tunisia	Rimel (Bizerte)		2022	October		O22									
+E. crinita	Tunisia	Rimel (Bizerte)		2022	November		N22									
+E. crinita	Tunisia	Rimel (Bizerte)		2022	December 		D22									
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	January 		J20									
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	February		F20									
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	March		M20									
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	April		A20									
+E. crinita	France	Sta. Marguerite, Lerins, France	26/05/2020	2020	May		M20	61	15	8	15	1	44	48	8	
+E. crinita	France	Sta. Marguerite, Lerins, France	18/06/2020	2020	June		J20	63	4	3	12	19	72	28	0	
+E. crinita	France	Sta. Marguerite, Lerins, France	10/07/2020	2020	July	26,4	J20	44	28	1	27	0				
+E. crinita	France	Sta. Marguerite, Lerins, France	05/08/2020	2020	Agost	26,9	A20	100	0	0	0	0				
+E. crinita	France	Sta. Marguerite, Lerins, France	10/09/2020	2020	September	23,5	S20	93	7	0	0	0				
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	October	19,6	O20						32	60	8	
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	November	18,0	N20									
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	December 	15,4	D20									
+E. crinita	France	Sta. Marguerite, Lerins, France		2021	January 	14,0	J21						28	72	0	
+E. crinita	France	Sta. Marguerite, Lerins, France	15/02/2021	2021	February	13,8	F21	24	45	20	10	0	22	56	22	
+E. crinita	France	Sta. Marguerite, Lerins, France	15/03/2021	2021	March	14,4	M21	8	20	18	34	20	28	36	36	
+E. crinita	France	Sta. Marguerite, Lerins, France	14/04/2021	2021	April	15,2	A21	17	30	27	17	10	0	92	8	
+E. crinita	France	Sta. Marguerite, Lerins, France	20/05/2021	2021	May	16,8	M21	4	7	27	18	44	0	36	64	
+E. crinita	France	Sta. Marguerite, Lerins, France	02/07/2021	2021	June	22,7	J21	52	30	18	0	0	0	60	40	
+E. crinita	France	Sta. Marguerite, Lerins, France	22/07/2021	2021	July	24,5	J21	72	28	0	0	0	8	88	4	
+E. crinita	France	Sta. Marguerite, Lerins, France	20/08/2021	2021	Agost	25,2	A21	100	0	0	0	0	100	0	0	
+E. crinita	France	Sta. Marguerite, Lerins, France	30/09/2021	2021	September	24,0	S21	95	5	0	0	0				
+E. crinita	France	Sta. Marguerite, Lerins, France	26/10/2021	2021	October	21,2	O21	41	23	25	2	8	0	88	12	
+E. crinita	France	Sta. Marguerite, Lerins, France	30/11/2021	2021	November	17,7	N21	16	8	1	75	0	28	72	0	
+E. crinita	France	Sta. Marguerite, Lerins, France	14/12/2021	2021	December 	15,4	D21	46	44	9	2	0	0	80	20	
+E. crinita	France	Sta. Marguerite, Lerins, France	28/01/2022	2022	January 	14,2	J22	32	42	19	7	0	0	20	80	
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	February	13,9	F22									
+E. crinita	France	Sta. Marguerite, Lerins, France	10/03/2022	2022	March	13,7	M22	77	15	7	1	0	100	0	0	
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	April	14,9	A22									
+E. crinita	France	Sta. Marguerite, Lerins, France	20/05/2022	2022	May	20,1	M22	38	25	20	10	7	0	24	76	
+E. crinita	France	Sta. Marguerite, Lerins, France	24/06/2022	2022	June	24,4	J22	68	14	12	5	2				
+E. crinita	France	Sta. Marguerite, Lerins, France	24/07/2022	2022	July	27,7	J22	100	0	0	0	0				
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	Agost		A22									
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	September		S22									
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	October		O22									
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	November		N22									
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	December 		D22									
+E. crinita	Spain	Cala Estreta		2020	January 		J20									
+E. crinita	Spain	Cala Estreta	04/02/2020	2020	February		F20	149	4	2	0	0				
+E. crinita	Spain	Cala Estreta		2020	March		M20									
+E. crinita	Spain	Cala Estreta		2020	April		A20									
+E. crinita	Spain	Cala Estreta	08/05/2020	2020	May	20,5	M20	19	14	25	27	15	0	80	20	
+E. crinita	Spain	Cala Estreta	29/05/2020	2020	June	21,1	J20	6	13	27	37	17	38	54	8	
+E. crinita	Spain	Cala Estreta	29/06/2020	2020	July	23,9	J20	10	18	30	29	13				
+E. crinita	Spain	Cala Estreta	30/07/2020	2020	Agost	24,6	A20	13	11	24	30	22	17	79	4	
+E. crinita	Spain	Cala Estreta	26/08/2020	2020	September	22,4	S20	9	48	32	10	0				
+E. crinita	Spain	Cala Estreta	30/09/2020	2020	October	18,1	O20	45	45	10	0	0				
+E. crinita	Spain	Cala Estreta	28/10/2020	2020	November	16,3	N20	39	54	7	0	0				
+E. crinita	Spain	Cala Estreta		2020	December 	14,4	D20									
+E. crinita	Spain	Cala Estreta		2021	January 	12,9	J21									
+E. crinita	Spain	Cala Estreta	27/01/2021	2021	February	13,1	F21	100	0	0	0	0				
+E. crinita	Spain	Cala Estreta	29/03/2021	2021	March	13,2	M21	68	21	10	1	0	0	80	20	
+E. crinita	Spain	Cala Estreta	07/05/2021	2021	April	14,2	A21	30	23	22	18	8				
+E. crinita	Spain	Cala Estreta	27/05/2021	2021	May	16,0	M21	21	19	27	22	10	50	0	50	
+E. crinita	Spain	Cala Estreta	02/07/2021	2021	June	21,6	J21	31	23	19	27	0	0	25	75	
+E. crinita	Spain	Cala Estreta	22/07/2021	2021	July	24,0	J21	25	12	17	35	11	20	20	60	
+E. crinita	Spain	Cala Estreta	23/08/2021	2021	Agost	23,8	A21	73	21	6	0	0	11	22	67	
+E. crinita	Spain	Cala Estreta	01/10/2021	2021	September	22,6	S21	80	18	3	0	0	0	29	71	
+E. crinita	Spain	Cala Estreta	18/10/2021	2021	October	19,8	O21	29	10	15	20	26	13	25	63	
+E. crinita	Spain	Cala Estreta		2021	November	16,4	N21									
+E. crinita	Spain	Cala Estreta	13/12/2021	2021	December 	14,7	D21	40	23	33	3	1	29	43	29	
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
