@@ -1,0 +1,148 @@
+Species	Country	Locality	Date	Year	Month	Temperature	Código	Data	F0 (%)	F1 (%)	F2 (%)	F3 (%)	F4 (%)			
+E. barbatula	Greece	Elaioxwri - Site 2		2020	January 		J20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	February		F20									
+E. barbatula	Greece	Elaioxwri - Site 2	3/11/2020	2020	March	13.9	M20		73	2	24	1	0			
+E. barbatula	Greece	Elaioxwri - Site 2		2020	April	14.6	A20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	May	20.0	M20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	June	22.8	J20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	July	27.1	J20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	Agost	26.9	A20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	September	25.6	S20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	October	22.5	O20									
+E. barbatula	Greece	Elaioxwri - Site 2	11/27/2020	2020	November	18.6	N20		100	0	0	0	0			
+E. barbatula	Greece	Elaioxwri - Site 2		2020	December 	15.4	D20									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	January 	13.2	J21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	February	13.2	F21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	March	13.1	M21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	April	15.0	A21									
+E. barbatula	Greece	Elaioxwri - Site 2	2/5/2021	2021	May	20.3	M21		97	3	0	0	0			
+E. barbatula	Greece	Elaioxwri - Site 2		2021	June	24.6	J21									
+E. barbatula	Greece	Elaioxwri - Site 2	1/7/2021	2021	July	28.8	J21		100	0	0	0	0			
+E. barbatula	Greece	Elaioxwri - Site 2		2021	Agost	29.0	A21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	September	25.4	S21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	October		O21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	November		N21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	December 		D21									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	January 		J22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	February		F22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	March		M22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	April		A22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	May		M22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	June		J22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	July		J22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	Agost		A22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	September		S22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	October		O22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	November		N22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	December 		D22									
+																
+E. barbatula	Greece	Eleochori - Site 2		2020	January 		J20									
+E. barbatula	Greece	Eleochori - Site 2		2020	February		F20		96	0	4	0	0			
+E. barbatula	Greece	Eleochori - Site 2	3/11/2020	2020	March	13.9	M20									
+E. barbatula	Greece	Eleochori - Site 2		2020	April	14.6	A20									
+E. barbatula	Greece	Eleochori - Site 2		2020	May	20.0	M20									
+E. barbatula	Greece	Eleochori - Site 2	6/22/2020	2020	June	22.8	J20		27	0	0	0	73			
+E. barbatula	Greece	Eleochori - Site 2		2020	July	27.1	J20									
+E. barbatula	Greece	Eleochori - Site 2		2020	Agost	26.9	A20									
+E. barbatula	Greece	Eleochori - Site 2	9/16/2020	2020	September	25.6	S20		100	0	0	0	0			
+E. barbatula	Greece	Eleochori - Site 2	10/20/2020	2020	October	22.5	O20		100	0	0	0	0			
+E. barbatula	Greece	Eleochori - Site 2	11/27/2020	2020	November	18.6	N20		100	0	0	0	0			
+E. barbatula	Greece	Eleochori - Site 2		2020	December 	15.4	D20									
+E. barbatula	Greece	Eleochori - Site 2	1/7/2021	2021	January 	13.2	J21		100	0	0	0	0			
+E. barbatula	Greece	Eleochori - Site 2	2/5/2021	2021	February	13.2	F21		95	5	0	0	0			
+E. barbatula	Greece	Eleochori - Site 2	3/29/2021	2021	March	13.1	M21		19	0	81	0	0			
+E. barbatula	Greece	Eleochori - Site 2	4/21/2021	2021	April	15.0	A21		20	0	80	0	0			
+E. barbatula	Greece	Eleochori - Site 2	5/12/2021	2021	May	20.3	M21		20	0	80	0	0			
+E. barbatula	Greece	Eleochori - Site 2	6/7/2021	2021	June	24.6	J21		92	0	0	8	0			
+E. barbatula	Greece	Eleochori - Site 2	7/7/2021	2021	July	28.8	J21		100	0	0	0	0			
+E. barbatula	Greece	Eleochori - Site 2		2021	Agost	29.0	A21									
+E. barbatula	Greece	Eleochori - Site 2		2021	September	25.4	S21									
+E. barbatula	Greece	Eleochori - Site 2		2021	October		O21									
+E. barbatula	Greece	Eleochori - Site 2		2021	November		N21									
+E. barbatula	Greece	Eleochori - Site 3		2021	December 		D21									
+E. barbatula	Greece	Eleochori - Site 4		2022	January 		J22									
+E. barbatula	Greece	Eleochori - Site 5		2022	February		F22									
+E. barbatula	Greece	Eleochori - Site 6		2022	March		M22									
+E. barbatula	Greece	Eleochori - Site 7		2022	April		A22									
+E. barbatula	Greece	Eleochori - Site 8		2022	May		M22									
+E. barbatula	Greece	Eleochori - Site 9		2022	June		J22									
+E. barbatula	Greece	Eleochori - Site 10		2022	July		J22									
+E. barbatula	Greece	Eleochori - Site 11		2022	Agost		A22									
+E. barbatula	Greece	Eleochori - Site 12		2022	September		S22									
+E. barbatula	Greece	Eleochori - Site 13		2022	October		O22									
+E. barbatula	Greece	Eleochori - Site 14		2022	November		N22									
+E. barbatula	Greece	Eleochori - Site 2		2022	December 		D22									
+																
+E. barbatula	Greece	Kataskinosis - Site 3		2020	January 		J20									
+E. barbatula	Greece	Kataskinosis - Site 3		2020	February		F20									
+E. barbatula	Greece	Kataskinosis - Site 3		2020	March	13.9	M20	3/11/2020	96	0	4	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2020	April	14.6	A20									
+E. barbatula	Greece	Kataskinosis - Site 3		2020	May	20.0	M20									
+E. barbatula	Greece	Kataskinosis - Site 3		2020	June	22.8	J20	6/22/2020	18	0	0	0	82			
+E. barbatula	Greece	Kataskinosis - Site 3		2020	July	27.1	J20									
+E. barbatula	Greece	Kataskinosis - Site 3		2020	Agost	26.9	A20									
+E. barbatula	Greece	Kataskinosis - Site 3		2020	September	25.6	S20	9/16/2020	100	0	0	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2020	October	22.5	O20	10/20/2020	100	0	0	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2020	November	18.6	N20	11/27/2020	100	0	0	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2020	December 	15.4	D20									
+E. barbatula	Greece	Kataskinosis - Site 3		2021	January 	13.2	J21	1/7/2021	100	0	0	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	February	13.2	F21	2/5/2021	98	2	0	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	March	13.1	M21	3/29/2021	77	0	23	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	April	15.0	A21	4/21/2021	75	13	12	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	May	20.3	M21	5/12/2021	20	0	80	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	June	24.6	J21	6/7/2021	15	0	0	0	85			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	July	28.8	J21	7/7/2021	100	0	0	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	Agost	29.0	A21									
+E. barbatula	Greece	Kataskinosis - Site 3		2021	September	25.4	S21									
+E. barbatula	Greece	Kataskinosis - Site 3		2021	October		O21									
+E. barbatula	Greece	Kataskinosis - Site 3		2021	November		N21									
+E. barbatula	Greece	Kataskinosis - Site 3		2021	December 		D21									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	January 		J22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	February		F22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	March		M22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	April		A22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	May		M22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	June		J22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	July		J22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	Agost		A22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	September		S22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	October		O22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	November		N22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	December 		D22									
+																
+E. barbatula	Greece	Vrasidas - Site 1		2020	January 		J20									
+E. barbatula	Greece	Vrasidas - Site 1		2020	February		F20									
+E. barbatula	Greece	Vrasidas - Site 1		2020	March	13.9	M20	3/11/2020	96	2	2	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2020	April	14.6	A20									
+E. barbatula	Greece	Vrasidas - Site 1		2020	May	20.0	M20									
+E. barbatula	Greece	Vrasidas - Site 1		2020	June	22.8	J20	6/22/2020	14	0	0	0	86			
+E. barbatula	Greece	Vrasidas - Site 1		2020	July	27.1	J20									
+E. barbatula	Greece	Vrasidas - Site 1		2020	Agost	26.9	A20									
+E. barbatula	Greece	Vrasidas - Site 1		2020	September	25.6	S20	9/16/2020	100	0	0	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2020	October	22.5	O20	10/20/2020	100	0	0	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2020	November	18.6	N20	11/27/2020	100	0	0	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2020	December 	15.4	D20									
+E. barbatula	Greece	Vrasidas - Site 1		2021	January 	13.2	J21									
+E. barbatula	Greece	Vrasidas - Site 1		2021	February	13.2	F21	2/5/2021	100	0	0	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2021	March	13.1	M21	3/3/2021	100	0	0	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2021	April	15.0	A21	3/29/2021	31	0	0	69	0			
+E. barbatula	Greece	Vrasidas - Site 1		2021	May	20.3	M21	5/12/2021	10	0	90	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2021	June	24.6	J21	6/7/2021	12	0	0	0	88			
+E. barbatula	Greece	Vrasidas - Site 1		2021	July	28.8	J21	7/7/2021	100	0	0	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2021	Agost	29.0	A21									
+E. barbatula	Greece	Vrasidas - Site 1		2021	September	25.4	S21									
+E. barbatula	Greece	Vrasidas - Site 1		2021	October		O21									
+E. barbatula	Greece	Vrasidas - Site 1		2021	November		N21									
+E. barbatula	Greece	Vrasidas - Site 1		2021	December 		D21									
+E. barbatula	Greece	Vrasidas - Site 1		2022	January 		J22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	February		F22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	March		M22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	April		A22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	May		M22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	June		J22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	July		J22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	Agost		A22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	September		S22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	October		O22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	November		N22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	December 		D22									

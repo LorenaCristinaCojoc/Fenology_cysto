@@ -1,0 +1,502 @@
+Species	Country	Locality	Date	Year	Month	Temperature	Código	F0 (%)	F1 (%)	F2 (%)	F3 (%)	F4 (%)	M0 (%)	M1(%)	M2 (%)	MT (%)
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2020	January 		J20									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2020	February		F20									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2020	March		M20									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2020	April		A20									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2020	May		M20						0	4	96	100
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"	6/16/2020	2020	June		J20	77	5	0	9	8				
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"	7/17/2020	2020	July		J20	41	5	4	15	35	60	36	4	100
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"	8/5/2020	2020	Agost		A20	100	0	0	0	0				
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2020	September		S20									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2020	October		O20									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"	11/13/2020	2020	November		N20	100	0	0	0	0				
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2020	December 		D20									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2021	January 		J21									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2021	February	14.0	F21						100	0	0	100
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"	3/23/2021	2021	March	13.6	M21	49	33	14	3	0	80	20	0	100
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"	4/16/2021	2021	April	16.0	A21	21	21	18	28	13	0	20	80	100
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2021	May	17.7	M21									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"	6/11/2021	2021	June	23.6	J21	16	18	24	24	18				
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2021	July	25.3	J21									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2021	Agost	25.5	A21									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2021	September	23.9	S21									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2021	October	20.6	O21									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2021	November	16.9	N21						68	32	0	100
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2021	December 	14.7	D21									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2022	January 	13.3	J22									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2022	February	13.4	F22									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2022	March	13.1	M22									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2022	April	15.6	A22									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2022	May	21.4	M22									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2022	June	24.1	J22									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2022	July		J22									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2022	Agost		A22									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2022	September		S22									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2022	October		O22									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2022	November		N22									
+C. brachycarpa_confirm	France	"Plages Ondes, Antibes"		2022	December 		D22									
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+													100	0	0	100
+													100	0	0	100
+													100	0	0	100
+													100	0	0	100
+													100	0	0	100
+													60	32	8	100
+													32	68	0	100
+													12	52	36	100
+													8	48	44	100
+													12	48	40	100
+													0	36	64	100
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+													100	0	0	100
+																
+																
+																
+																
+																
+																
+													100	0	0	100
+													40	52	8	100
+																
+													100	0	0	100
+													44	52	4	100
+													100	0	0	100
+													0	100	0	100
+													0	88	12	100
+																
+													0	68	32	100
+													100	0	0	100
+													100	0	0	100
+																
+													100	0	0	100
+													32	68	0	100
+													40	60	0	100
+																
+													40	60	0	100
+													32	68	0	100
+													0	100	0	100
+													4	96	0	100
+													0	100	0	100
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+													100	0	0	100
+													48	48	4	100
+													8	32	60	100
+													8	16	76	100
+																
+													8	36	56	100
+													48	8	44	100
+													84	0	16	100
+													100	0	0	100
+													100	0	0	100
+													100	0	0	100
+													100	0	0	100
+													92	8	0	100
+													28	64	8	100
+													8	32	60	100
+													0	24	76	100
+													16	24	60	100
+																
+																
+																
+																
+																
+																
+																
+																
+																
+													44	48	8	100
+													72	28	0	100
+																
+																
+																
+													32	60	8	100
+																
+																
+													28	72	0	100
+													22	56	22	100
+													28	36	36	100
+													0	92	8	100
+													0	36	64	100
+													0	60	40	100
+													8	88	4	100
+													100	0	0	100
+																
+													0	88	12	100
+													28	72	0	100
+													0	80	20	100
+													0	20	80	100
+																
+													100	0	0	100
+																
+													0	24	76	100
+																
+																
+																
+																
+																
+																
+																
+																
+													100	0	0	100
+																
+													100	0	0	100
+													48	40	12	100
+													53.33333333	33.33333333	13.33333333	100
+													100	0	0	100
+																
+													100	0	0	100
+																
+																
+													56	36	8	100
+													100	0	0	100
+													40	52	8	100
+													4	92	4	100
+													8	32	60	100
+																
+													44	36	20	100
+																
+																
+																
+																
+																
+													100	0	0	100
+													100	0	0	100
+													48	44	8	100
+																
+																
+																
+																
+																
+																
+																
+													4	24	72	100
+																
+													0	56	44	100
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+													0	40	60	100
+													23.07692308	23.07692308	53.84615385	100
+													47.05882353	17.64705882	35.29411765	100
+													71.42857143	7.142857143	21.42857143	100
+													83.33333333	0	16.66666667	100
+													100	0	0	100
+													70	10	20	100
+													42.85714286	57.14285714	0	100
+													62.5	12.5	25	100
+																
+																
+																
+													0	75	25	100
+													0	33.33333333	66.66666667	100
+													16.66666667	25	58.33333333	100
+													85	0	15	100
+													100	0	0	100
+																
+																
+																
+																
+																
+																
+													36	48	16	100
+																
+																
+													40	45	15	100
+													60	40	0	100
+													100	0	0	100
+																
+													100	0	0	100
+													100	0	0	100
+													100	0	0	100
+													100	0	0	100
+													0	55	45	100
+													0	45	55	100
+													0	30	70	100
+													13.63636364	27.27272727	59.09090909	100
+													52.77777778	8.333333333	38.88888889	100
+													86.36363636	9.090909091	4.545454545	100
+													100	0	0	100
+													100	0	0	100
+													41.66666667	16.66666667	41.66666667	100
+													0	53.84615385	46.15384615	100
+													0	35.71428571	64.28571429	100
+																
+																
+													9.090909091	54.54545455	36.36363636	100
+													11.11111111	55.55555556	33.33333333	100
+													20	30	50	100
+													80	8	12	100
+													100	0	0	100
+													100	0	0	100
+																
+																
+																
+																
+																
+																
+																
+																
+																
+													27.77777778	5.555555556	66.66666667	100
+													42.10526316	26.31578947	31.57894737	100
+													84.21052632	0	15.78947368	100
+																
+													100	0	0	100
+													100	0	0	100
+													100	0	0	100
+													100	0	0	100
+													100	0	0	100
+													100	0	0	100
+													85.71428571	14.28571429	0	100
+													0	100	0	100
+													0	71.42857143	28.57142857	100
+													22.22222222	22.22222222	55.55555556	100
+													41.66666667	16.66666667	41.66666667	100
+													50	14.28571429	35.71428571	100
+													66.66666667	33.33333333	0	100
+													20	20	60	100
+													0	40	60	100
+																
+																
+																
+													0	33.33333333	66.66666667	100
+													12.5	50	37.5	100
+													27.27272727	18.18181818	54.54545455	100
+													76.47058824	5.882352941	17.64705882	100
+													100	0	0	100
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+													40	36	24	100
+													0	0	100	100
+																
+													0	0	100	100
+													0	0	100	100
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+													25	54.16666667	20.83333333	100
+																
+																
+																
+																
+																
+													100	0	0	100
+													100	0	0	100
+																
+													100	0	0	100
+													100	0	0	100
+													100	0	0	100
+													100	0	0	100
+													0	60	40	100
+													100	0	0	100
+													0	24	76	100
+																
+													100	0	0	100
+																
+																
+																
+													100	0	0	100
+																
+													12	88	0	100
+													16	84	0	100
+													0	100	0	100
+													4	72	24	100
+													36	64	0	100
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+													88	12	0	100
+													100	0	0	100
+																
+																
+																
+													96	4	0	100
+																
+																
+													20	76	4	100
+													36	60	4	100
+													24	76	0	100
+													0	48	52	100
+													44	56	0	100
+																
+																
+													100	0	0	100
+																
+													8	64	28	100
+													0	0	100	100
+													0	28	72	100
+													0	0	100	100
+																
+													60	0	40	100
+																
+													36	56	8	100
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+													100	0	0	100
+													90	10	0	100
+													100	0	0	100
+													16	72	12	100
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+													58.33333333	37.5	4.166666667	100
+													24	16	60	100
+													56	44	0	100
+													84	16	0	100
+																
+																
+																
+													84	16	0	100
+																
+																
+													100	0	0	100
+													88	12	0	100
+													100	0	0	100
+																
+																
+																
+																
+																
+													0	12	88	100
+																
+																
+																
+																
+																
+													4	68	28	100
+													24	76	0	100
+																
+																
+																
+													80	20	0	100

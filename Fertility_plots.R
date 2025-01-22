@@ -11,20 +11,24 @@ library(tidyverse)
 library(readxl)
 
 #### Data cleaning and unification ####
-sp_data = list.files(pattern = "_phenology.txt", all.files = T)
-dist_list = list()
+sp_data = list.files(path = "./raw_data/", pattern = "_phenology", all.files = T)
+sp_list = list() #all data files will be included 
 
 for (i in 1:length(sp_data)){
-  
-  file = list(read.csv(sp_data[i], header=T,dec=".",sep="\t", check.names = F)); names(file) = file[[1]]$Species[1]
-  dist_list = c(dist_list,file)
+  filename = paste("./raw_data/", sp_data[i], sep = "");
+  file = list(read.csv(filename, header=T,dec=".",sep="\t", check.names = F)); names(file) = file[[1]]$Species[1]
+  sp_list = c(sp_list,file)
   
 }
 
-#data loading and cleaning
-barb<-read.csv("barbata_phenology.txt",header=T,dec=".",sep="\t", check.names = F)
-crin<-read.csv("crinita_phenology.txt",header=T,dec=".",sep="\t", check.names = F); crin = crin %>% select(-17)
+barb = sp_list["G. barbata"][[1]] #select the specific species you want to work with
+crin = sp_list["E. crinita"][[1]] #select the specific species you want to work with
+
+#data cleaning
+# barb<-read.csv("./raw_data/G.barbata_phenology.txt",header=T,dec=".",sep="\t", check.names = F)
+# crin<-read.csv("crinita_phenology.txt",header=T,dec=".",sep="\t", check.names = F); 
 str(barb); str(crin)
+crin = crin %>% select(-17)
 
 data_full = rbind(barb, crin); colnames(data_full)[c(8, 15)] = c("codigo", "M1(perc)")
 colnames(data_full)[9:16]<- gsub("\\s*\\([^\\)]+\\)", "_perc", colnames(data_full)[9:16])
