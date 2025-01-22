@@ -35,8 +35,11 @@ data <- data_full %>% mutate(M0_perc = as.integer(M0_perc), M1_perc = as.integer
                                                                                  substr(Month, start = 1, stop = 3), sep = "_", Year),
                                                 Species == "E. crinita" ~ paste0("crin", sep = "_", substr(Country, start = 1, stop = 2), sep = "_", 
                                                                                  substr(Month, start = 1, stop = 3), sep = "_", Year)),
-                             Locality = ifelse(Country == "Croatia", "Scuza", Locality))
-
+                             Locality = ifelse(Country == "Croatia", "Scuza", Locality),
+                             site = case_when(Locality == "Sta. Marguerite, Lerins, France" ~ "Margue",
+                                              Locality == "Cala Estreta" ~ "Estreta",
+                                              Locality == "Port de la Selva" ~ "PortSel",
+                                              TRUE ~ substr(Locality, start = 1, stop = 6)))
 
 
 #########BRACHYCARPA#######
