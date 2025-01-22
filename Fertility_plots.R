@@ -10,6 +10,35 @@ library(viridis)
 library(tidyverse)
 library(readxl)
 
+#### Data cleaning and unification ####
+sp_data = list.files(pattern = "_phenology.txt", all.files = T)
+dist_list = list()
+
+for (i in 1:length(sp_data)){
+  
+  file = read.csv(sp_data[i], header=T,dec=".",sep="\t", check.names = F)
+  dist_list = c(dist_list,file)
+  
+}
+
+#data loading and cleaning
+barb<-read.csv("barbata_phenology.txt",header=T,dec=".",sep="\t", check.names = F)
+crin<-read.csv("crinita_phenology.txt",header=T,dec=".",sep="\t", check.names = F); crin = crin %>% select(-17)
+str(barb); str(crin)
+
+data_full = rbind(barb, crin); colnames(data_full)[c(8, 15)] = c("codigo", "M1(perc)")
+colnames(data_full)[9:16]<- gsub("\\s*\\([^\\)]+\\)", "_perc", colnames(data_full)[9:16])
+
+data <- data_full %>% mutate(M0_perc = as.integer(M0_perc), M1_perc = as.integer(M1_perc), M2_perc = as.integer(M2_perc),
+                             Temperature = as.numeric(gsub(",", ".", Temperature))) %>% filter(!Species == "") %>% 
+                      mutate(codigo = case_when(Species == "G. barbata" ~ paste0("barb", sep = "_", substr(Country, start = 1, stop = 2), sep = "_", 
+                                                                                 substr(Month, start = 1, stop = 3), sep = "_", Year),
+                                                Species == "E. crinita" ~ paste0("crin", sep = "_", substr(Country, start = 1, stop = 2), sep = "_", 
+                                                                                 substr(Month, start = 1, stop = 3), sep = "_", Year)),
+                             Locality = ifelse(Country == "Croatia", "Scuza", Locality))
+
+
+
 #########BRACHYCARPA#######
 ### Read the data
 
