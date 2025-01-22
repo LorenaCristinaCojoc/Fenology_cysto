@@ -16,7 +16,7 @@ dist_list = list()
 
 for (i in 1:length(sp_data)){
   
-  file = read.csv(sp_data[i], header=T,dec=".",sep="\t", check.names = F)
+  file = list(read.csv(sp_data[i], header=T,dec=".",sep="\t", check.names = F)); names(file) = file[[1]]$Species[1]
   dist_list = c(dist_list,file)
   
 }
@@ -29,9 +29,11 @@ str(barb); str(crin)
 data_full = rbind(barb, crin); colnames(data_full)[c(8, 15)] = c("codigo", "M1(perc)")
 colnames(data_full)[9:16]<- gsub("\\s*\\([^\\)]+\\)", "_perc", colnames(data_full)[9:16])
 
-data <- data_full %>% mutate(M0_perc = as.integer(M0_perc), M1_perc = as.integer(M1_perc), M2_perc = as.integer(M2_perc),
-                             Temperature = as.numeric(gsub(",", ".", Temperature))) %>% filter(!Species == "") %>% 
-                      mutate(codigo = case_when(Species == "G. barbata" ~ paste0("barb", sep = "_", substr(Country, start = 1, stop = 2), sep = "_", 
+#create a new, clean big dataframe to work with
+data <- data_full %>% filter(!Species == "") %>% 
+                      mutate(M0_perc = as.integer(M0_perc), M1_perc = as.integer(M1_perc), M2_perc = as.integer(M2_perc),
+                             Temperature = as.numeric(gsub(",", ".", Temperature)),
+                             code = case_when(Species == "G. barbata" ~ paste0("barb", sep = "_", substr(Country, start = 1, stop = 2), sep = "_", 
                                                                                  substr(Month, start = 1, stop = 3), sep = "_", Year),
                                                 Species == "E. crinita" ~ paste0("crin", sep = "_", substr(Country, start = 1, stop = 2), sep = "_", 
                                                                                  substr(Month, start = 1, stop = 3), sep = "_", Year)),
@@ -40,6 +42,9 @@ data <- data_full %>% mutate(M0_perc = as.integer(M0_perc), M1_perc = as.integer
                                               Locality == "Cala Estreta" ~ "Estreta",
                                               Locality == "Port de la Selva" ~ "PortSel",
                                               TRUE ~ substr(Locality, start = 1, stop = 6)))
+
+#Select specific species and year
+data = data %>% filter(Year == 2021)
 
 
 #########BRACHYCARPA#######
