@@ -20,12 +20,15 @@ str(cmed);
 
 #Change names and complete missing values
 cmed = cmed %>% select(-Comments) %>% 
-  mutate(Subpopulation = "CE",
+  mutate(Population = case_when(Population %in% " PdS" ~ "Port de la Selva", #Correct current columns
+                                TRUE ~ "Cala Estreta"),
+         Subpopulation = "CE",
          Quadrat = as.character(Quadrat),
          Date = as.Date(Date, tryFormats = c("%m/%d/%Y")),
          Cauloid_size = as.numeric(Cauloid_size),
          Fertility = as.numeric(ifelse(is.na(Fertility), 0, Fertility)),
-         Leaf_size = as.numeric(Leaf_size))%>%
+         Leaf_size = as.numeric(Leaf_size),
+         Stage = "Adult")%>%
   mutate(Year = as.numeric(format(Date,'%Y')),
          uniq_id = paste("CE_med", substr(Month, 1, 3), substr(format(Date,'%Y'), 3, 4), sep = "_")) #Create new useful columns
 
@@ -41,21 +44,22 @@ crin = crin %>% select(-Comments) %>%
                 mutate(Population = case_when(Population %in% "PdS" ~ "Port de la Selva", #Correct current columns
                                               TRUE ~ "Cala Estreta"),
                        Species = case_when(Species %in% c("Cystoseira crinita", "Cystoseira_crinita") ~ "Ericaria crinita",
-                                           Species %in% c("Cystoseira sp. ", "Cystoseira sp.", "Cystoseira sp", "Cystoseira_sp") ~ "Cystoseira sp",
-                                           Species %in% c("Cystoseira elegans", "Cystoseira_elegans") ~ "Gongolaria elegans",
+                                           Species %in% c("Cystoseira sp. ", "Cystoseira sp.", "Cystoseira sp", "Cystoseira_sp",
+                                                          "Cystoseira elegans", "Cystoseira_elegans", 
+                                                          "Cystoseira_espinosa", "Cystoseira_spinosa") ~ "Gongolaria elegans",
                                            Species %in% c("Cystoseira compressa", "Cystoseira_compressa") ~ "Cystoseira compressa",
-                                           Species %in% c("Cystoseira_espinosa", "Cystoseira_spinosa") ~ "Cystoseira spinosa",
                                            Species %in% c("reclutes", "recluta") ~ "Reclutes",
                                            TRUE ~ Species),
                        Date = as.Date(Date, tryFormats = c("%m/%d/%Y")),
                        Cauloid_size = as.numeric(Cauloid_size),
                        Fertility = as.numeric(ifelse(is.na(Fertility), 0, Fertility)),
-                       Leaf_size = as.numeric(Leaf_size) )%>%
+                       Leaf_size = as.numeric(Leaf_size))%>%
                  mutate(Year = as.numeric(format(Date,'%Y')),
                         uniq_id = case_when(Population %in% "Port de la Selva" ~ paste("PS", substr(Month, 1, 3), substr(format(Date,'%Y'), 1, 2), sep = "_"), 
                                             TRUE ~ paste("CE", substr(Month, 1, 3), substr(format(Date,'%Y'), 3, 4), sep = "_"))) #Create new useful columns
 
 str(crin)
+
 #Rename subpopulations
 c(crin %>% filter(Population == "Port de la Selva") %>% distinct(Subpopulation))
 c(crin %>% filter(Population == "Cala Estreta") %>% distinct(Subpopulation))
@@ -89,6 +93,12 @@ fertility_pop <- reshape2::dcast(fertility_class, uniq_id + Population + Species
 #Obtain several metrics per sampling event
 for(i in 1:nrow(fertility_pop)){
   fertility_pop$prop_fertile[i] = (sum(fertility_pop[i,c(8:11)])/sum(fertility_pop[i,c(7:11)]))*100 #proportion of fertile individuals
+  
+  fertility_pop$prop_F0[i] = (fertility_pop[i,7]/sum(fertility_pop[i,c(7:11)]))*100 #Proportion of each fertility class
+  fertility_pop$prop_F1[i] = (fertility_pop[i,8]/sum(fertility_pop[i,c(7:11)]))*100
+  fertility_pop$prop_F2[i] = (fertility_pop[i,9]/sum(fertility_pop[i,c(7:11)]))*100
+  fertility_pop$prop_F3[i] = (fertility_pop[i,10]/sum(fertility_pop[i,c(7:11)]))*100
+  fertility_pop$prop_F4[i] = (fertility_pop[i,11]/sum(fertility_pop[i,c(7:11)]))*100
   }
   
 #Metrics per population, species and year
@@ -124,7 +134,7 @@ for(i in 1:length(years)){ #START loop YEAR
       total_ind = sum(temp_pop[, c(7:11)])
       
       #Join everything in a dataframe
-      temp_fertility = data.frame(Population = popul[j], Species = sp[s], Year = years[i],
+      temp_fertility = data.frame(Population = popul[j], Species = sp[s], Year = years[i], 
                                   fert_classes, total_ind = total_ind, n_months_fertile = n_months_fertile, obs_fertile = obs_fertile, 
                                   peak = peak, first_maturity = first_maturity, last_maturity = last_maturity)
       temp_fertility[is.na(temp_fertility)] <- 0
@@ -144,11 +154,10 @@ fertility_metrics_year = fertility_metrics_year %>% filter(!is.na(last_maturity)
 rownames(fertility_metrics_year) = NULL
   
 #3: Plots of fertility time-series ---------
-fert_barpl = fertility_pop[order(fertility_pop$Date),] %>% filter(Species %in% "Ericaria crinita")
+fert_barpl = fertility_pop[order(fertility_pop$Date),] %>% filter(Species %in% "Ericaria crinita", Population == "Port de la Selva")
 
 p <- ggplot(fert_barpl, aes(y=prop_fertile, x=Date)) + 
   geom_bar(stat="identity", position = "dodge") + 
-  scale_x_discrete(breaks=seq(2008,2021,1), minor_breaks = seq(2008,2021,1))+
   theme_minimal() + theme(legend.position = "right", text = element_text(size = 15), axis.text.y = element_text(size = 15),
                           axis.text.x = element_text(size = 15)); p
 
