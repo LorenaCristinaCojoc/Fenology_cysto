@@ -21,6 +21,7 @@ for (i in 1:length(sp_data)){
   
 }
 
+
 barb = sp_list["G. barbata"][[1]] #select the specific species you want to work with
 crin = sp_list["E. crinita"][[1]] #select the specific species you want to work with
 
