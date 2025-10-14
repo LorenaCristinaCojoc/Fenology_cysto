@@ -1,0 +1,895 @@
+Species	Country	Locality	Date	Year	Month	Temperature	Código	F0 (%)	F1 (%)	F2 (%)	F3 (%)	F4 (%)				
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2020	January 		J20									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2020	February		F20									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2020	March		M20									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2020	April		A20									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2020	May		M20									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes	16/06/2020	2020	June		J20	77	5	0	9	8				
+C. brachycarpa_confirm	France	Plages Ondes, Antibes	17/07/2020	2020	July		J20	41	5	4	15	35				
+C. brachycarpa_confirm	France	Plages Ondes, Antibes	05/08/2020	2020	Agost		A20	100	0	0	0	0				
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2020	September		S20									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2020	October		O20									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes	13/11/2020	2020	November		N20	100	0	0	0	0				
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2020	December 		D20									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2021	January 		J21									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2021	February	14,0	F21									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes	23/03/2021	2021	March	13,6	M21	49	33	14	3	0				
+C. brachycarpa_confirm	France	Plages Ondes, Antibes	16/04/2021	2021	April	16,0	A21	21	21	18	28	13				
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2021	May	17,7	M21									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes	11/06/2021	2021	June	23,6	J21	16	18	24	24	18				
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2021	July	25,3	J21									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2021	Agost	25,5	A21									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2021	September	23,9	S21									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2021	October	20,6	O21									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2021	November	16,9	N21									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2021	December 	14,7	D21									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2022	January 	13,3	J22									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2022	February	13,4	F22									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2022	March	13,1	M22									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2022	April	15,6	A22									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2022	May	21,4	M22									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2022	June	24,1	J22									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2022	July		J22									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2022	Agost		A22									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2022	September		S22									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2022	October		O22									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2022	November		N22									
+C. brachycarpa_confirm	France	Plages Ondes, Antibes		2022	December 		D22									
+C. compressa	Greece	Eleochori - Site 2		2020	January 		J20									
+C. compressa	Greece	Eleochori - Site 2		2020	February		F20									
+C. compressa	Greece	Eleochori - Site 2	11/03/2020	2020	March	13,9	M20	100	0	0	0	0				
+C. compressa	Greece	Eleochori - Site 2		2020	April	14,6	A20									
+C. compressa	Greece	Eleochori - Site 2		2020	May	20,0	M20									
+C. compressa	Greece	Eleochori - Site 2	22/06/2020	2020	June	22,8	J20	21	0	0	0	79				
+C. compressa	Greece	Eleochori - Site 2		2020	July	27,1	J20									
+C. compressa	Greece	Eleochori - Site 2		2020	Agost	26,9	A20									
+C. compressa	Greece	Eleochori - Site 2	16/09/2020	2020	September	25,6	S20	100	0	0	0	0				
+C. compressa	Greece	Eleochori - Site 2		2020	October	22,5	O20									
+C. compressa	Greece	Eleochori - Site 2		2020	November	18,6	N20									
+C. compressa	Greece	Eleochori - Site 2		2020	December 	15,4	D20									
+C. compressa	Greece	Eleochori - Site 2		2021	January 	13,2	J21									
+C. compressa	Greece	Eleochori - Site 2		2021	February	13,2	F21	100	0	0	0	0				
+C. compressa	Greece	Eleochori - Site 2		2021	March	13,1	M21	100	0	0	0	0				
+C. compressa	Greece	Eleochori - Site 2	21/04/2021	2021	April	15,0	A21	100	0	0	0	0				
+C. compressa	Greece	Eleochori - Site 2	12/05/2021	2021	May	20,3	M21	100	0	0	0	0				
+C. compressa	Greece	Eleochori - Site 2	07/06/2021	2021	June	24,6	J21	100	0	0	0	0				
+C. compressa	Greece	Eleochori - Site 2	07/07/2021	2021	July	28,8	J21	100	0	0	0	0				
+C. compressa	Greece	Eleochori - Site 2		2021	Agost	29,0	A21									
+C. compressa	Greece	Eleochori - Site 2		2021	September	25,4	S21									
+C. compressa	Greece	Eleochori - Site 2		2021	October		O21									
+C. compressa	Greece	Eleochori - Site 2		2021	November		N21									
+C. compressa	Greece	Eleochori - Site 2		2021	December 		D21									
+C. compressa	Greece	Eleochori - Site 2		2022	January 		J22									
+C. compressa	Greece	Eleochori - Site 2		2022	February		F22									
+C. compressa	Greece	Eleochori - Site 2		2022	March		M22									
+C. compressa	Greece	Eleochori - Site 2		2022	April		A22									
+C. compressa	Greece	Eleochori - Site 2		2022	May		M22									
+C. compressa	Greece	Eleochori - Site 2		2022	June		J22									
+C. compressa	Greece	Eleochori - Site 2		2022	July		J22									
+C. compressa	Greece	Eleochori - Site 2		2022	Agost		A22									
+C. compressa	Greece	Eleochori - Site 2		2022	September		S22									
+C. compressa	Greece	Eleochori - Site 2		2022	October		O22									
+C. compressa	Greece	Eleochori - Site 2		2022	November		N22									
+C. compressa	Greece	Eleochori - Site 2		2022	December 		D22									
+C. elegans	Spain	Port de la Selva		2020	January 	12,91	J20									
+C. elegans	Spain	Port de la Selva		2020	February	13,39	F20									
+C. elegans	Spain	Port de la Selva	12/03/2020	2020	March		M20	100	0	0	0	0				
+C. elegans	Spain	Port de la Selva		2020	April		A20									
+C. elegans	Spain	Port de la Selva	01/05/2020	2020	May	20,3	M20	99	1	0	0	0				
+C. elegans	Spain	Port de la Selva	25/06/2020	2020	June	22,4	J20	36	14	18	18	14				
+C. elegans	Spain	Port de la Selva	31/07/2020	2020	July	24,6	J20	26	23	25	15	11				
+C. elegans	Spain	Port de la Selva	25/08/2020	2020	Agost	22,0	A20	100	0	0	0	0				
+C. elegans	Spain	Port de la Selva	23/09/2020	2020	September	17,3	S20	100	0	0	0	0				
+C. elegans	Spain	Port de la Selva	19/10/2020	2020	October	17,4	O20	97	3	0	0	0				
+C. elegans	Spain	Port de la Selva		2020	November	15,6	N20									
+C. elegans	Spain	Port de la Selva		2020	December 	13,7	D20									
+C. elegans	Spain	Port de la Selva		2021	January 	12,0	J21									
+C. elegans	Spain	Port de la Selva	04/02/2021	2021	February	13,2	F21	100	0	0	0	0				
+C. elegans	Spain	Port de la Selva	24/03/2021	2021	March	12,7	M21	53	17	18	11	1				
+C. elegans	Spain	Port de la Selva		2021	April	13,7	A21									
+C. elegans	Spain	Port de la Selva	05/05/2021	2021	May	15,8	M21	14	21	33	27	5				
+C. elegans	Spain	Port de la Selva	01/06/2021	2021	June	21,0	J21	93	5	1	1	0				
+C. elegans	Spain	Port de la Selva	21/07/2021	2021	July	22,5	J21	100	0	0	0	0				
+C. elegans	Spain	Port de la Selva	23/08/2021	2021	Agost	23,0	A21	100	0	0	0	0				
+C. elegans	Spain	Port de la Selva		2021	September	22,4	S21									
+C. elegans	Spain	Port de la Selva	05/10/2021	2021	October	18,5	O21	100	0	0	0	0				
+C. elegans	Spain	Port de la Selva		2021	November	15,7	N21									
+C. elegans	Spain	Port de la Selva	17/12/2021	2021	December 	13,0	D21	29	37	30	4	0				
+C. elegans	Spain	Port de la Selva		2022	January 	10,5	J22									
+C. elegans	Spain	Port de la Selva		2022	February	12,2	F22									
+C. elegans	Spain	Port de la Selva		2022	March	12,8	M22									
+C. elegans	Spain	Port de la Selva		2022	April	15,4	A22									
+C. elegans	Spain	Port de la Selva		2022	May	21,6	M22									
+C. elegans	Spain	Port de la Selva		2022	June	23,4	J22									
+C. elegans	Spain	Port de la Selva		2022	July	26,6	J22									
+C. elegans	Spain	Port de la Selva		2022	Agost	26,0	A22									
+C. elegans	Spain	Port de la Selva		2022	September	23,2	S22									
+C. elegans	Spain	Port de la Selva		2022	October	20,7	O22									
+C. elegans	Spain	Port de la Selva		2022	November	17,8	N22									
+C. elegans	Spain	Port de la Selva		2022	December 	14,4	D22									
+C. mediterranea	Spain	Cala Estreta		2020	January 		J20									
+C. mediterranea	Spain	Cala Estreta	04/02/2020	2020	February		F20	100	0	0	0	0				
+C. mediterranea	Spain	Cala Estreta		2020	March		M20									
+C. mediterranea	Spain	Cala Estreta	07/05/2020	2020	April		A20	100	0	0	0	0				
+C. mediterranea	Spain	Cala Estreta	29/05/2020	2020	May	20,5	M20	100	0	0	0	0				
+C. mediterranea	Spain	Cala Estreta	29/06/2020	2020	June	21,1	J20	100	0	0	0	0				
+C. mediterranea	Spain	Cala Estreta	30/07/2020	2020	July	23,9	J20	5	5	10	26	54				
+C. mediterranea	Spain	Cala Estreta	26/08/2020	2020	Agost	24,6	A20	1	2	8	27	61				
+C. mediterranea	Spain	Cala Estreta	30/09/2020	2020	September	22,4	S20	100	0	0	0	0				
+C. mediterranea	Spain	Cala Estreta	28/10/2020	2020	October	18,1	O20	100	0	0	0	0				
+C. mediterranea	Spain	Cala Estreta		2020	November	16,3	N20									
+C. mediterranea	Spain	Cala Estreta		2020	December 	14,4	D20									
+C. mediterranea	Spain	Cala Estreta	27/01/2021	2021	January 	12,9	J21	100	0	0	0	0				
+C. mediterranea	Spain	Cala Estreta		2021	February	13,1	F21									
+C. mediterranea	Spain	Cala Estreta	29/03/2021	2021	March	13,2	M21	100	0	0	0	0				
+C. mediterranea	Spain	Cala Estreta		2021	April	14,2	A21									
+C. mediterranea	Spain	Cala Estreta	27/05/2021	2021	May	16,0	M21	100	0	0	0	0				
+C. mediterranea	Spain	Cala Estreta	02/07/2021	2021	June	21,6	J21	78	13	8	1	0				
+C. mediterranea	Spain	Cala Estreta	22/07/2021	2021	July	24,0	J21	76	2	0	6	16				
+C. mediterranea	Spain	Cala Estreta	23/08/2021	2021	Agost	23,8	A21	75	25	0	0	0				
+C. mediterranea	Spain	Cala Estreta	01/10/2021	2021	September	22,6	S21	92	4	4	0	0				
+C. mediterranea	Spain	Cala Estreta	18/10/2021	2021	October	19,8	O21	95	4	1	0	0				
+C. mediterranea	Spain	Cala Estreta		2021	November	16,4	N21									
+C. mediterranea	Spain	Cala Estreta	13/12/2021	2021	December 	14,7	D21	100	0	0	0	0				
+C. mediterranea	Spain	Cala Estreta		2022	January 	13,4	J22									
+C. mediterranea	Spain	Cala Estreta		2022	February	13,5	F22									
+C. mediterranea	Spain	Cala Estreta		2022	March	13,1	M22									
+C. mediterranea	Spain	Cala Estreta		2022	April	14,2	A22									
+C. mediterranea	Spain	Cala Estreta		2022	May	17,8	M22									
+C. mediterranea	Spain	Cala Estreta		2022	June	21,6	J22									
+C. mediterranea	Spain	Cala Estreta		2022	July	24,7	J22									
+C. mediterranea	Spain	Cala Estreta		2022	Agost	25,6	A22									
+C. mediterranea	Spain	Cala Estreta		2022	September	23,5	S22									
+C. mediterranea	Spain	Cala Estreta		2022	October	21,5	O22									
+C. mediterranea	Spain	Cala Estreta		2022	November	17,8	N22									
+C. mediterranea	Spain	Cala Estreta		2022	December 	15,2	D22									
+C. mediterranea	Spain	Port de la Selva		2020	January 	12,91	J20									
+C. mediterranea	Spain	Port de la Selva		2020	February	13,39	F20									
+C. mediterranea	Spain	Port de la Selva		2020	March		M20									
+C. mediterranea	Spain	Port de la Selva		2020	April		A20									
+C. mediterranea	Spain	Port de la Selva		2020	May	20,3	M20									
+C. mediterranea	Spain	Port de la Selva		2020	June	22,4	J20									
+C. mediterranea	Spain	Port de la Selva		2020	July	24,6	J20									
+C. mediterranea	Spain	Port de la Selva		2020	Agost	22,0	A20									
+C. mediterranea	Spain	Port de la Selva		2020	September	17,3	S20									
+C. mediterranea	Spain	Port de la Selva		2020	October	17,4	O20									
+C. mediterranea	Spain	Port de la Selva		2020	November	15,6	N20									
+C. mediterranea	Spain	Port de la Selva		2020	December 	13,7	D20									
+C. mediterranea	Spain	Port de la Selva		2021	January 	12,0	J21									
+C. mediterranea	Spain	Port de la Selva		2021	February	13,2	F21									
+C. mediterranea	Spain	Port de la Selva		2021	March	12,7	M21									
+C. mediterranea	Spain	Port de la Selva		2021	April	13,7	A21									
+C. mediterranea	Spain	Port de la Selva		2021	May	15,8	M21									
+C. mediterranea	Spain	Port de la Selva		2021	June	21,0	J21									
+C. mediterranea	Spain	Port de la Selva		2021	July	22,5	J21									
+C. mediterranea	Spain	Port de la Selva		2021	Agost	23,0	A21									
+C. mediterranea	Spain	Port de la Selva		2021	September	22,4	S21									
+C. mediterranea	Spain	Port de la Selva		2021	October	18,5	O21									
+C. mediterranea	Spain	Port de la Selva		2021	November	15,7	N21									
+C. mediterranea	Spain	Port de la Selva		2021	December 	13,0	D21									
+C. mediterranea	Spain	Port de la Selva		2022	January 	10,5	J22									
+C. mediterranea	Spain	Port de la Selva		2022	February	12,2	F22									
+C. mediterranea	Spain	Port de la Selva		2022	March	12,8	M22									
+C. mediterranea	Spain	Port de la Selva		2022	April	15,4	A22									
+C. mediterranea	Spain	Port de la Selva		2022	May	21,6	M22									
+C. mediterranea	Spain	Port de la Selva		2022	June	23,4	J22									
+C. mediterranea	Spain	Port de la Selva		2022	July	26,6	J22									
+C. mediterranea	Spain	Port de la Selva		2022	Agost	26,0	A22									
+C. mediterranea	Spain	Port de la Selva		2022	September	23,2	S22									
+C. mediterranea	Spain	Port de la Selva		2022	October	20,7	O22									
+C. mediterranea	Spain	Port de la Selva		2022	November	17,8	N22									
+C. mediterranea	Spain	Port de la Selva		2022	December 	14,4	D22									
+C. mediterranea	Morocco	Cap des trois fourches		2020	January 	 	J20									
+C. mediterranea	Morocco	Cap des trois fourches		2020	February		F20									
+C. mediterranea	Morocco	Cap des trois fourches		2020	March		M20									
+C. mediterranea	Morocco	Cap des trois fourches		2020	April		A20									
+C. mediterranea	Morocco	Cap des trois fourches		2020	June		M20									
+C. mediterranea	Morocco	Cap des trois fourches		2020	June		J20									
+C. mediterranea	Morocco	Cap des trois fourches		2020	July		J20									
+C. mediterranea	Morocco	Cap des trois fourches		2020	Agost		A20									
+C. mediterranea	Morocco	Cap des trois fourches		2020	September		S20									
+C. mediterranea	Morocco	Cap des trois fourches		2020	October		O20									
+C. mediterranea	Morocco	Cap des trois fourches		2020	November		N20									
+C. mediterranea	Morocco	Cap des trois fourches		2021	December 		D20									
+C. mediterranea	Morocco	Cap des trois fourches	28/01/2021	2021	January 	15,27	J21	100	0	0	0	0				
+C. mediterranea	Morocco	Cap des trois fourches	28/02/2021	2021	February	14,65	F21	100	0	0	0	0				
+C. mediterranea	Morocco	Cap des trois fourches	28/03/2021	2021	March	15,39	M21	100	0	0	0	0				
+C. mediterranea	Morocco	Cap des trois fourches	28/04/2021	2021	April	17,86	A21	100	0	0	0	0				
+C. mediterranea	Morocco	Cap des trois fourches	28/05/2021	2021	May	20,15	M21	100	0	0	0	0				
+C. mediterranea	Morocco	Cap des trois fourches	28/06/2021	2021	June	22,63	J21	14	21	21	34	9				
+C. mediterranea	Morocco	Cap des trois fourches	28/07/2021	2021	July	22,89	J21	12	13	22	31	22				
+C. mediterranea	Morocco	Cap des trois fourches	28/08/2021	2021	Agost	23,04	A21	8	18	23	32	18				
+C. mediterranea	Morocco	Cap des trois fourches	28/09/2021	2021	September	20,68	S21	9	18	14	36	23				
+C. mediterranea	Morocco	Cap des trois fourches	28/10/2021	2021	October	19,73	O21	12	18	49	13	9				
+C. mediterranea	Morocco	Cap des trois fourches	28/11/2021	2021	November	17,68	N21	25	26	26	4	19				
+C. mediterranea	Morocco	Cap des trois fourches		2022	December 		D21									
+C. mediterranea	Morocco	Cap des trois fourches		2022	January 		J22									
+C. mediterranea	Morocco	Cap des trois fourches		2022	February		F22									
+C. mediterranea	Morocco	Cap des trois fourches		2022	March		M22									
+C. mediterranea	Morocco	Cap des trois fourches		2022	April		A22									
+C. mediterranea	Morocco	Cap des trois fourches		2022	May		M22									
+C. mediterranea	Morocco	Cap des trois fourches		2022	June		J22									
+C. mediterranea	Morocco	Cap des trois fourches		2022	July		J22									
+C. mediterranea	Morocco	Cap des trois fourches		2022	Agost		A22									
+C. mediterranea	Morocco	Cap des trois fourches		2022	September		S22									
+C. mediterranea	Morocco	Cap des trois fourches		2022	October		O22									
+C. mediterranea	Morocco	Cap des trois fourches		2022	November		N22									
+C. mediterranea	Morocco	Cap des trois fourches		2022	December 		D22									
+E. crinita	Italy	Frigole (Lecce)	09/02/2020	2020	January 		J20	95	4	2	0	0				
+E. crinita	Italy	Frigole (Lecce)		2020	February		F20									
+E. crinita	Italy	Frigole (Lecce)		2020	March		M20									
+E. crinita	Italy	Frigole (Lecce)		2020	April		A20									
+E. crinita	Italy	Frigole (Lecce)	30/05/2020	2020	May		M20	0	74	23	3	0				
+E. crinita	Italy	Frigole (Lecce)		2020	June		J20									
+E. crinita	Italy	Frigole (Lecce)	29/07/2020	2020	July	28,1	J20	100	0	0	0	0				
+E. crinita	Italy	Frigole (Lecce)	25/08/2020	2020	Agost	27,8	A20	100	0	0	0	0				
+E. crinita	Italy	Frigole (Lecce)		2020	September	25,3	S20									
+E. crinita	Italy	Frigole (Lecce)	01/10/2020	2020	October	20,2	O20	100	0	0	0	0				
+E. crinita	Italy	Frigole (Lecce)	23/11/2020	2020	November	17,3	N20	100	0	0	0	0				
+E. crinita	Italy	Frigole (Lecce)	18/12/2020	2020	December 	14,7	D20	7	89	4	0	0				
+E. crinita	Italy	Frigole (Lecce)		2021	January 	12,4	J21									
+E. crinita	Italy	Frigole (Lecce)	26/02/2021	2021	February	12,7	F21	5	6	90	0	0				
+E. crinita	Italy	Frigole (Lecce)	27/03/2021	2021	March	12,9	M21	5	28	45	23	0				
+E. crinita	Italy	Frigole (Lecce)		2021	April	16,7	A21									
+E. crinita	Italy	Frigole (Lecce)	19/05/2021	2021	May	21,7	M21	0	18	31	15	36				
+E. crinita	Italy	Frigole (Lecce)	28/06/2021	2021	June	24,0	J21	100	0	0	0	0				
+E. crinita	Italy	Frigole (Lecce)	20/07/2021	2021	July	27,4	J21	100	0	0	0	0				
+E. crinita	Italy	Frigole (Lecce)	01/09/2021	2021	Agost	28,0	A21	100	0	0	0	0				
+E. crinita	Italy	Frigole (Lecce)	27/09/2021	2021	September	24,8	S21	100	0	0	0	0				
+E. crinita	Italy	Frigole (Lecce)	28/10/2021	2021	October	20,3	O21	57	43	0	0	0				
+E. crinita	Italy	Frigole (Lecce)		2021	November	17,3	N21									
+E. crinita	Italy	Frigole (Lecce)	10/12/2021	2021	December 	12,8	D21	48	52	0	0	0				
+E. crinita	Italy	Frigole (Lecce)	20/01/2022	2022	January 	11,5	J22	94	6	0	0	0				
+E. crinita	Italy	Frigole (Lecce)		2022	February	11,1	F22									
+E. crinita	Italy	Frigole (Lecce)		2022	March	12,5	M22									
+E. crinita	Italy	Frigole (Lecce)		2022	April	15,9	A22									
+E. crinita	Italy	Frigole (Lecce)	26/05/2022	2022	May	20,4	M22	0	90	10	0	0				
+E. crinita	Italy	Frigole (Lecce)		2022	June		J22									
+E. crinita	Italy	Frigole (Lecce)		2022	July		J22									
+E. crinita	Italy	Frigole (Lecce)		2022	Agost		A22									
+E. crinita	Italy	Frigole (Lecce)		2022	September		S22									
+E. crinita	Italy	Frigole (Lecce)		2022	October		O22									
+E. crinita	Italy	Frigole (Lecce)		2022	November		N22									
+E. crinita	Italy	Frigole (Lecce)		2022	December 		D22									
+E. crinita	Italy	Ischia (Napoli)		2020	January 		J20									
+E. crinita	Italy	Ischia (Napoli)		2020	February		F20									
+E. crinita	Italy	Ischia (Napoli)		2020	March		M20									
+E. crinita	Italy	Ischia (Napoli)		2020	April		A20									
+E. crinita	Italy	Ischia (Napoli)	22/05/2020	2020	May		M20	14	3	13	16	53				
+E. crinita	Italy	Ischia (Napoli)	26/06/2020	2020	June		J20	82	16	2	0	0				
+E. crinita	Italy	Ischia (Napoli)	24/07/2020	2020	July		J20	100	0	0	0	0				
+E. crinita	Italy	Ischia (Napoli)		2020	Agost		A20									
+E. crinita	Italy	Ischia (Napoli)	04/09/2020	2020	September	24,9	S20	100	0	0	0	0				
+E. crinita	Italy	Ischia (Napoli)	02/10/2020	2020	October	21,8	O20	100	0	0	0	0				
+E. crinita	Italy	Ischia (Napoli)	09/11/2020	2020	November	19,5	N20	100	0	0	0	0				
+E. crinita	Italy	Ischia (Napoli)	17/12/2020	2020	December 		D20	83	16	1	0	0				
+E. crinita	Italy	Ischia (Napoli)		2021	January 	16,1	J21									
+E. crinita	Italy	Ischia (Napoli)	24/02/2021	2021	February	15,2	F21	69	25	7	0	0				
+E. crinita	Italy	Ischia (Napoli)	23/03/2021	2021	March	15,1	M21	58	36	5	1	0				
+E. crinita	Italy	Ischia (Napoli)	14/04/2021	2021	April	15,9	A21	13	15	26	25	22				
+E. crinita	Italy	Ischia (Napoli)	11/05/2021	2021	May	18,8	M21	61	13	11	15	0				
+E. crinita	Italy	Ischia (Napoli)	28/06/2021	2021	June	24,1	J21	75	17	9	0	0				
+E. crinita	Italy	Ischia (Napoli)	21/07/2021	2021	July	26,6	J21	100	0	0	0	0				
+E. crinita	Italy	Ischia (Napoli)		2021	Agost	27,2	A21									
+E. crinita	Italy	Ischia (Napoli)	01/09/2021	2021	September	25,8	S21	100	0	0	0	0				
+E. crinita	Italy	Ischia (Napoli)		2021	October	22,1	O21									
+E. crinita	Italy	Ischia (Napoli)		2021	November	19,4	N21									
+E. crinita	Italy	Ischia (Napoli)	16/12/2021	2021	December 	17,7	D21	100	0	0	0	0				
+E. crinita	Italy	Ischia (Napoli)	28/01/2022	2022	January 		J22	88	10	2	0	0				
+E. crinita	Italy	Ischia (Napoli)		2022	February		F22									
+E. crinita	Italy	Ischia (Napoli)		2022	March		M22									
+E. crinita	Italy	Ischia (Napoli)	12/04/2022	2022	April		A22	75	14	11	1	0				
+E. crinita	Italy	Ischia (Napoli)	10/05/2022	2022	May		M22	49	23	25	3	0				
+E. crinita	Italy	Ischia (Napoli)		2022	June		J22									
+E. crinita	Italy	Ischia (Napoli)	01/07/2022	2022	July		J22	84	15	1	0	0				
+E. crinita	Italy	Ischia (Napoli)		2022	Agost		A22									
+E. crinita	Italy	Ischia (Napoli)		2022	September		S22									
+E. crinita	Italy	Ischia (Napoli)		2022	October		O22									
+E. crinita	Italy	Ischia (Napoli)		2022	November		N22									
+E. crinita	Italy	Ischia (Napoli)		2022	December 		D22									
+E. crinita	Spain	Cala Estreta		2020	January 		J20									
+E. crinita	Spain	Cala Estreta	04/02/2020	2020	February		F20	149	4	2	0	0				
+E. crinita	Spain	Cala Estreta		2020	March		M20									
+E. crinita	Spain	Cala Estreta		2020	April		A20									
+E. crinita	Spain	Cala Estreta	08/05/2020	2020	May	20,5	M20	19	14	25	27	15				
+E. crinita	Spain	Cala Estreta	29/05/2020	2020	June	21,1	J20	6	13	27	37	17				
+E. crinita	Spain	Cala Estreta	29/06/2020	2020	July	23,9	J20	10	18	30	29	13				
+E. crinita	Spain	Cala Estreta	30/07/2020	2020	Agost	24,6	A20	13	11	24	30	22				
+E. crinita	Spain	Cala Estreta	26/08/2020	2020	September	22,4	S20	9	48	32	10	0				
+E. crinita	Spain	Cala Estreta	30/09/2020	2020	October	18,1	O20	45	45	10	0	0				
+E. crinita	Spain	Cala Estreta	28/10/2020	2020	November	16,3	N20	39	54	7	0	0				
+E. crinita	Spain	Cala Estreta		2020	December 	14,4	D20									
+E. crinita	Spain	Cala Estreta		2021	January 	12,9	J21									
+E. crinita	Spain	Cala Estreta	27/01/2021	2021	February	13,1	F21	100	0	0	0	0				
+E. crinita	Spain	Cala Estreta	29/03/2021	2021	March	13,2	M21	68	21	10	1	0				
+E. crinita	Spain	Cala Estreta	07/05/2021	2021	April	14,2	A21	30	23	22	18	8				
+E. crinita	Spain	Cala Estreta	27/05/2021	2021	May	16,0	M21	21	19	27	22	10				
+E. crinita	Spain	Cala Estreta	02/07/2021	2021	June	21,6	J21	31	23	19	27	0				
+E. crinita	Spain	Cala Estreta	22/07/2021	2021	July	24,0	J21	25	12	17	35	11				
+E. crinita	Spain	Cala Estreta	23/08/2021	2021	Agost	23,8	A21	73	21	6	0	0				
+E. crinita	Spain	Cala Estreta	01/10/2021	2021	September	22,6	S21	80	18	3	0	0				
+E. crinita	Spain	Cala Estreta	18/10/2021	2021	October	19,8	O21	29	10	15	20	26				
+E. crinita	Spain	Cala Estreta		2021	November	16,4	N21									
+E. crinita	Spain	Cala Estreta	13/12/2021	2021	December 	14,7	D21	40	23	33	3	1				
+E. crinita	Spain	Port de la Selva		2020	January 	12,9	J20									
+E. crinita	Spain	Port de la Selva		2020	February	13,4	F20									
+E. crinita	Spain	Port de la Selva		2020	March		M20									
+E. crinita	Spain	Port de la Selva	01/05/2020	2020	April		A20	64	33	3	0	0				
+E. crinita	Spain	Port de la Selva	28/05/2020	2020	May	20,3	M20	0	39	44	17	0				
+E. crinita	Spain	Port de la Selva	25/06/2020	2020	June	22,4	J20	12	11	28	30	19				
+E. crinita	Spain	Port de la Selva	31/07/2020	2020	July	24,6	J20	10	14	24	32	20				
+E. crinita	Spain	Port de la Selva	25/08/2020	2020	Agost	22,0	A20	92	8	0	0	0				
+E. crinita	Spain	Port de la Selva	23/09/2020	2020	September	17,3	S20	48	37	14	1	0				
+E. crinita	Spain	Port de la Selva	19/10/2020	2020	October	17,4	O20	39	36	23	2	0				
+E. crinita	Spain	Port de la Selva		2020	November	15,6	N20									
+E. crinita	Spain	Port de la Selva		2020	December 	13,7	D20									
+E. crinita	Spain	Port de la Selva		2021	January 	12,0	J21									
+E. crinita	Spain	Port de la Selva	04/02/2021	2021	February	13,2	F21	100	0	0	0	0				
+E. crinita	Spain	Port de la Selva	24/03/2021	2021	March	12,7	M21	67	18	12	3	0				
+E. crinita	Spain	Port de la Selva		2021	April	13,7	A21									
+E. crinita	Spain	Port de la Selva	05/05/2021	2021	May	15,8	M21	29	18	23	21	9				
+E. crinita	Spain	Port de la Selva	01/06/2021	2021	June	21,0	J21	24	19	28	25	4				
+E. crinita	Spain	Port de la Selva	21/07/2021	2021	July	22,5	J21	34	16	18	19	12				
+E. crinita	Spain	Port de la Selva	23/08/2021	2021	Agost	23,0	A21	100	0	0	0	0				
+E. crinita	Spain	Port de la Selva		2021	September	22,4	S21									
+E. crinita	Spain	Port de la Selva	05/10/2021	2021	October	18,5	O21	83	17	0	0	0				
+E. crinita	Spain	Port de la Selva		2021	November	15,7	N21									
+E. crinita	Spain	Port de la Selva	17/12/2021	2021	December 	13,0	D21	53	34	12	1	0				
+E. crinita	Spain	Port de la Selva		2022	January 	10,5	J22									
+E. crinita	Spain	Port de la Selva		2022	February	12,2	F22									
+E. crinita	Spain	Port de la Selva		2022	March	12,8	M22									
+E. crinita	Spain	Port de la Selva		2022	April	15,4	A22									
+E. crinita	Spain	Port de la Selva		2022	May	21,6	M22									
+E. crinita	Spain	Port de la Selva		2022	June	23,4	J22									
+E. crinita	Spain	Port de la Selva		2022	July	26,6	J22									
+E. crinita	Spain	Port de la Selva		2022	Agost	26,0	A22									
+E. crinita	Spain	Port de la Selva		2022	September	23,2	S22									
+E. crinita	Spain	Port de la Selva		2022	October	20,7	O22									
+E. crinita	Spain	Port de la Selva		2022	November	17,8	N22									
+E. crinita	Spain	Port de la Selva		2022	December 	14,4	D22									
+E. crinita	Tunisia	Rimel (Bizerte)	19/01/2020	2020	January 		J20	100	0	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	29/02/2020	2020	February		F20	100	0	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)		2020	March		M20									
+E. crinita	Tunisia	Rimel (Bizerte)		2020	April		A20									
+E. crinita	Tunisia	Rimel (Bizerte)		2020	May		M20									
+E. crinita	Tunisia	Rimel (Bizerte)	15/06/2020	2020	June		J20	45	55	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	22/07/2020	2020	July		J20	35	65	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	27/08/2020	2020	Agost		A20	20	80	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	04/09/2020	2020	September		S20	25	75	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	15/10/2020	2020	October		O20	75	25	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	04/11/2020	2020	November		N20	100	0	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	14/12/2020	2020	December 		D20	100	0	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)		2021	January 		J21									
+E. crinita	Tunisia	Rimel (Bizerte)		2021	February		F21									
+E. crinita	Tunisia	Rimel (Bizerte)	21/3/2021	2021	March		M21	98	2	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	25/4/2021	2021	April		A21	50	24	16	10	0				
+E. crinita	Tunisia	Rimel (Bizerte)	23/5/2021	2021	May		M21	34	8	16	14	28				
+E. crinita	Tunisia	Rimel (Bizerte)	20/6/2021	2021	June		J21	10	8	10	16	56				
+E. crinita	Tunisia	Rimel (Bizerte)	17/7/2021	2021	July		J21	6	4	8	18	64				
+E. crinita	Tunisia	Rimel (Bizerte)	22/8/2021	2021	Agost		A21	16	24	16	14	30				
+E. crinita	Tunisia	Rimel (Bizerte)	26/9/2021	2021	September		S21	20	10	22	30	18				
+E. crinita	Tunisia	Rimel (Bizerte)	24/10/2021	2021	October		O21	56	14	22	4	4				
+E. crinita	Tunisia	Rimel (Bizerte)	21/11/2021	2021	November		N21	94	4	2	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	19/12/2021	2021	December 		D21	100	0	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	23/1/2022	2022	January 		J22	100	0	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	20/2/2022	2022	February		F22	100	0	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	27/3/2022	2022	March		M22	96	4	0	0	0				
+E. crinita	Tunisia	Rimel (Bizerte)	24/4/2022	2022	April		A22	44	18	20	14	4				
+E. crinita	Tunisia	Rimel (Bizerte)	22/5/2022	2022	May		M22	8	4	6	16	66				
+E. crinita	Tunisia	Rimel (Bizerte)	19/6/2022	2022	June		J22	6	6	12	14	62				
+E. crinita	Tunisia	Rimel (Bizerte)		2022	July		J22									
+E. crinita	Tunisia	Rimel (Bizerte)		2022	Agost		A22									
+E. crinita	Tunisia	Rimel (Bizerte)		2022	September		S22									
+E. crinita	Tunisia	Rimel (Bizerte)		2022	October		O22									
+E. crinita	Tunisia	Rimel (Bizerte)		2022	November		N22									
+E. crinita	Tunisia	Rimel (Bizerte)		2022	December 		D22									
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	January 		J20									
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	February		F20									
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	March		M20									
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	April		A20									
+E. crinita	France	Sta. Marguerite, Lerins, France	26/05/2020	2020	May		M20	61	15	8	15	1				
+E. crinita	France	Sta. Marguerite, Lerins, France	18/06/2020	2020	June		J20	63	4	3	12	19				
+E. crinita	France	Sta. Marguerite, Lerins, France	10/07/2020	2020	July	26,4	J20	44	28	1	27	0				
+E. crinita	France	Sta. Marguerite, Lerins, France	05/08/2020	2020	Agost	26,9	A20	100	0	0	0	0				
+E. crinita	France	Sta. Marguerite, Lerins, France	10/09/2020	2020	September	23,5	S20	93	7	0	0	0				
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	October	19,6	O20									
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	November	18,0	N20									
+E. crinita	France	Sta. Marguerite, Lerins, France		2020	December 	15,4	D20									
+E. crinita	France	Sta. Marguerite, Lerins, France		2021	January 	14,0	J21									
+E. crinita	France	Sta. Marguerite, Lerins, France	15/02/2021	2021	February	13,8	F21	24	45	20	10	0				
+E. crinita	France	Sta. Marguerite, Lerins, France	15/03/2021	2021	March	14,4	M21	8	20	18	34	20				
+E. crinita	France	Sta. Marguerite, Lerins, France	14/04/2021	2021	April	15,2	A21	17	30	27	17	10				
+E. crinita	France	Sta. Marguerite, Lerins, France	20/05/2021	2021	May	16,8	M21	4	7	27	18	44				
+E. crinita	France	Sta. Marguerite, Lerins, France	02/07/2021	2021	June	22,7	J21	52	30	18	0	0				
+E. crinita	France	Sta. Marguerite, Lerins, France	22/07/2021	2021	July	24,5	J21	72	28	0	0	0				
+E. crinita	France	Sta. Marguerite, Lerins, France	20/08/2021	2021	Agost	25,2	A21	100	0	0	0	0				
+E. crinita	France	Sta. Marguerite, Lerins, France	30/09/2021	2021	September	24,0	S21	95	5	0	0	0				
+E. crinita	France	Sta. Marguerite, Lerins, France	26/10/2021	2021	October	21,2	O21	41	23	25	2	8				
+E. crinita	France	Sta. Marguerite, Lerins, France	30/11/2021	2021	November	17,7	N21	16	8	1	75	0				
+E. crinita	France	Sta. Marguerite, Lerins, France	14/12/2021	2021	December 	15,4	D21	46	44	9	2	0				
+E. crinita	France	Sta. Marguerite, Lerins, France	28/01/2022	2022	January 	14,2	J22	32	42	19	7	0				
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	February	13,9	F22									
+E. crinita	France	Sta. Marguerite, Lerins, France	10/03/2022	2022	March	13,7	M22	77	15	7	1	0				
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	April	14,9	A22									
+E. crinita	France	Sta. Marguerite, Lerins, France	20/05/2022	2022	May	20,1	M22	38	25	20	10	7				
+E. crinita	France	Sta. Marguerite, Lerins, France	24/06/2022	2022	June	24,4	J22	68	14	12	5	2				
+E. crinita	France	Sta. Marguerite, Lerins, France	24/07/2022	2022	July	27,7	J22	100	0	0	0	0				
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	Agost		A22									
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	September		S22									
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	October		O22									
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	November		N22									
+E. crinita	France	Sta. Marguerite, Lerins, France		2022	December 		D22									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2020	January 		J20									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2020	February		F20									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	09/03/2020	2020	March		M20	100	0	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2020	April		A20									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2020	May		M20									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	10/06/2020	2020	June		J20	100	0	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2020	July		J20									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	07/08/2020	2020	Agost		A20	100	0	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2020	September		S20									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	09/10/2020	2020	October		O20	100	0	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2020	November		N20									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2020	December 		D20									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	19/01/2021	2021	January 		J21	100	0	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	19/02/2021	2021	February	14,2	F21	72	28	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	26/03/2021	2021	March	14,5	M21	78	22	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	23/04/2021	2021	April	15,8	A21	63	38	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	14/05/2021	2021	May	16,7	M21	68	32	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	15/06/2021	2021	June		J21	100	0	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2021	July		J21									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2021	Agost		A21									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2021	September		S21									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2021	October		O21									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2021	November		N21									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	17/12/2021	2021	December 		D21	100	0	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	1/26/2022	2022	January 		J22	100	0	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	2/26/2022	2022	February	13,7	F22	100	0	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	3/28/2022	2022	March	14,0	M22	100	0	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	4/24/2022	2022	April	15,7	A22	100	0	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	5/16/2022	2022	May	19,6	M22	100	0	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	6/29/2022	2022	June		J22	100	0	0	0	0				
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat	7/28/2022	2022	July		J22									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2022	Agost		A22									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2022	September		S22									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2022	October		O22									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2022	November		N22									
+G. montagnei	France	Anses des Fosses, Saint Jean Cap Ferrat		2022	December 		D22									
+G. montagnei	France	Plage des Ondes, Antibes, France		2020	January 		J20									
+G. montagnei	France	Plage des Ondes, Antibes, France	07/02/2020	2020	February		F20	100	0	0	0	0				
+G. montagnei	France	Plage des Ondes, Antibes, France		2020	March		M20									
+G. montagnei	France	Plage des Ondes, Antibes, France		2020	April		A20									
+G. montagnei	France	Plage des Ondes, Antibes, France	18/05/2020	2020	May		M20	16	13	4	26	41				
+G. montagnei	France	Plage des Ondes, Antibes, France	16/06/2020	2020	June		J20	41	0	2	32	25				
+G. montagnei	France	Plage des Ondes, Antibes, France	17/07/2020	2020	July		J20	40	17	14	21	7				
+G. montagnei	France	Plage des Ondes, Antibes, France	05/08/2020	2020	Agost		A20	91	3	4	3	0				
+G. montagnei	France	Plage des Ondes, Antibes, France		2020	September		S20									
+G. montagnei	France	Plage des Ondes, Antibes, France		2020	October		O20									
+G. montagnei	France	Plage des Ondes, Antibes, France	13/11/2020	2020	November		N20	100	0	0	0	0				
+G. montagnei	France	Plage des Ondes, Antibes, France		2020	December 		D20									
+G. montagnei	France	Plage des Ondes, Antibes, France		2021	January 		J21									
+G. montagnei	France	Plage des Ondes, Antibes, France	17/02/2021	2021	February	14,0	F21	59	38	2	2	0				
+G. montagnei	France	Plage des Ondes, Antibes, France	23/03/2021	2021	March	13,6	M21	50	33	14	3	0				
+G. montagnei	France	Plage des Ondes, Antibes, France	16/04/2021	2021	April	16,0	A21	26	31	24	11	7				
+G. montagnei	France	Plage des Ondes, Antibes, France		2021	May	17,7	M21									
+G. montagnei	France	Plage des Ondes, Antibes, France	11/06/2021	2021	June	23,6	J21	15	25	33	11	16				
+G. montagnei	France	Plage des Ondes, Antibes, France	22/07/2021	2021	July	25,3	J21	100	0	0	0	0				
+G. montagnei	France	Plage des Ondes, Antibes, France	20/08/2021	2021	Agost	25,5	A21	100	0	0	0	0				
+G. montagnei	France	Plage des Ondes, Antibes, France		2021	September	23,9	S21									
+G. montagnei	France	Plage des Ondes, Antibes, France	27/10/2021	2021	October	20,6	O21	100	0	0	0	0				
+G. montagnei	France	Plage des Ondes, Antibes, France		2021	November	16,9	N21									
+G. montagnei	France	Plage des Ondes, Antibes, France	14/12/2021	2021	December 	14,7	D21	100	0	0	0	0				
+G. montagnei	France	Plage des Ondes, Antibes, France	25/01/2022	2022	January 	13,3	J22	100	0	0	0	0				
+G. montagnei	France	Plage des Ondes, Antibes, France	08/02/2022	2022	February	13,4	F22	100	0	0	0	0				
+G. montagnei	France	Plage des Ondes, Antibes, France	29/03/2022	2022	March	13,1	M22	100	0	0	0	0				
+G. montagnei	France	Plage des Ondes, Antibes, France	27/04/2022	2022	April	15,6	A22	91	9	0	0	0				
+G. montagnei	France	Plage des Ondes, Antibes, France	26/05/2022	2022	May	21,4	M22	86	9	4	1	0				
+G. montagnei	France	Plage des Ondes, Antibes, France		2022	June	24,1	J22									
+G. montagnei	France	Plage des Ondes, Antibes, France		2022	July		J22									
+G. montagnei	France	Plage des Ondes, Antibes, France		2022	Agost		A22									
+G. montagnei	France	Plage des Ondes, Antibes, France	06/09/2022	2022	September		S22	76	14	6	3	1				
+G. montagnei	France	Plage des Ondes, Antibes, France		2022	October		O22									
+G. montagnei	France	Plage des Ondes, Antibes, France		2022	November		N22									
+G. montagnei	France	Plage des Ondes, Antibes, France	07/12/2022	2022	December 		D22	100	0	0	0	0				
+E. barbatula	Greece	Elaioxwri - Site 2		2020	January 		J20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	February		F20									
+E. barbatula	Greece	Elaioxwri - Site 2	11/03/2020	2020	March	13,9	M20		73	2	24	1	0			
+E. barbatula	Greece	Elaioxwri - Site 2		2020	April	14,6	A20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	May	20,0	M20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	June	22,8	J20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	July	27,1	J20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	Agost	26,9	A20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	September	25,6	S20									
+E. barbatula	Greece	Elaioxwri - Site 2		2020	October	22,5	O20									
+E. barbatula	Greece	Elaioxwri - Site 2	27/11/2020	2020	November	18,6	N20		100	0	0	0	0			
+E. barbatula	Greece	Elaioxwri - Site 2		2020	December 	15,4	D20									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	January 	13,2	J21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	February	13,2	F21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	March	13,1	M21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	April	15,0	A21									
+E. barbatula	Greece	Elaioxwri - Site 2	2/5/2021	2021	May	20,3	M21		97	3	0	0	0			
+E. barbatula	Greece	Elaioxwri - Site 2		2021	June	24,6	J21									
+E. barbatula	Greece	Elaioxwri - Site 2	1/7/2021	2021	July	28,8	J21		100	0	0	0	0			
+E. barbatula	Greece	Elaioxwri - Site 2		2021	Agost	29,0	A21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	September	25,4	S21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	October		O21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	November		N21									
+E. barbatula	Greece	Elaioxwri - Site 2		2021	December 		D21									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	January 		J22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	February		F22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	March		M22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	April		A22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	May		M22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	June		J22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	July		J22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	Agost		A22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	September		S22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	October		O22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	November		N22									
+E. barbatula	Greece	Elaioxwri - Site 2		2022	December 		D22									
+E. barbatula	Greece	Eleochori - Site 2		2020	January 		J20									
+E. barbatula	Greece	Eleochori - Site 2		2020	February		F20		96	0	4	0	0			
+E. barbatula	Greece	Eleochori - Site 2	11/03/2020	2020	March	13,9	M20									
+E. barbatula	Greece	Eleochori - Site 2		2020	April	14,6	A20									
+E. barbatula	Greece	Eleochori - Site 2		2020	May	20,0	M20									
+E. barbatula	Greece	Eleochori - Site 2	22/06/2020	2020	June	22,8	J20		27	0	0	0	73			
+E. barbatula	Greece	Eleochori - Site 2		2020	July	27,1	J20									
+E. barbatula	Greece	Eleochori - Site 2		2020	Agost	26,9	A20									
+E. barbatula	Greece	Eleochori - Site 2	16/09/2020	2020	September	25,6	S20		100	0	0	0	0			
+E. barbatula	Greece	Eleochori - Site 2	20/10/2020	2020	October	22,5	O20		100	0	0	0	0			
+E. barbatula	Greece	Eleochori - Site 2	27/11/2020	2020	November	18,6	N20		100	0	0	0	0			
+E. barbatula	Greece	Eleochori - Site 2		2020	December 	15,4	D20									
+E. barbatula	Greece	Eleochori - Site 2	07/01/2021	2021	January 	13,2	J21		100	0	0	0	0			
+E. barbatula	Greece	Eleochori - Site 2	05/02/2021	2021	February	13,2	F21		95	5	0	0	0			
+E. barbatula	Greece	Eleochori - Site 2	29/03/2021	2021	March	13,1	M21		19	0	81	0	0			
+E. barbatula	Greece	Eleochori - Site 2	21/04/2021	2021	April	15,0	A21		20	0	80	0	0			
+E. barbatula	Greece	Eleochori - Site 2	12/05/2021	2021	May	20,3	M21		20	0	80	0	0			
+E. barbatula	Greece	Eleochori - Site 2	07/06/2021	2021	June	24,6	J21		92	0	0	8	0			
+E. barbatula	Greece	Eleochori - Site 2	07/07/2021	2021	July	28,8	J21		100	0	0	0	0			
+E. barbatula	Greece	Eleochori - Site 2		2021	Agost	29,0	A21									
+E. barbatula	Greece	Eleochori - Site 2		2021	September	25,4	S21									
+E. barbatula	Greece	Eleochori - Site 2		2021	October		O21									
+E. barbatula	Greece	Eleochori - Site 2		2021	November		N21									
+E. barbatula	Greece	Eleochori - Site 3		2021	December 		D21									
+E. barbatula	Greece	Eleochori - Site 4		2022	January 		J22									
+E. barbatula	Greece	Eleochori - Site 5		2022	February		F22									
+E. barbatula	Greece	Eleochori - Site 6		2022	March		M22									
+E. barbatula	Greece	Eleochori - Site 7		2022	April		A22									
+E. barbatula	Greece	Eleochori - Site 8		2022	May		M22									
+E. barbatula	Greece	Eleochori - Site 9		2022	June		J22									
+E. barbatula	Greece	Eleochori - Site 10		2022	July		J22									
+E. barbatula	Greece	Eleochori - Site 11		2022	Agost		A22									
+E. barbatula	Greece	Eleochori - Site 12		2022	September		S22									
+E. barbatula	Greece	Eleochori - Site 13		2022	October		O22									
+E. barbatula	Greece	Eleochori - Site 14		2022	November		N22									
+E. barbatula	Greece	Eleochori - Site 2		2022	December 		D22									
+E. barbatula	Greece	Kataskinosis - Site 3		2020	January 		J20									
+E. barbatula	Greece	Kataskinosis - Site 3		2020	February		F20									
+E. barbatula	Greece	Kataskinosis - Site 3		2020	March	13,9	M20	11/03/2020	96	0	4	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2020	April	14,6	A20									
+E. barbatula	Greece	Kataskinosis - Site 3		2020	May	20,0	M20									
+E. barbatula	Greece	Kataskinosis - Site 3		2020	June	22,8	J20	22/06/2020	18	0	0	0	82			
+E. barbatula	Greece	Kataskinosis - Site 3		2020	July	27,1	J20									
+E. barbatula	Greece	Kataskinosis - Site 3		2020	Agost	26,9	A20									
+E. barbatula	Greece	Kataskinosis - Site 3		2020	September	25,6	S20	16/09/2020	100	0	0	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2020	October	22,5	O20	20/10/2020	100	0	0	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2020	November	18,6	N20	27/11/2020	100	0	0	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2020	December 	15,4	D20									
+E. barbatula	Greece	Kataskinosis - Site 3		2021	January 	13,2	J21	07/01/2021	100	0	0	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	February	13,2	F21	05/02/2021	98	2	0	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	March	13,1	M21	29/03/2021	77	0	23	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	April	15,0	A21	21/04/2021	75	13	12	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	May	20,3	M21	12/05/2021	20	0	80	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	June	24,6	J21	07/06/2021	15	0	0	0	85			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	July	28,8	J21	07/07/2021	100	0	0	0	0			
+E. barbatula	Greece	Kataskinosis - Site 3		2021	Agost	29,0	A21									
+E. barbatula	Greece	Kataskinosis - Site 3		2021	September	25,4	S21									
+E. barbatula	Greece	Kataskinosis - Site 3		2021	October		O21									
+E. barbatula	Greece	Kataskinosis - Site 3		2021	November		N21									
+E. barbatula	Greece	Kataskinosis - Site 3		2021	December 		D21									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	January 		J22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	February		F22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	March		M22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	April		A22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	May		M22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	June		J22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	July		J22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	Agost		A22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	September		S22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	October		O22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	November		N22									
+E. barbatula	Greece	Kataskinosis - Site 3		2022	December 		D22									
+E. barbatula	Greece	Vrasidas - Site 1		2020	January 		J20									
+E. barbatula	Greece	Vrasidas - Site 1		2020	February		F20									
+E. barbatula	Greece	Vrasidas - Site 1		2020	March	13,9	M20	11/03/2020	96	2	2	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2020	April	14,6	A20									
+E. barbatula	Greece	Vrasidas - Site 1		2020	May	20,0	M20									
+E. barbatula	Greece	Vrasidas - Site 1		2020	June	22,8	J20	22/06/2020	14	0	0	0	86			
+E. barbatula	Greece	Vrasidas - Site 1		2020	July	27,1	J20									
+E. barbatula	Greece	Vrasidas - Site 1		2020	Agost	26,9	A20									
+E. barbatula	Greece	Vrasidas - Site 1		2020	September	25,6	S20	16/09/2020	100	0	0	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2020	October	22,5	O20	20/10/2020	100	0	0	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2020	November	18,6	N20	27/11/2020	100	0	0	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2020	December 	15,4	D20									
+E. barbatula	Greece	Vrasidas - Site 1		2021	January 	13,2	J21									
+E. barbatula	Greece	Vrasidas - Site 1		2021	February	13,2	F21	05/02/2021	100	0	0	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2021	March	13,1	M21	03/03/2021	100	0	0	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2021	April	15,0	A21	29/03/2021	31	0	0	69	0			
+E. barbatula	Greece	Vrasidas - Site 1		2021	May	20,3	M21	12/05/2021	10	0	90	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2021	June	24,6	J21	07/06/2021	12	0	0	0	88			
+E. barbatula	Greece	Vrasidas - Site 1		2021	July	28,8	J21	07/07/2021	100	0	0	0	0			
+E. barbatula	Greece	Vrasidas - Site 1		2021	Agost	29,0	A21									
+E. barbatula	Greece	Vrasidas - Site 1		2021	September	25,4	S21									
+E. barbatula	Greece	Vrasidas - Site 1		2021	October		O21									
+E. barbatula	Greece	Vrasidas - Site 1		2021	November		N21									
+E. barbatula	Greece	Vrasidas - Site 1		2021	December 		D21									
+E. barbatula	Greece	Vrasidas - Site 1		2022	January 		J22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	February		F22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	March		M22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	April		A22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	May		M22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	June		J22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	July		J22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	Agost		A22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	September		S22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	October		O22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	November		N22									
+E. barbatula	Greece	Vrasidas - Site 1		2022	December 		D22									
+G. barbata	Italy	Chioggia		2020	January 		J20									
+G. barbata	Italy	Chioggia	06/02/2020	2020	February		F20	48	15	13	14	10				
+G. barbata	Italy	Chioggia		2020	March		M20									
+G. barbata	Italy	Chioggia		2020	April		A20									
+G. barbata	Italy	Chioggia	04/05/2020	2020	May		M20	3	3	2	15	77				
+G. barbata	Italy	Chioggia	24/06/2020	2020	June		J20	1	1	14	54	30				
+G. barbata	Italy	Chioggia	13/07/2020	2020	July		J20	11	26	38	25	0				
+G. barbata	Italy	Chioggia		2020	Agost		A20									
+G. barbata	Italy	Chioggia	10/09/2020	2020	September	23,5	S20	100	0	0	0	0				
+G. barbata	Italy	Chioggia	26/10/2020	2020	October	17,9	O20	100	0	0	0	0				
+G. barbata	Italy	Chioggia	12/11/2020	2020	November	13,7	N20	100	0	0	0	0				
+G. barbata	Italy	Chioggia	10/12/2020	2020	December 	10,2	D20	100	0	0	0	0				
+G. barbata	Italy	Chioggia	21/01/2021	2021	January 	7,7	J21	18	27	43	12	0				
+G. barbata	Italy	Chioggia		2021	February	8,7	F21									
+G. barbata	Italy	Chioggia	05/03/2021	2021	March	10,8	M21	11	7	11	30	41				
+G. barbata	Italy	Chioggia	09/04/2021	2021	April	13,6	A21	8	5	9	16	62				
+G. barbata	Italy	Chioggia	07/05/2021	2021	May	17,5	M21	7	15	22	35	21				
+G. barbata	Italy	Chioggia	18/06/2021	2021	June	22,7	J21	9	23	24	43	1				
+G. barbata	Italy	Chioggia	12/07/2021	2021	July	25,6	J21	18	40	19	22	1				
+G. barbata	Italy	Chioggia	06/08/2021	2021	Agost	26,1	A21	100	0	0	0	0				
+G. barbata	Italy	Chioggia	06/09/2021	2021	September	23,4	S21	100	0	0	0	0				
+G. barbata	Italy	Chioggia	15/10/2021	2021	October	17,4	O21	100	0	0	0	0				
+G. barbata	Italy	Chioggia	09/11/2021	2021	November	12,8	N21	100	0	0	0	0				
+G. barbata	Italy	Chioggia	13/12/2021	2021	December 	9,3	D21	91	9	0	0	0				
+G. barbata	Italy	Chioggia		2022	January 		J22									
+G. barbata	Italy	Chioggia		2022	February		F22									
+G. barbata	Italy	Chioggia		2022	March		M22									
+G. barbata	Italy	Chioggia		2022	April		A22									
+G. barbata	Italy	Chioggia		2022	May		M22									
+G. barbata	Italy	Chioggia		2022	June		J22									
+G. barbata	Italy	Chioggia		2022	July		J22									
+G. barbata	Italy	Chioggia		2022	Agost		A22									
+G. barbata	Italy	Chioggia		2022	September		S22									
+G. barbata	Italy	Chioggia		2022	October		O22									
+G. barbata	Italy	Chioggia		2022	November		N22									
+G. barbata	Italy	Chioggia		2022	December 		D22									
+																
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2020	January 		J20									
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	21/02/2020	2020	February		F20	36	6	6	36	16				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2020	March		M20									
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2020	April		A20									
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	25/05/2020	2020	May		M20	40	10	5	30	15				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	26/06/2020	2020	June		J20	100	0	0	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	22/07/2020	2020	July		J20	100	0	0	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2020	Agost		A20									
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	03/09/2020	2020	September		S20	100	0	0	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	01/10/2020	2020	October	18,9	O20	100	0	0	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	29/10/2020	2020	November	15,3	N20	100	0	0	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	16/12/2020	2020	December 	11,8	D20	100	0	0	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	19/01/2021	2021	January 	9,3	J21	0	0	0	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	18/02/2021	2021	February	9,6	F21	0	0	0	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	17/03/2021	2021	March	11,1	M21	0	0	20	40	40				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	16/04/2021	2021	April	13,8	A21	0	0	15	5	80				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	10/05/2021	2021	May	17,8	M21	0	21	26	53	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	11/06/2021	2021	June	21,9	J21	58	42	0	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	12/07/2021	2021	July		J21	100	0	0	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	05/08/2021	2021	Agost		A21	100	0	0	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	09/09/2021	2021	September		S21	46	46	8	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	13/10/2021	2021	October		O21	0	85	15	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	12/11/2021	2021	November		N21	0	36	43	7	14				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2021	December 		D21									
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	16/02/2022	2022	January 		J22	9	0	18	45	27				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	14/03/2022	2022	February		F22	11	0	0	44	44				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	08/04/2022	2022	March		M22	11	0	0	11	78				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	20/05/2022	2022	April		A22	13	0	0	0	88				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	08/06/2022	2022	May		M22	13	0	0	0	88				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	06/07/2022	2022	June		J22	100	0	0	0	0				
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2022	July		J22									
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2022	Agost		A22									
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2022	September		S22									
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2022	October		O22									
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2022	November		N22									
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2022	December 		D22									
+																
+G. barbata	Italy	Scalinata del Passetto di Ancona		2020	January 		J20									
+G. barbata	Italy	Scalinata del Passetto di Ancona		2020	February		F20									
+G. barbata	Italy	Scalinata del Passetto di Ancona		2020	March		M20									
+G. barbata	Italy	Scalinata del Passetto di Ancona		2020	April		A20									
+G. barbata	Italy	Scalinata del Passetto di Ancona	04/05/2020	2020	May		M20	28	6	0	0	67				
+G. barbata	Italy	Scalinata del Passetto di Ancona	26/06/2020	2020	June		J20	42	0	0	26	32				
+G. barbata	Italy	Scalinata del Passetto di Ancona	22/07/2020	2020	July		J20	84	0	0	0	16				
+G. barbata	Italy	Scalinata del Passetto di Ancona		2020	Agost		A20									
+G. barbata	Italy	Scalinata del Passetto di Ancona	03/09/2020	2020	September		S20	100	0	0	0	0				
+G. barbata	Italy	Scalinata del Passetto di Ancona	01/10/2020	2020	October	19,0	O20	100	0	0	0	0				
+G. barbata	Italy	Scalinata del Passetto di Ancona	29/11/2020	2020	November	15,4	N20	100	0	0	0	0				
+G. barbata	Italy	Scalinata del Passetto di Ancona	16/12/2020	2020	December 	11,8	D20	100	0	0	0	0				
+G. barbata	Italy	Scalinata del Passetto di Ancona	19/01/2021	2021	January 	9,3	J21	100	0	0	0	0				
+G. barbata	Italy	Scalinata del Passetto di Ancona	19/02/2021	2021	February	9,5	F21	100	0	0	0	0				
+G. barbata	Italy	Scalinata del Passetto di Ancona	25/03/2021	2021	March	11,1	M21	100	0	0	0	0				
+G. barbata	Italy	Scalinata del Passetto di Ancona	21/04/2021	2021	April	13,6	A21	0	57	43	0	0				
+G. barbata	Italy	Scalinata del Passetto di Ancona	26/05/2021	2021	May	17,6	M21	0	14	57	29	0				
+G. barbata	Italy	Scalinata del Passetto di Ancona	11/06/2021	2021	June	21,4	J21	0	0	0	29	71				
+G. barbata	Italy	Scalinata del Passetto di Ancona	12/07/2021	2021	July		J21	0	0	0	57	43				
+G. barbata	Italy	Scalinata del Passetto di Ancona	05/08/2021	2021	Agost		A21	0	57	43	0	0				
+G. barbata	Italy	Scalinata del Passetto di Ancona	09/09/2021	2021	September		S21	67	33	0	0	0				
+G. barbata	Italy	Scalinata del Passetto di Ancona	13/10/2021	2021	October		O21	17	83	0	0	0				
+G. barbata	Italy	Scalinata del Passetto di Ancona	12/11/2021	2021	November		N21	0	80	20	0	0				
+G. barbata	Italy	Scalinata del Passetto di Ancona		2021	December 		D21									
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	January 		J22									
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	February		F22									
+G. barbata	Italy	Scalinata del Passetto di Ancona	14/03/2022	2022	March		M22	0	17	17	33	33				
+G. barbata	Italy	Scalinata del Passetto di Ancona	08/04/2022	2022	April		A22	0	0	14	29	57				
+G. barbata	Italy	Scalinata del Passetto di Ancona	12/05/2022	2022	May		M22	0	0	0	0	100				
+G. barbata	Italy	Scalinata del Passetto di Ancona	08/06/2022	2022	June		J22	0	0	0	0	100				
+G. barbata	Italy	Scalinata del Passetto di Ancona	06/07/2022	2022	July		J22	60	0	0	0	40				
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	Agost		A22									
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	September		S22									
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	October		O22									
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	November		N22									
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	December 		D22									
+																
+G. barbata	Italy	Scalaccia Nord		2020	January 		J20									
+G. barbata	Italy	Scalaccia Nord		2020	February		F20									
+G. barbata	Italy	Scalaccia Nord		2020	March		M20									
+G. barbata	Italy	Scalaccia Nord		2020	April		A20									
+G. barbata	Italy	Scalaccia Nord		2020	May		M20									
+G. barbata	Italy	Scalaccia Nord		2020	June	23,2	J20									
+G. barbata	Italy	Scalaccia Nord		2020	July	26,1	J20									
+G. barbata	Italy	Scalaccia Nord		2020	Agost	26,6	A20									
+G. barbata	Italy	Scalaccia Nord		2020	September	23,9	S20									
+G. barbata	Italy	Scalaccia Nord		2020	October	18,5	O20									
+G. barbata	Italy	Scalaccia Nord		2020	November	14,9	N20									
+G. barbata	Italy	Scalaccia Nord		2020	December 	11,6	D20									
+G. barbata	Italy	Scalaccia Nord		2021	January 	8,8	J21									
+G. barbata	Italy	Scalaccia Nord	26/03/2021	2021	February	8,9	F21	0	10	10	20	60				
+G. barbata	Italy	Scalaccia Nord	26/04/2021	2021	March	10,2	M21	0	10	20	0	70				
+G. barbata	Italy	Scalaccia Nord	21/05/2021	2021	April	13,2	A21	0	30	10	30	30				
+G. barbata	Italy	Scalaccia Nord	22/06/2021	2021	May	17,8	M21	0	90	10	0	0				
+G. barbata	Italy	Scalaccia Nord	15/07/2021	2021	June	21,8	J21	80	20	0	0	0				
+G. barbata	Italy	Scalaccia Nord	04/08/2021	2021	July		J21	100	0	0	0	0				
+G. barbata	Italy	Scalaccia Nord	10/09/2021	2021	Agost		A21	70	30	0	0	0				
+G. barbata	Italy	Scalaccia Nord	20/10/2021	2021	September		S21	43	43	14	0	0				
+G. barbata	Italy	Scalaccia Nord	22/11/2021	2021	October		O21	63	38	0	0	0				
+G. barbata	Italy	Scalaccia Nord		2021	November		N21									
+G. barbata	Italy	Scalaccia Nord		2021	December 		D21									
+G. barbata	Italy	Scalaccia Nord		2022	January 		J22									
+G. barbata	Italy	Scalaccia Nord	25/02/2022	2022	February		F22	0	50	25	0	25				
+G. barbata	Italy	Scalaccia Nord	17/03/2022	2022	March		M22	0	50	0	50	0				
+G. barbata	Italy	Scalaccia Nord	13/04/2022	2022	April		A22	0	0	0	11	89				
+G. barbata	Italy	Scalaccia Nord	18/05/2022	2022	May		M22	0	0	0	20	80				
+G. barbata	Italy	Scalaccia Nord	07/06/2022	2022	June		J22	0	0	0	0	100				
+G. barbata	Italy	Scalaccia Nord	06/07/2022	2022	July		J22	0	0							
+G. barbata	Italy	Scalaccia Nord		2022	Agost		A22									
+G. barbata	Italy	Scalaccia Nord		2022	September		S22									
+G. barbata	Italy	Scalaccia Nord		2022	October		O22									
+G. barbata	Italy	Scalaccia Nord		2022	November		N22									
+G. barbata	Italy	Scalaccia Nord		2022	December 		D22									
+																
+G. barbata	Italy	Taranto		2020	January 		J20									
+G. barbata	Italy	Taranto	24/02/2020	2020	February		F20	40	46	12	2	0				
+G. barbata	Italy	Taranto	23/05/2020	2020	March		M20	0	14	31	26	28				
+G. barbata	Italy	Taranto		2020	April		A20									
+G. barbata	Italy	Taranto		2020	May		M20									
+G. barbata	Italy	Taranto		2020	June		J20									
+G. barbata	Italy	Taranto	28/07/2020	2020	July	27,6	J20	100	0	0	0	0				
+G. barbata	Italy	Taranto	25/08/2020	2020	Agost	28,0	A20	100	0	0	0	0				
+G. barbata	Italy	Taranto	30/09/2020	2020	September	26,7	S20	100	0	0	0	0				
+G. barbata	Italy	Taranto	25/11/2020	2020	October	21,8	O20	100	0	0	0	0				
+G. barbata	Italy	Taranto	18/12/2020	2020	November	18,3	N20	100	0	0	0	0				
+G. barbata	Italy	Taranto		2020	December 	14,7	D20									
+G. barbata	Italy	Taranto		2021	January 	12,4	J21									
+G. barbata	Italy	Taranto	26/02/2021	2021	February	12,6	F21	100	0	0	0	0				
+G. barbata	Italy	Taranto	26/03/2021	2021	March	13,5	M21	0	67	16	17	0				
+G. barbata	Italy	Taranto		2021	April	15,3	A21									
+G. barbata	Italy	Taranto	18/05/2021	2021	May	20,2	M21	0	19	45	36	1				
+G. barbata	Italy	Taranto		2021	June	24,2	J21									
+G. barbata	Italy	Taranto	01/07/2021	2021	July	27,9	J21	100	0	0	0	0				
+G. barbata	Italy	Taranto	21/07/2021	2021	Agost	28,8	A21	100	0	0	0	0				
+G. barbata	Italy	Taranto	01/09/2021	2021	September	25,7	S21	100	0	0	0	0				
+G. barbata	Italy	Taranto	28/09/2021	2021	October	21,3	O21	100	0	0	0	0				
+G. barbata	Italy	Taranto	04/11/2021	2021	November	18,2	N21	100	0	0	0	0				
+G. barbata	Italy	Taranto	29/11/2021	2021	December 	13,2	D21	95	5	0	0	0				
+G. barbata	Italy	Taranto	17/01/2022	2022	January 	12,1	J22	100	0	0	0	0				
+G. barbata	Italy	Taranto	24/02/2022	2022	February	12,2	F22	100	0	0	0	0				
+G. barbata	Italy	Taranto	26/03/2022	2022	March	12,4	M22	0	85	14	1	0				
+G. barbata	Italy	Taranto	22/04/2022	2022	April	15,8	A22	0	0	95	5	0				
+G. barbata	Italy	Taranto	18/05/2022	2022	May	19,4	M22	0	3	85	12	0				
+G. barbata	Italy	Taranto		2022	June		J22									
+G. barbata	Italy	Taranto		2022	July		J22									
+G. barbata	Italy	Taranto		2022	Agost		A22									
+G. barbata	Italy	Taranto		2022	September		S22									
+G. barbata	Italy	Taranto		2022	October		O22									
+G. barbata	Italy	Taranto		2022	November		N22									
+G. barbata	Italy	Taranto		2022	December 		D22									
+																
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	January 		J20									
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	February		F20									
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	March		M20									
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	April		A20									
+G. barbata	France	Sta. Marguerite, Lerins, France	26/05/2020	2020	May		M20	61	25	0	12	1				
+G. barbata	France	Sta. Marguerite, Lerins, France	18/06/2020	2020	June	26,4	J20	91	4	0	5	0				
+G. barbata	France	Sta. Marguerite, Lerins, France	06/07/2020	2020	July	26,9	J20	92	3	5	0	0				
+G. barbata	France	Sta. Marguerite, Lerins, France	05/08/2020	2020	Agost	23,5	A20	100	0	0	0	0				
+G. barbata	France	Sta. Marguerite, Lerins, France	10/09/2020	2020	September	19,6	S20	96	4	0	0	0				
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	October	18,0	O20									
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	November	15,4	N20									
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	December 		D20									
+G. barbata	France	Sta. Marguerite, Lerins, France		2021	January 	14,0	J21									
+G. barbata	France	Sta. Marguerite, Lerins, France	15/02/2021	2021	February	13,8	F21	24	43	11	15	7				
+G. barbata	France	Sta. Marguerite, Lerins, France	15/03/2021	2021	March	14,4	M21	19	17	44	11	9				
+G. barbata	France	Sta. Marguerite, Lerins, France	14/04/2021	2021	April	15,2	A21	39	24	16	14	6				
+G. barbata	France	Sta. Marguerite, Lerins, France	20/05/2021	2021	May	16,8	M21	26	15	28	20	11				
+G. barbata	France	Sta. Marguerite, Lerins, France	02/06/2021	2021	June	22,7	J21	100	0	0	0	0				
+G. barbata	France	Sta. Marguerite, Lerins, France	22/07/2021	2021	July	24,5	J21	100	0	0	0	0				
+G. barbata	France	Sta. Marguerite, Lerins, France	20/08/2021	2021	Agost	25,2	A21	98	2	0	0	0				
+G. barbata	France	Sta. Marguerite, Lerins, France	30/09/2021	2021	September	24,0	S21	44	33	18	5	0				
+G. barbata	France	Sta. Marguerite, Lerins, France	26/10/2021	2021	October	21,2	O21	59	28	11	2	0				
+G. barbata	France	Sta. Marguerite, Lerins, France	30/11/2021	2021	November	17,7	N21	37	7	28	20	8				
+G. barbata	France	Sta. Marguerite, Lerins, France	14/12/2021	2021	December 	15,4	D21	29	10	17	23	21				
+G. barbata	France	Sta. Marguerite, Lerins, France	28/01/2022	2022	January 	14,2	J22	12	19	16	12	40				
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	February	13,9	F22									
+G. barbata	France	Sta. Marguerite, Lerins, France	10/03/2022	2022	March	13,7	M22	27	24	22	23	5				
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	April	14,9	A22									
+G. barbata	France	Sta. Marguerite, Lerins, France	20/05/2022	2022	May	20,1	M22	67	21	13	0	0				
+G. barbata	France	Sta. Marguerite, Lerins, France	24/06/2022	2022	June	24,4	J22	100	0	0	0	0				
+G. barbata	France	Sta. Marguerite, Lerins, France	24/07/2022	2022	July	27,7	J22	100	0	0	0	0				
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	Agost		A22									
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	September		S22									
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	October		O22									
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	November		N22									
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	December 		D22									
+																
+G. barbata	Greece	Eleochori - Site 2		2020	January 		J20									
+G. barbata	Greece	Eleochori - Site 2		2020	February		F20									
+G. barbata	Greece	Eleochori - Site 2	11/03/2020	2020	March	13,9	M20	15	2	83	0	0				
+G. barbata	Greece	Eleochori - Site 2		2020	April	14,6	A20									
+G. barbata	Greece	Eleochori - Site 2		2020	May	20,0	M20									
+G. barbata	Greece	Eleochori - Site 2	22/06/2020	2020	June	22,8	J20	50	0	0	0	50				
+G. barbata	Greece	Eleochori - Site 2		2020	July	27,1	J20									
+G. barbata	Greece	Eleochori - Site 2		2020	Agost	26,9	A20									
+G. barbata	Greece	Eleochori - Site 2		2020	September	25,6	S20									
+G. barbata	Greece	Eleochori - Site 2		2020	October	22,5	O20									
+G. barbata	Greece	Eleochori - Site 2		2020	November	18,6	N20									
+G. barbata	Greece	Eleochori - Site 2		2020	December 	15,4	D20									
+G. barbata	Greece	Eleochori - Site 2		2021	January 	13,2	J21									
+G. barbata	Greece	Eleochori - Site 2	05/02/2021	2021	February	13,2	F21	100	0	0	0	0				
+G. barbata	Greece	Eleochori - Site 2	03/03/2021	2021	March	13,1	M21	0	0	69	31	0				
+G. barbata	Greece	Eleochori - Site 2	21/04/2021	2021	April	15,0	A21	0	0	80	20	0				
+G. barbata	Greece	Eleochori - Site 2	12/05/2021	2021	May	20,3	M21	0	0	0	100	0				
+G. barbata	Greece	Eleochori - Site 2	07/06/2021	2021	June	24,6	J21	90	0	4	6	0				
+G. barbata	Greece	Eleochori - Site 2	07/07/2021	2021	July	28,8	J21	0	0	0	0	0				
+G. barbata	Greece	Eleochori - Site 2		2021	Agost	29,0	A21									
+G. barbata	Greece	Eleochori - Site 2		2021	September	25,4	S21									
+G. barbata	Greece	Eleochori - Site 2		2021	October		O21									
+G. barbata	Greece	Eleochori - Site 2		2021	November		N21									
+G. barbata	Greece	Eleochori - Site 2		2021	December 		D21									
+G. barbata	Greece	Eleochori - Site 2		2022	January 		J22									
+G. barbata	Greece	Eleochori - Site 2		2022	February		F22									
+G. barbata	Greece	Eleochori - Site 2		2022	March		M22									
+G. barbata	Greece	Eleochori - Site 2		2022	April		A22									
+G. barbata	Greece	Eleochori - Site 2		2022	May		M22									
+G. barbata	Greece	Eleochori - Site 2		2022	June		J22									
+G. barbata	Greece	Eleochori - Site 2		2022	July		J22									
+G. barbata	Greece	Eleochori - Site 2		2022	Agost		A22									
+G. barbata	Greece	Eleochori - Site 2		2022	September		S22									
+G. barbata	Greece	Eleochori - Site 2		2022	October		O22									
+G. barbata	Greece	Eleochori - Site 2		2022	November		N22									
+G. barbata	Greece	Eleochori - Site 2		2022	December 		D22									

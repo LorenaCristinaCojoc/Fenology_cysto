@@ -1,0 +1,111 @@
+Species	Country	Locality	Date	Year	Month	Temperature	Código	F0 (%)	F1 (%)	F2 (%)	F3 (%)	F4 (%)	M0 (%)	M1(%)	M2 (%)	MT (%)						
+C. mediterranea	Spain	Cala Estreta		2020	January 		J20															
+C. mediterranea	Spain	Cala Estreta	2/4/2020	2020	February		F20	100	0	0	0	0										
+C. mediterranea	Spain	Cala Estreta		2020	March		M20															
+C. mediterranea	Spain	Cala Estreta	5/7/2020	2020	April		A20	100	0	0	0	0										
+C. mediterranea	Spain	Cala Estreta	5/29/2020	2020	May	20.5	M20	100	0	0	0	0										
+C. mediterranea	Spain	Cala Estreta	6/29/2020	2020	June	21.1	J20	100	0	0	0	0										
+C. mediterranea	Spain	Cala Estreta	7/30/2020	2020	July	23.9	J20	5	5	10	26	54										
+C. mediterranea	Spain	Cala Estreta	8/26/2020	2020	Agost	24.6	A20	1	2	8	27	61										
+C. mediterranea	Spain	Cala Estreta	9/30/2020	2020	September	22.4	S20	100	0	0	0	0										
+C. mediterranea	Spain	Cala Estreta	10/28/2020	2020	October	18.1	O20	100	0	0	0	0										
+C. mediterranea	Spain	Cala Estreta		2020	November	16.3	N20															
+C. mediterranea	Spain	Cala Estreta		2020	December 	14.4	D20															
+C. mediterranea	Spain	Cala Estreta	1/27/2021	2021	January 	12.9	J21	100	0	0	0	0										
+C. mediterranea	Spain	Cala Estreta		2021	February	13.1	F21															
+C. mediterranea	Spain	Cala Estreta	3/29/2021	2021	March	13.2	M21	100	0	0	0	0										
+C. mediterranea	Spain	Cala Estreta		2021	April	14.2	A21															
+C. mediterranea	Spain	Cala Estreta	5/27/2021	2021	May	16.0	M21	100	0	0	0	0										
+C. mediterranea	Spain	Cala Estreta	7/2/2021	2021	June	21.6	J21	78	13	8	1	0										
+C. mediterranea	Spain	Cala Estreta	7/22/2021	2021	July	24.0	J21	76	2	0	6	16										
+C. mediterranea	Spain	Cala Estreta	8/23/2021	2021	Agost	23.8	A21	75	25	0	0	0										
+C. mediterranea	Spain	Cala Estreta	10/1/2021	2021	September	22.6	S21	92	4	4	0	0										
+C. mediterranea	Spain	Cala Estreta	10/18/2021	2021	October	19.8	O21	95	4	1	0	0										
+C. mediterranea	Spain	Cala Estreta		2021	November	16.4	N21															
+C. mediterranea	Spain	Cala Estreta	12/13/2021	2021	December 	14.7	D21	100	0	0	0	0										
+C. mediterranea	Spain	Cala Estreta		2022	January 	13.4	J22															
+C. mediterranea	Spain	Cala Estreta		2022	February	13.5	F22															
+C. mediterranea	Spain	Cala Estreta		2022	March	13.1	M22															
+C. mediterranea	Spain	Cala Estreta		2022	April	14.2	A22															
+C. mediterranea	Spain	Cala Estreta		2022	May	17.8	M22															
+C. mediterranea	Spain	Cala Estreta		2022	June	21.6	J22															
+C. mediterranea	Spain	Cala Estreta		2022	July	24.7	J22															
+C. mediterranea	Spain	Cala Estreta		2022	Agost	25.6	A22															
+C. mediterranea	Spain	Cala Estreta		2022	September	23.5	S22															
+C. mediterranea	Spain	Cala Estreta		2022	October	21.5	O22															
+C. mediterranea	Spain	Cala Estreta		2022	November	17.8	N22															
+C. mediterranea	Spain	Cala Estreta		2022	December 	15.2	D22															
+C. mediterranea	Spain	Port de la Selva		2020	January 	12.91	J20															
+C. mediterranea	Spain	Port de la Selva		2020	February	13.39	F20															
+C. mediterranea	Spain	Port de la Selva		2020	March		M20															
+C. mediterranea	Spain	Port de la Selva		2020	April		A20															
+C. mediterranea	Spain	Port de la Selva		2020	May	20.3	M20															
+C. mediterranea	Spain	Port de la Selva		2020	June	22.4	J20															
+C. mediterranea	Spain	Port de la Selva		2020	July	24.6	J20															
+C. mediterranea	Spain	Port de la Selva		2020	Agost	22.0	A20															
+C. mediterranea	Spain	Port de la Selva		2020	September	17.3	S20															
+C. mediterranea	Spain	Port de la Selva		2020	October	17.4	O20															
+C. mediterranea	Spain	Port de la Selva		2020	November	15.6	N20															
+C. mediterranea	Spain	Port de la Selva		2020	December 	13.7	D20															
+C. mediterranea	Spain	Port de la Selva		2021	January 	12.0	J21															
+C. mediterranea	Spain	Port de la Selva		2021	February	13.2	F21															
+C. mediterranea	Spain	Port de la Selva		2021	March	12.7	M21															
+C. mediterranea	Spain	Port de la Selva		2021	April	13.7	A21															
+C. mediterranea	Spain	Port de la Selva		2021	May	15.8	M21															
+C. mediterranea	Spain	Port de la Selva		2021	June	21.0	J21															
+C. mediterranea	Spain	Port de la Selva		2021	July	22.5	J21															
+C. mediterranea	Spain	Port de la Selva		2021	Agost	23.0	A21															
+C. mediterranea	Spain	Port de la Selva		2021	September	22.4	S21															
+C. mediterranea	Spain	Port de la Selva		2021	October	18.5	O21															
+C. mediterranea	Spain	Port de la Selva		2021	November	15.7	N21															
+C. mediterranea	Spain	Port de la Selva		2021	December 	13.0	D21															
+C. mediterranea	Spain	Port de la Selva		2022	January 	10.5	J22															
+C. mediterranea	Spain	Port de la Selva		2022	February	12.2	F22															
+C. mediterranea	Spain	Port de la Selva		2022	March	12.8	M22															
+C. mediterranea	Spain	Port de la Selva		2022	April	15.4	A22															
+C. mediterranea	Spain	Port de la Selva		2022	May	21.6	M22															
+C. mediterranea	Spain	Port de la Selva		2022	June	23.4	J22															
+C. mediterranea	Spain	Port de la Selva		2022	July	26.6	J22															
+C. mediterranea	Spain	Port de la Selva		2022	Agost	26.0	A22															
+C. mediterranea	Spain	Port de la Selva		2022	September	23.2	S22															
+C. mediterranea	Spain	Port de la Selva		2022	October	20.7	O22															
+C. mediterranea	Spain	Port de la Selva		2022	November	17.8	N22															
+C. mediterranea	Spain	Port de la Selva		2022	December 	14.4	D22															
+C. mediterranea	Morocco	Cap des trois fourches		2020	January 	 	J20															
+C. mediterranea	Morocco	Cap des trois fourches		2020	February		F20															
+C. mediterranea	Morocco	Cap des trois fourches		2020	March		M20															
+C. mediterranea	Morocco	Cap des trois fourches		2020	April		A20															
+C. mediterranea	Morocco	Cap des trois fourches		2020	June		M20															
+C. mediterranea	Morocco	Cap des trois fourches		2020	June		J20															
+C. mediterranea	Morocco	Cap des trois fourches		2020	July		J20															
+C. mediterranea	Morocco	Cap des trois fourches		2020	Agost		A20															
+C. mediterranea	Morocco	Cap des trois fourches		2020	September		S20															
+C. mediterranea	Morocco	Cap des trois fourches		2020	October		O20															
+C. mediterranea	Morocco	Cap des trois fourches		2020	November		N20															
+C. mediterranea	Morocco	Cap des trois fourches		2021	December 		D20															
+C. mediterranea	Morocco	Cap des trois fourches	1/28/2021	2021	January 	15.27	J21	100	0	0	0	0	100	0	0							
+C. mediterranea	Morocco	Cap des trois fourches	2/28/2021	2021	February	14.65	F21	100	0	0	0	0	100	0	0							
+C. mediterranea	Morocco	Cap des trois fourches	3/28/2021	2021	March	15.39	M21	100	0	0	0	0	100	0	0							
+C. mediterranea	Morocco	Cap des trois fourches	4/28/2021	2021	April	17.86	A21	100	0	0	0	0	100	0	0							
+C. mediterranea	Morocco	Cap des trois fourches	5/28/2021	2021	May	20.15	M21	100	0	0	0	0	100	0	0							
+C. mediterranea	Morocco	Cap des trois fourches	6/28/2021	2021	June	22.63	J21	14	21	21	34	9	60	32	8							
+C. mediterranea	Morocco	Cap des trois fourches	7/28/2021	2021	July	22.89	J21	12	13	22	31	22	32	68	0							
+C. mediterranea	Morocco	Cap des trois fourches	8/28/2021	2021	Agost	23.04	A21	8	18	23	32	18	12	52	36							
+C. mediterranea	Morocco	Cap des trois fourches	9/28/2021	2021	September	20.68	S21	9	18	14	36	23	8	48	44							
+C. mediterranea	Morocco	Cap des trois fourches	10/28/2021	2021	October	19.73	O21	12	18	49	13	9	12	48	40							
+C. mediterranea	Morocco	Cap des trois fourches	11/28/2021	2021	November	17.68	N21	25	26	26	4	19	0	36	64							
+C. mediterranea	Morocco	Cap des trois fourches		2022	December 		D21															
+C. mediterranea	Morocco	Cap des trois fourches		2022	January 		J22															
+C. mediterranea	Morocco	Cap des trois fourches		2022	February		F22															
+C. mediterranea	Morocco	Cap des trois fourches		2022	March		M22															
+C. mediterranea	Morocco	Cap des trois fourches		2022	April		A22															
+C. mediterranea	Morocco	Cap des trois fourches		2022	May		M22															
+C. mediterranea	Morocco	Cap des trois fourches		2022	June		J22															
+C. mediterranea	Morocco	Cap des trois fourches		2022	July		J22															
+C. mediterranea	Morocco	Cap des trois fourches		2022	Agost		A22															
+C. mediterranea	Morocco	Cap des trois fourches		2022	September		S22															
+C. mediterranea	Morocco	Cap des trois fourches		2022	October		O22															
+C. mediterranea	Morocco	Cap des trois fourches		2022	November		N22															
+					December 		D22															
+																						
+																						

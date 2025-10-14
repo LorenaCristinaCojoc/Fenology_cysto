@@ -1,0 +1,74 @@
+Species	Country	Locality	Date	Year	Month	Temperature	Código	F0 (%)	F1 (%)	F2 (%)	F3 (%)	F4 (%)	M0 (%)	M1(%)	M2 (%)
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2020	January 		J20								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2020	February		F20								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	3/9/2020	2020	March		M20	100	0	0	0	0			
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2020	April		A20								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2020	May		M20								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	6/10/2020	2020	June		J20	100	0	0	0	0			
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2020	July		J20								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	8/7/2020	2020	Agost		A20	100	0	0	0	0			
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2020	September		S20								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	10/9/2020	2020	October		O20	100	0	0	0	0			
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2020	November		N20								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2020	December 		D20								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	1/19/2021	2021	January 		J21	100	0	0	0	0			
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	2/19/2021	2021	February	14.2	F21	72	28	0	0	0	100	0	0
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	3/26/2021	2021	March	14.5	M21	78	22	0	0	0	90	10	0
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	4/23/2021	2021	April	15.8	A21	63	38	0	0	0	100	0	0
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	5/14/2021	2021	May	16.7	M21	68	32	0	0	0	16	72	12
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	6/15/2021	2021	June		J21	100	0	0	0	0			
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2021	July		J21								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2021	Agost		A21								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2021	September		S21								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2021	October		O21								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2021	November		N21								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	12/17/2021	2021	December 		D21	100	0	0	0	0			
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	1/26/2022	2022	January 		J22	100	0	0	0	0			
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	2/26/2022	2022	February	13.7	F22	100	0	0	0	0			
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	3/28/2022	2022	March	14.0	M22	100	0	0	0	0			
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	4/24/2022	2022	April	15.7	A22	100	0	0	0	0			
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	5/16/2022	2022	May	19.6	M22	100	0	0	0	0			
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	6/29/2022	2022	June		J22	100	0	0	0	0			
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"	7/28/2022	2022	July		J22								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2022	Agost		A22								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2022	September		S22								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2022	October		O22								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2022	November		N22								
+G. montagnei	France	"Anses des Fosses, Saint Jean Cap Ferrat"		2022	December 		D22								
+															
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2020	January 		J20								
+G. montagnei	France	"Plage des Ondes, Antibes, France"	2/7/2020	2020	February		F20	100	0	0	0	0			
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2020	March		M20								
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2020	April		A20						58	38	4
+G. montagnei	France	"Plage des Ondes, Antibes, France"	5/18/2020	2020	May		M20	16	13	4	26	41	24	16	60
+G. montagnei	France	"Plage des Ondes, Antibes, France"	6/16/2020	2020	June		J20	41	0	2	32	25	56	44	0
+G. montagnei	France	"Plage des Ondes, Antibes, France"	7/17/2020	2020	July		J20	40	17	14	21	7	84	16	0
+G. montagnei	France	"Plage des Ondes, Antibes, France"	8/5/2020	2020	Agost		A20	91	3	4	3	0			
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2020	September		S20								
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2020	October		O20								
+G. montagnei	France	"Plage des Ondes, Antibes, France"	11/13/2020	2020	November		N20	100	0	0	0	0	84	16	0
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2020	December 		D20								
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2021	January 		J21								
+G. montagnei	France	"Plage des Ondes, Antibes, France"	2/17/2021	2021	February	14.0	F21	59	38	2	2	0	100	0	0
+G. montagnei	France	"Plage des Ondes, Antibes, France"	3/23/2021	2021	March	13.6	M21	50	33	14	3	0	88	12	0
+G. montagnei	France	"Plage des Ondes, Antibes, France"	4/16/2021	2021	April	16.0	A21	26	31	24	11	7	100	0	0
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2021	May	17.7	M21								
+G. montagnei	France	"Plage des Ondes, Antibes, France"	6/11/2021	2021	June	23.6	J21	15	25	33	11	16			
+G. montagnei	France	"Plage des Ondes, Antibes, France"	7/22/2021	2021	July	25.3	J21	100	0	0	0	0			
+G. montagnei	France	"Plage des Ondes, Antibes, France"	8/20/2021	2021	Agost	25.5	A21	100	0	0	0	0			
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2021	September	23.9	S21								
+G. montagnei	France	"Plage des Ondes, Antibes, France"	10/27/2021	2021	October	20.6	O21	100	0	0	0	0	0	12	88
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2021	November	16.9	N21								
+G. montagnei	France	"Plage des Ondes, Antibes, France"	12/14/2021	2021	December 	14.7	D21	100	0	0	0	0			
+G. montagnei	France	"Plage des Ondes, Antibes, France"	1/25/2022	2022	January 	13.3	J22	100	0	0	0	0			
+G. montagnei	France	"Plage des Ondes, Antibes, France"	2/8/2022	2022	February	13.4	F22	100	0	0	0	0			
+G. montagnei	France	"Plage des Ondes, Antibes, France"	3/29/2022	2022	March	13.1	M22	100	0	0	0	0			
+G. montagnei	France	"Plage des Ondes, Antibes, France"	4/27/2022	2022	April	15.6	A22	91	9	0	0	0	4	68	28
+G. montagnei	France	"Plage des Ondes, Antibes, France"	5/26/2022	2022	May	21.4	M22	86	9	4	1	0	24	76	0
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2022	June	24.1	J22								
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2022	July		J22								
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2022	Agost		A22								
+G. montagnei	France	"Plage des Ondes, Antibes, France"	9/6/2022	2022	September		S22	76	14	6	3	1	80	20	0
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2022	October		O22								
+G. montagnei	France	"Plage des Ondes, Antibes, France"		2022	November		N22								
+G. montagnei	France	"Plage des Ondes, Antibes, France"	12/7/2022	2022	December 		D22	100	0	0	0	0			

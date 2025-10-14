@@ -1,0 +1,296 @@
+Species	Country	Locality	Date	Year	Month	Temperature	Código	F0 (%)	F1 (%)	F2 (%)	F3 (%)	F4 (%)	M0 (%)	M1(%)	M2 (%)
+G. barbata	Italy	Chioggia		2020	January 		J20								
+G. barbata	Italy	Chioggia	06/02/2020	2020	February		F20	48	15	13	14	10			
+G. barbata	Italy	Chioggia		2020	March		M20								
+G. barbata	Italy	Chioggia		2020	April		A20								
+G. barbata	Italy	Chioggia	04/05/2020	2020	May		M20	3	3	2	15	77			
+G. barbata	Italy	Chioggia	24/06/2020	2020	June		J20	1	1	14	54	30			
+G. barbata	Italy	Chioggia	13/07/2020	2020	July		J20	11	26	38	25	0			
+G. barbata	Italy	Chioggia		2020	Agost		A20								
+G. barbata	Italy	Chioggia	10/09/2020	2020	September	23,5	S20	100	0	0	0	0			
+G. barbata	Italy	Chioggia	26/10/2020	2020	October	17,9	O20	100	0	0	0	0			
+G. barbata	Italy	Chioggia	12/11/2020	2020	November	13,7	N20	100	0	0	0	0			
+G. barbata	Italy	Chioggia	10/12/2020	2020	December 	10,2	D20	100	0	0	0	0			
+G. barbata	Italy	Chioggia	21/01/2021	2021	January 	7,7	J21	18	27	43	12	0			
+G. barbata	Italy	Chioggia		2021	February	8,7	F21								
+G. barbata	Italy	Chioggia	05/03/2021	2021	March	10,8	M21	11	7	11	30	41			
+G. barbata	Italy	Chioggia	09/04/2021	2021	April	13,6	A21	8	5	9	16	62			
+G. barbata	Italy	Chioggia	07/05/2021	2021	May	17,5	M21	7	15	22	35	21			
+G. barbata	Italy	Chioggia	18/06/2021	2021	June	22,7	J21	9	23	24	43	1			
+G. barbata	Italy	Chioggia	12/07/2021	2021	July	25,6	J21	18	40	19	22	1			
+G. barbata	Italy	Chioggia	06/08/2021	2021	Agost	26,1	A21	100	0	0	0	0			
+G. barbata	Italy	Chioggia	06/09/2021	2021	September	23,4	S21	100	0	0	0	0			
+G. barbata	Italy	Chioggia	15/10/2021	2021	October	17,4	O21	100	0	0	0	0			
+G. barbata	Italy	Chioggia	09/11/2021	2021	November	12,8	N21	100	0	0	0	0			
+G. barbata	Italy	Chioggia	13/12/2021	2021	December 	9,3	D21	91	9	0	0	0			
+G. barbata	Italy	Chioggia		2022	January 		J22								
+G. barbata	Italy	Chioggia		2022	February		F22								
+G. barbata	Italy	Chioggia		2022	March		M22								
+G. barbata	Italy	Chioggia		2022	April		A22								
+G. barbata	Italy	Chioggia		2022	May		M22								
+G. barbata	Italy	Chioggia		2022	June		J22								
+G. barbata	Italy	Chioggia		2022	July		J22								
+G. barbata	Italy	Chioggia		2022	Agost		A22								
+G. barbata	Italy	Chioggia		2022	September		S22								
+G. barbata	Italy	Chioggia		2022	October		O22								
+G. barbata	Italy	Chioggia		2022	November		N22								
+G. barbata	Italy	Chioggia		2022	December 		D22								
+															
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2020	January 		J20								
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	21/02/2020	2020	February		F20	36	6	6	36	16	36	48	16
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2020	March		M20								
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2020	April		A20								
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	25/05/2020	2020	May		M20	40	10	5	30	15	40	45	15
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	26/06/2020	2020	June		J20	100	0	0	0	0	60	40	0
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	22/07/2020	2020	July		J20	100	0	0	0	0	100	0	0
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2020	Agost		A20								
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	03/09/2020	2020	September		S20	100	0	0	0	0	100	0	0
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	01/10/2020	2020	October	18,9	O20	100	0	0	0	0	100	0	0
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	29/10/2020	2020	November	15,3	N20	100	0	0	0	0	100	0	0
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	16/12/2020	2020	December 	11,8	D20	100	0	0	0	0	100	0	0
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	19/01/2021	2021	January 	9,3	J21	0	0	0	0	0	0	55	45
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	18/02/2021	2021	February	9,6	F21	0	0	0	0	0	0	45	55
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	17/03/2021	2021	March	11,1	M21	0	0	20	40	40	0	30	70
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	16/04/2021	2021	April	13,8	A21	0	0	15	5	80	13,63636364	27,27272727	59,09090909
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	10/05/2021	2021	May	17,8	M21	0	21	26	53	0	52,77777778	8,333333333	38,88888889
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	11/06/2021	2021	June	21,9	J21	58	42	0	0	0	86,36363636	9,090909091	4,545454545
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	12/07/2021	2021	July		J21	100	0	0	0	0	100	0	0
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	05/08/2021	2021	Agost		A21	100	0	0	0	0	100	0	0
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	09/09/2021	2021	September		S21	46	46	8	0	0	41,66666667	16,66666667	41,66666667
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	13/10/2021	2021	October		O21	0	85	15	0	0	0	53,84615385	46,15384615
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	12/11/2021	2021	November		N21	0	36	43	7	14	0	35,71428571	64,28571429
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2021	December 		D21								
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	16/02/2022	2022	January 		J22	9	0	18	45	27			
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	14/03/2022	2022	February		F22	11	0	0	44	44	9,090909091	54,54545455	36,36363636
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	08/04/2022	2022	March		M22	11	0	0	11	78	11,11111111	55,55555556	33,33333333
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	20/05/2022	2022	April		A22	13	0	0	0	88	20	30	50
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	08/06/2022	2022	May		M22	13	0	0	0	88	80	8	12
+G. barbata	Italy	Piscinetta del Passetto (Ancona)	06/07/2022	2022	June		J22	100	0	0	0	0	100	0	0
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2022	July		J22						100	0	0
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2022	Agost		A22								
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2022	September		S22								
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2022	October		O22								
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2022	November		N22								
+G. barbata	Italy	Piscinetta del Passetto (Ancona)		2022	December 		D22								
+															
+G. barbata	Italy	Scalinata del Passetto di Ancona		2020	January 		J20								
+G. barbata	Italy	Scalinata del Passetto di Ancona		2020	February		F20								
+G. barbata	Italy	Scalinata del Passetto di Ancona		2020	March		M20								
+G. barbata	Italy	Scalinata del Passetto di Ancona		2020	April		A20								
+G. barbata	Italy	Scalinata del Passetto di Ancona	04/05/2020	2020	May		M20	28	6	0	0	67	28	6	67
+G. barbata	Italy	Scalinata del Passetto di Ancona	26/06/2020	2020	June		J20	42	0	0	26	32	42	26	32
+G. barbata	Italy	Scalinata del Passetto di Ancona	22/07/2020	2020	July		J20	84	0	0	0	16	84	0	16
+G. barbata	Italy	Scalinata del Passetto di Ancona		2020	Agost		A20								
+G. barbata	Italy	Scalinata del Passetto di Ancona	03/09/2020	2020	September		S20	100	0	0	0	0	100	0	0
+G. barbata	Italy	Scalinata del Passetto di Ancona	01/10/2020	2020	October	19,0	O20	100	0	0	0	0	100	0	0
+G. barbata	Italy	Scalinata del Passetto di Ancona	29/11/2020	2020	November	15,4	N20	100	0	0	0	0	100	0	0
+G. barbata	Italy	Scalinata del Passetto di Ancona	16/12/2020	2020	December 	11,8	D20	100	0	0	0	0	100	0	0
+G. barbata	Italy	Scalinata del Passetto di Ancona	19/01/2021	2021	January 	9,3	J21	100	0	0	0	0	100	0	0
+G. barbata	Italy	Scalinata del Passetto di Ancona	19/02/2021	2021	February	9,5	F21	100	0	0	0	0	100	0	0
+G. barbata	Italy	Scalinata del Passetto di Ancona	25/03/2021	2021	March	11,1	M21	100	0	0	0	0	86	14	0
+G. barbata	Italy	Scalinata del Passetto di Ancona	21/04/2021	2021	April	13,6	A21	0	57	43	0	0	0	100	0
+G. barbata	Italy	Scalinata del Passetto di Ancona	26/05/2021	2021	May	17,6	M21	0	14	57	29	0	0	71	29
+G. barbata	Italy	Scalinata del Passetto di Ancona	11/06/2021	2021	June	21,4	J21	0	0	0	29	71	22	22	56
+G. barbata	Italy	Scalinata del Passetto di Ancona	12/07/2021	2021	July		J21	0	0	0	57	43	42	17	42
+G. barbata	Italy	Scalinata del Passetto di Ancona	05/08/2021	2021	Agost		A21	0	57	43	0	0	50	14	36
+G. barbata	Italy	Scalinata del Passetto di Ancona	09/09/2021	2021	September		S21	67	33	0	0	0	67	33	0
+G. barbata	Italy	Scalinata del Passetto di Ancona	13/10/2021	2021	October		O21	17	83	0	0	0	20	20	60
+G. barbata	Italy	Scalinata del Passetto di Ancona	12/11/2021	2021	November		N21	0	80	20	0	0	0	40	60
+G. barbata	Italy	Scalinata del Passetto di Ancona		2021	December 		D21								
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	January 		J22								
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	February		F22								
+G. barbata	Italy	Scalinata del Passetto di Ancona	14/03/2022	2022	March		M22	0	17	17	33	33	0	33	67
+G. barbata	Italy	Scalinata del Passetto di Ancona	08/04/2022	2022	April		A22	0	0	14	29	57	13	50	38
+G. barbata	Italy	Scalinata del Passetto di Ancona	12/05/2022	2022	May		M22	0	0	0	0	100	27	18	55
+G. barbata	Italy	Scalinata del Passetto di Ancona	08/06/2022	2022	June		J22	0	0	0	0	100	76	6	18
+G. barbata	Italy	Scalinata del Passetto di Ancona	06/07/2022	2022	July		J22	60	0	0	0	40	100	0	0
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	Agost		A22								
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	September		S22								
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	October		O22								
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	November		N22								
+G. barbata	Italy	Scalinata del Passetto di Ancona		2022	December 		D22								
+															
+G. barbata	Italy	Scalaccia Nord		2020	January 		J20								
+G. barbata	Italy	Scalaccia Nord		2020	February		F20								
+G. barbata	Italy	Scalaccia Nord		2020	March		M20								
+G. barbata	Italy	Scalaccia Nord		2020	April		A20								
+G. barbata	Italy	Scalaccia Nord		2020	May		M20								
+G. barbata	Italy	Scalaccia Nord		2020	June	23,2	J20								
+G. barbata	Italy	Scalaccia Nord		2020	July	26,1	J20								
+G. barbata	Italy	Scalaccia Nord		2020	Agost	26,6	A20								
+G. barbata	Italy	Scalaccia Nord		2020	September	23,9	S20								
+G. barbata	Italy	Scalaccia Nord		2020	October	18,5	O20								
+G. barbata	Italy	Scalaccia Nord		2020	November	14,9	N20								
+G. barbata	Italy	Scalaccia Nord		2020	December 	11,6	D20								
+G. barbata	Italy	Scalaccia Nord		2021	January 	8,8	J21								
+G. barbata	Italy	Scalaccia Nord	26/03/2021	2021	February	8,9	F21	0	10	10	20	60			
+G. barbata	Italy	Scalaccia Nord	26/04/2021	2021	March	10,2	M21	0	10	20	0	70	0	40	60
+G. barbata	Italy	Scalaccia Nord	21/05/2021	2021	April	13,2	A21	0	30	10	30	30	23,07692308	23,07692308	53,84615385
+G. barbata	Italy	Scalaccia Nord	22/06/2021	2021	May	17,8	M21	0	90	10	0	0	47,05882353	17,64705882	35,29411765
+G. barbata	Italy	Scalaccia Nord	15/07/2021	2021	June	21,8	J21	80	20	0	0	0	71,42857143	7,142857143	21,42857143
+G. barbata	Italy	Scalaccia Nord	04/08/2021	2021	July		J21	100	0	0	0	0	83,33333333	0	16,66666667
+G. barbata	Italy	Scalaccia Nord	10/09/2021	2021	Agost		A21	70	30	0	0	0	100	0	0
+G. barbata	Italy	Scalaccia Nord	20/10/2021	2021	September		S21	43	43	14	0	0	70	10	20
+G. barbata	Italy	Scalaccia Nord	22/11/2021	2021	October		O21	63	38	0	0	0	42,85714286	57,14285714	0
+G. barbata	Italy	Scalaccia Nord		2021	November		N21						62,5	12,5	25
+G. barbata	Italy	Scalaccia Nord		2021	December 		D21								
+G. barbata	Italy	Scalaccia Nord		2022	January 		J22								
+G. barbata	Italy	Scalaccia Nord	25/02/2022	2022	February		F22	0	50	25	0	25			
+G. barbata	Italy	Scalaccia Nord	17/03/2022	2022	March		M22	0	50	0	50	0	0	75	25
+G. barbata	Italy	Scalaccia Nord	13/04/2022	2022	April		A22	0	0	0	11	89	0	33,33333333	66,66666667
+G. barbata	Italy	Scalaccia Nord	18/05/2022	2022	May		M22	0	0	0	20	80	16,66666667	25	58,33333333
+G. barbata	Italy	Scalaccia Nord	07/06/2022	2022	June		J22	0	0	0	0	100	85	0	15
+G. barbata	Italy	Scalaccia Nord	06/07/2022	2022	July		J22	0	0				100	0	0
+G. barbata	Italy	Scalaccia Nord		2022	Agost		A22								
+G. barbata	Italy	Scalaccia Nord		2022	September		S22								
+G. barbata	Italy	Scalaccia Nord		2022	October		O22								
+G. barbata	Italy	Scalaccia Nord		2022	November		N22								
+G. barbata	Italy	Scalaccia Nord		2022	December 		D22								
+															
+G. barbata	Italy	Taranto		2020	January 		J20								
+G. barbata	Italy	Taranto	24/02/2020	2020	February		F20	40	46	12	2	0	25	54	21
+G. barbata	Italy	Taranto	23/05/2020	2020	March		M20	0	14	31	26	28			
+G. barbata	Italy	Taranto		2020	April		A20								
+G. barbata	Italy	Taranto		2020	May		M20								
+G. barbata	Italy	Taranto		2020	June		J20								
+G. barbata	Italy	Taranto	28/07/2020	2020	July	27,6	J20	100	0	0	0	0			
+G. barbata	Italy	Taranto	25/08/2020	2020	Agost	28,0	A20	100	0	0	0	0	100	0	0
+G. barbata	Italy	Taranto	30/09/2020	2020	September	26,7	S20	100	0	0	0	0	100	0	0
+G. barbata	Italy	Taranto	25/11/2020	2020	October	21,8	O20	100	0	0	0	0			
+G. barbata	Italy	Taranto	18/12/2020	2020	November	18,3	N20	100	0	0	0	0	100	0	0
+G. barbata	Italy	Taranto		2020	December 	14,7	D20						100	0	0
+G. barbata	Italy	Taranto		2021	January 	12,4	J21						100	0	0
+G. barbata	Italy	Taranto	26/02/2021	2021	February	12,6	F21	100	0	0	0	0	100	0	0
+G. barbata	Italy	Taranto	26/03/2021	2021	March	13,5	M21	0	67	16	17	0	0	60	40
+G. barbata	Italy	Taranto		2021	April	15,3	A21						100	0	0
+G. barbata	Italy	Taranto	18/05/2021	2021	May	20,2	M21	0	19	45	36	1	0	24	76
+G. barbata	Italy	Taranto		2021	June	24,2	J21								
+G. barbata	Italy	Taranto	01/07/2021	2021	July	27,9	J21	100	0	0	0	0	100	0	0
+G. barbata	Italy	Taranto	21/07/2021	2021	Agost	28,8	A21	100	0	0	0	0			
+G. barbata	Italy	Taranto	01/09/2021	2021	September	25,7	S21	100	0	0	0	0			
+G. barbata	Italy	Taranto	28/09/2021	2021	October	21,3	O21	100	0	0	0	0			
+G. barbata	Italy	Taranto	04/11/2021	2021	November	18,2	N21	100	0	0	0	0	100	0	0
+G. barbata	Italy	Taranto	29/11/2021	2021	December 	13,2	D21	95	5	0	0	0			
+G. barbata	Italy	Taranto	17/01/2022	2022	January 	12,1	J22	100	0	0	0	0	12	88	0
+G. barbata	Italy	Taranto	24/02/2022	2022	February	12,2	F22	100	0	0	0	0	16	84	0
+G. barbata	Italy	Taranto	26/03/2022	2022	March	12,4	M22	0	85	14	1	0	0	100	0
+G. barbata	Italy	Taranto	22/04/2022	2022	April	15,8	A22	0	0	95	5	0	4	72	24
+G. barbata	Italy	Taranto	18/05/2022	2022	May	19,4	M22	0	3	85	12	0	36	64	0
+G. barbata	Italy	Taranto		2022	June		J22								
+G. barbata	Italy	Taranto		2022	July		J22								
+G. barbata	Italy	Taranto		2022	Agost		A22								
+G. barbata	Italy	Taranto		2022	September		S22								
+G. barbata	Italy	Taranto		2022	October		O22								
+G. barbata	Italy	Taranto		2022	November		N22								
+G. barbata	Italy	Taranto		2022	December 		D22								
+															
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	January 		J20								
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	February		F20								
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	March		M20								
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	April		A20								
+G. barbata	France	Sta. Marguerite, Lerins, France	26/05/2020	2020	May		M20	61	25	0	12	1	88	12	0
+G. barbata	France	Sta. Marguerite, Lerins, France	18/06/2020	2020	June	26,4	J20	91	4	0	5	0	100	0	0
+G. barbata	France	Sta. Marguerite, Lerins, France	06/07/2020	2020	July	26,9	J20	92	3	5	0	0			
+G. barbata	France	Sta. Marguerite, Lerins, France	05/08/2020	2020	Agost	23,5	A20	100	0	0	0	0			
+G. barbata	France	Sta. Marguerite, Lerins, France	10/09/2020	2020	September	19,6	S20	96	4	0	0	0			
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	October	18,0	O20						96	4	0
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	November	15,4	N20								
+G. barbata	France	Sta. Marguerite, Lerins, France		2020	December 		D20								
+G. barbata	France	Sta. Marguerite, Lerins, France		2021	January 	14,0	J21						20	76	4
+G. barbata	France	Sta. Marguerite, Lerins, France	15/02/2021	2021	February	13,8	F21	24	43	11	15	7	36	60	4
+G. barbata	France	Sta. Marguerite, Lerins, France	15/03/2021	2021	March	14,4	M21	19	17	44	11	9	24	76	0
+G. barbata	France	Sta. Marguerite, Lerins, France	14/04/2021	2021	April	15,2	A21	39	24	16	14	6	0	48	52
+G. barbata	France	Sta. Marguerite, Lerins, France	20/05/2021	2021	May	16,8	M21	26	15	28	20	11	44	56	0
+G. barbata	France	Sta. Marguerite, Lerins, France	02/06/2021	2021	June	22,7	J21	100	0	0	0	0			
+G. barbata	France	Sta. Marguerite, Lerins, France	22/07/2021	2021	July	24,5	J21	100	0	0	0	0			
+G. barbata	France	Sta. Marguerite, Lerins, France	20/08/2021	2021	Agost	25,2	A21	98	2	0	0	0	100	0	0
+G. barbata	France	Sta. Marguerite, Lerins, France	30/09/2021	2021	September	24,0	S21	44	33	18	5	0			
+G. barbata	France	Sta. Marguerite, Lerins, France	26/10/2021	2021	October	21,2	O21	59	28	11	2	0	8	64	28
+G. barbata	France	Sta. Marguerite, Lerins, France	30/11/2021	2021	November	17,7	N21	37	7	28	20	8	0	0	100
+G. barbata	France	Sta. Marguerite, Lerins, France	14/12/2021	2021	December 	15,4	D21	29	10	17	23	21	0	28	72
+G. barbata	France	Sta. Marguerite, Lerins, France	28/01/2022	2022	January 	14,2	J22	12	19	16	12	40	0	0	100
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	February	13,9	F22								
+G. barbata	France	Sta. Marguerite, Lerins, France	10/03/2022	2022	March	13,7	M22	27	24	22	23	5	60	0	40
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	April	14,9	A22								
+G. barbata	France	Sta. Marguerite, Lerins, France	20/05/2022	2022	May	20,1	M22	67	21	13	0	0	36	56	8
+G. barbata	France	Sta. Marguerite, Lerins, France	24/06/2022	2022	June	24,4	J22	100	0	0	0	0			
+G. barbata	France	Sta. Marguerite, Lerins, France	24/07/2022	2022	July	27,7	J22	100	0	0	0	0			
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	Agost		A22								
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	September		S22								
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	October		O22								
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	November		N22								
+G. barbata	France	Sta. Marguerite, Lerins, France		2022	December 		D22								
+															
+G. barbata	Greece	Eleochori - Site 2		2020	January 		J20								
+G. barbata	Greece	Eleochori - Site 2		2020	February		F20								
+G. barbata	Greece	Eleochori - Site 2	11/03/2020	2020	March	13,9	M20	15	2	83	0	0			
+G. barbata	Greece	Eleochori - Site 2		2020	April	14,6	A20								
+G. barbata	Greece	Eleochori - Site 2		2020	May	20,0	M20								
+G. barbata	Greece	Eleochori - Site 2	22/06/2020	2020	June	22,8	J20	50	0	0	0	50			
+G. barbata	Greece	Eleochori - Site 2		2020	July	27,1	J20								
+G. barbata	Greece	Eleochori - Site 2		2020	Agost	26,9	A20								
+G. barbata	Greece	Eleochori - Site 2		2020	September	25,6	S20								
+G. barbata	Greece	Eleochori - Site 2		2020	October	22,5	O20								
+G. barbata	Greece	Eleochori - Site 2		2020	November	18,6	N20								
+G. barbata	Greece	Eleochori - Site 2		2020	December 	15,4	D20								
+G. barbata	Greece	Eleochori - Site 2		2021	January 	13,2	J21								
+G. barbata	Greece	Eleochori - Site 2	05/02/2021	2021	February	13,2	F21	100	0	0	0	0			
+G. barbata	Greece	Eleochori - Site 2	03/03/2021	2021	March	13,1	M21	0	0	69	31	0			
+G. barbata	Greece	Eleochori - Site 2	21/04/2021	2021	April	15,0	A21	0	0	80	20	0			
+G. barbata	Greece	Eleochori - Site 2	12/05/2021	2021	May	20,3	M21	0	0	0	100	0			
+G. barbata	Greece	Eleochori - Site 2	07/06/2021	2021	June	24,6	J21	90	0	4	6	0			
+G. barbata	Greece	Eleochori - Site 2	07/07/2021	2021	July	28,8	J21	0	0	0	0	0			
+G. barbata	Greece	Eleochori - Site 2		2021	Agost	29,0	A21								
+G. barbata	Greece	Eleochori - Site 2		2021	September	25,4	S21								
+G. barbata	Greece	Eleochori - Site 2		2021	October		O21								
+G. barbata	Greece	Eleochori - Site 2		2021	November		N21								
+G. barbata	Greece	Eleochori - Site 2		2021	December 		D21								
+G. barbata	Greece	Eleochori - Site 2		2022	January 		J22								
+G. barbata	Greece	Eleochori - Site 2		2022	February		F22								
+G. barbata	Greece	Eleochori - Site 2		2022	March		M22								
+G. barbata	Greece	Eleochori - Site 2		2022	April		A22								
+G. barbata	Greece	Eleochori - Site 2		2022	May		M22								
+G. barbata	Greece	Eleochori - Site 2		2022	June		J22								
+G. barbata	Greece	Eleochori - Site 2		2022	July		J22								
+G. barbata	Greece	Eleochori - Site 2		2022	Agost		A22								
+G. barbata	Greece	Eleochori - Site 2		2022	September		S22								
+G. barbata	Greece	Eleochori - Site 2		2022	October		O22								
+G. barbata	Greece	Eleochori - Site 2		2022	November		N22								
+G. barbata	Greece	Eleochori - Site 2		2022	December 		D22								
+															
+G. barbata	Croatia	Š?uza		2020	January		J2020								
+G. barbata	Croatia	Š?uza		2020	February		F2020								
+G. barbata	Croatia	Š?uza		2020	March		M2020								
+G. barbata	Croatia	Š?uza		2020	April		A2020								
+G. barbata	Croatia	Š?uza		2020	May		M2020								
+G. barbata	Croatia	Š?uza		2020	June		J2020								
+G. barbata	Croatia	Š?uza		2020	July		J2020								
+G. barbata	Croatia	Š?uza		2020	August		A2020								
+G. barbata	Croatia	Š?uza		2020	September		S2020								
+G. barbata	Croatia	Š?uza		2020	October		O2020								
+G. barbata	Croatia	Š?uza		2020	November		N2020								
+G. barbata	Croatia	Š?uza		2020	December		D2020								
+G. barbata	Croatia	Š?uza		2021	January		J2021						40	36	24
+G. barbata	Croatia	Š?uza		2021	February		F2021						0	0	100
+G. barbata	Croatia	Š?uza		2021	March		M2021								
+G. barbata	Croatia	Š?uza		2021	April		A2021						0	0	100
+G. barbata	Croatia	Š?uza		2021	May		M2021						0	0	100
+G. barbata	Croatia	Š?uza		2021	June		J2021								
+G. barbata	Croatia	Š?uza		2021	July		J2021								
+G. barbata	Croatia	Š?uza		2021	August		A2021								
+G. barbata	Croatia	Š?uza		2021	September		S2021								
+G. barbata	Croatia	Š?uza		2021	October		O2021								
+G. barbata	Croatia	Š?uza		2021	November		N2021								
+G. barbata	Croatia	Š?uza		2021	December		D2021								
+G. barbata	Croatia	Š?uza		2022	January		J2022								
+G. barbata	Croatia	Š?uza		2022	February		F2022								
+G. barbata	Croatia	Š?uza		2022	March		M2022								
+G. barbata	Croatia	Š?uza		2022	April		A2022								
+G. barbata	Croatia	Š?uza		2022	May		M2022								
+G. barbata	Croatia	Š?uza		2022	June		J2022								
+G. barbata	Croatia	Š?uza		2022	July		J2022								
+G. barbata	Croatia	Š?uza		2022	August		A2022								
+G. barbata	Croatia	Š?uza		2022	September		S2022								
+G. barbata	Croatia	Š?uza		2022	October		O2022								
+G. barbata	Croatia	Š?uza		2022	November		N2022								
+G. barbata	Croatia	Š?uza		2022	December		D2022								
