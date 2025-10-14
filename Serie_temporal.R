@@ -225,7 +225,7 @@ nearestLand <- function (points, raster, max_distance) {
   }
   
   # extract cell values within max_distance of the points
-  neighbour_list <- extract(raster, points,
+  neighbour_list <- raster::extract(raster, points,
                             buffer = max_distance,
                             cellnumbers = TRUE)
   
@@ -239,7 +239,7 @@ nearestLand <- function (points, raster, max_distance) {
   return (t(sapply(neighbour_list, nearest, raster)))
 }
 
-#Load the database with the coordinates
+#Load the database with the coordinates ------
 data <- read.csv("Temporal_series_phenology.txt",header=T,dec=".",sep="\t", check.names = FALSE)
 data$Date = as.Date(data$Date)
 data$month_extract = str_pad(sapply(data$Month, function(x) which(month.name == x)), , width = 2, pad = '0')
