@@ -15,6 +15,55 @@ for (pkg in listoflibrary){
 numcores <- detectCores()
 registerDoParallel(numcores)
 
+#Functions
+nearestLand <- function (points, raster, max_distance) {
+  # get nearest non_na cells (within a maximum distance) to a set of points
+  # points can be anything extract accepts as the y argument
+  # max_distance is in the map units if raster is projected
+  # or metres otherwise
+  
+  # function to find nearest of a set of neighbours or return NA
+  nearest <- function (lis, raster) {
+    neighbours <- matrix(lis[[1]], ncol = 2)
+    point <- lis[[2]]
+    # neighbours is a two column matrix giving cell numbers and values
+    land <- !is.na(neighbours[, 2])
+    if (!any(land)) {
+      # if there is no land, give up and return NA
+      return (c(NA, NA))
+    } else{
+      # otherwise get the land cell coordinates
+      coords <- xyFromCell(raster, neighbours[land, 1])
+      
+      if (nrow(coords) == 1) {
+        # if there's only one, return it
+        return (coords[1, ])
+      }
+      
+      # otherwise calculate distances
+      dists <- sqrt((coords[, 1] - point[1]) ^ 2 +
+                      (coords[, 2] - point[2]) ^ 2)
+      
+      # and return the coordinates of the closest
+      return (coords[which.min(dists), ])
+    }
+  }
+  
+  # extract cell values within max_distance of the points
+  neighbour_list <- raster::extract(raster, points,
+                                    buffer = max_distance,
+                                    cellnumbers = TRUE)
+  
+  # add the original point in there too
+  neighbour_list <- lapply(1:nrow(points),
+                           function(i) {
+                             list(neighbours = neighbour_list[[i]],
+                                  point = as.numeric(points[i, ]))
+                           })
+  
+  return (t(sapply(neighbour_list, nearest, raster)))
+} #Needed function to deal with NA points
+
 #1: Data preparation --------
 #1.1: Temporal series Catalunya -----------
 #Mediterranea
@@ -190,55 +239,6 @@ fertility_metrics = list(Year = fertility_metrics_year, Population = fertility_p
 saveRDS(fertility_metrics, "Fertility_metrics.RData")
 
 # Extract environmental variables --------------
-#Needed function to deal with NA points
-nearestLand <- function (points, raster, max_distance) {
-  # get nearest non_na cells (within a maximum distance) to a set of points
-  # points can be anything extract accepts as the y argument
-  # max_distance is in the map units if raster is projected
-  # or metres otherwise
-  
-  # function to find nearest of a set of neighbours or return NA
-  nearest <- function (lis, raster) {
-    neighbours <- matrix(lis[[1]], ncol = 2)
-    point <- lis[[2]]
-    # neighbours is a two column matrix giving cell numbers and values
-    land <- !is.na(neighbours[, 2])
-    if (!any(land)) {
-      # if there is no land, give up and return NA
-      return (c(NA, NA))
-    } else{
-      # otherwise get the land cell coordinates
-      coords <- xyFromCell(raster, neighbours[land, 1])
-      
-      if (nrow(coords) == 1) {
-        # if there's only one, return it
-        return (coords[1, ])
-      }
-      
-      # otherwise calculate distances
-      dists <- sqrt((coords[, 1] - point[1]) ^ 2 +
-                      (coords[, 2] - point[2]) ^ 2)
-      
-      # and return the coordinates of the closest
-      return (coords[which.min(dists), ])
-    }
-  }
-  
-  # extract cell values within max_distance of the points
-  neighbour_list <- raster::extract(raster, points,
-                            buffer = max_distance,
-                            cellnumbers = TRUE)
-  
-  # add the original point in there too
-  neighbour_list <- lapply(1:nrow(points),
-                           function(i) {
-                             list(neighbours = neighbour_list[[i]],
-                                  point = as.numeric(points[i, ]))
-                           })
-  
-  return (t(sapply(neighbour_list, nearest, raster)))
-}
-
 #Load the database with the coordinates ------
 data <- read.csv("Temporal_series_phenology.txt",header=T,dec=".",sep="\t", check.names = FALSE)
 data$Date = as.Date(data$Date)
@@ -467,7 +467,7 @@ sst <- sst %>% full_join(tempNA) %>% #filter(!is.na(Date)) %>%
 # Nutrients concentration --------------------------------------------------
 #coords: N = 42.424697392587376 / S = 41.3640154786213 / W = 2.1950003946838477 / E = 3.5036339249017425
 nutrients = c("nh4", "no3", "po4")
-all_nutri = foreach(t = 1:length(nutrients), .packages = c("dplyr", "seegSDM","raster"), .errorhandling = "stop")%dopar%{
+all_nutri = foreach(t = 1:length(nutrients), .packages = c("dplyr", "raster"), .errorhandling = "stop")%dopar%{
 nutr <- env 
 nutrient <- './Env_data/Nutrients_2016_2023.nc'; nutrient <- brick(nutrient, var = nutrients[t], level = 1)
 nutrient1 <- './Env_data/Nutrients_2023_2025.nc'; nutrient1 <- brick(nutrient1, var = nutrients[t], level = 1)
@@ -640,7 +640,7 @@ fertility_crin = fertility_crin[with(fertility_crin, order(month_extract, Year))
 #These duplicates need to be coalesced, as we cannot lose information
 #dupl_crin = fertility_crin[duplicated(fertility_crin[,3:4]) | duplicated(fertility_crin[,3:4], fromLast=TRUE),] #Get all duplicated rows
 
-fert_barpl = melt(fertility_crin, id.vars = c(colnames(fertility_crin)[c(1:5, 20:32)]), measure.vars = c("prop_F0", "prop_F1", "prop_F2", "prop_F3", "prop_F4"),
+fert_barpl = reshape2::melt(fertility_crin, id.vars = c(colnames(fertility_crin)[c(1:5, 20:32)]), measure.vars = c("prop_F0", "prop_F1", "prop_F2", "prop_F3", "prop_F4"),
                   variable.name = "class", value.name = "proportion")
 fert_barpl$class = as.factor(fert_barpl$class); levels(fert_barpl$class) = c("F0", "F1", "F2", "F3", "F4")
 fert_barpl$class = factor(fert_barpl$class, levels = c("F0","F4", "F3", "F2", "F1"))
