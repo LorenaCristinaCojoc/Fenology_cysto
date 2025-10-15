@@ -238,7 +238,7 @@ rownames(fertility_metrics_year) = NULL
 fertility_metrics = list(Year = fertility_metrics_year, Population = fertility_pop, `Size class` = fertility_class)
 saveRDS(fertility_metrics, "Fertility_metrics.RData")
 
-# Extract environmental variables --------------
+#2.1: Extract environmental variables --------------
 #Load the database with the coordinates ------
 data <- read.csv("Temporal_series_phenology.txt",header=T,dec=".",sep="\t", check.names = FALSE)
 data$Date = as.Date(data$Date)
@@ -464,7 +464,7 @@ sst <- sst %>% full_join(tempNA) %>% #filter(!is.na(Date)) %>%
          sst_var = coalesce(sst_var, var4),
          sst_var_month = coalesce(sst_var_month, var5)) %>% dplyr::select(-var1, -var2, -var3, -var4, -var5); rm(temp, temp1)
 
-# Nutrients concentration --------------------------------------------------
+# Nutrients concentration ----
 #coords: N = 42.424697392587376 / S = 41.3640154786213 / W = 2.1950003946838477 / E = 3.5036339249017425
 nutrients = c("nh4", "no3", "po4")
 all_nutri = foreach(t = 1:length(nutrients), .packages = c("dplyr", "raster"), .errorhandling = "stop")%dopar%{
@@ -602,7 +602,7 @@ for (i in 1:nrow(env)){
 #write.table(env,file="env_data_serie_temporal.txt",sep="\t", row.names = TRUE)
 
 #3: Plots of fertility time-series ---------
-env = read.csv("env_data_serie_temporal.txt",header=T,dec=".",sep="\t", check.names = F);
+env = read.csv("env_data_serie_temporal.txt",header=T,dec=".",sep="\t", check.names = F); env = env %>% filter(!is.na(sst))
 env = env %>% select(-stat_year, -year_day, -year_month) %>% mutate(Month = month.name[month_extract])
 #remove wrong date
 #env = env[!(env$Month == "September"  & env$Date == "2023-08-08"),]
@@ -640,7 +640,7 @@ fertility_crin = fertility_crin[with(fertility_crin, order(month_extract, Year))
 #These duplicates need to be coalesced, as we cannot lose information
 #dupl_crin = fertility_crin[duplicated(fertility_crin[,3:4]) | duplicated(fertility_crin[,3:4], fromLast=TRUE),] #Get all duplicated rows
 
-fert_barpl = reshape2::melt(fertility_crin, id.vars = c(colnames(fertility_crin)[c(1:5, 20:32)]), measure.vars = c("prop_F0", "prop_F1", "prop_F2", "prop_F3", "prop_F4"),
+fert_barpl = reshape2::melt(fertility_crin, id.vars = c(colnames(fertility_crin)[c(1:5,52,21:51)]), measure.vars = c("prop_F0", "prop_F1", "prop_F2", "prop_F3", "prop_F4"),
                   variable.name = "class", value.name = "proportion")
 fert_barpl$class = as.factor(fert_barpl$class); levels(fert_barpl$class) = c("F0", "F1", "F2", "F3", "F4")
 fert_barpl$class = factor(fert_barpl$class, levels = c("F0","F4", "F3", "F2", "F1"))
@@ -657,7 +657,7 @@ plot_fert_crin <- ggplot(fert_barpl, mapping = aes(y=proportion, x = fct_inorder
   facet_grid(~ as.factor(Year)) + 
   scale_fill_manual(values = fert_colors) + 
   scale_color_manual(values = fert_colors) +
-  geom_ribbon(data = fert_barpl %>% filter(!Year %in% years_na), 
+  geom_ribbon(data = fert_barpl %>% filter(!Year %in% years_na),
               aes(ymin = (sst-sst_var_month)*3, ymax = (sst+sst_var_month)*3),
               alpha = 0.1, color = "mistyrose") +
   geom_line(data = fert_barpl %>% filter(!Year %in% years_na),
@@ -666,6 +666,24 @@ plot_fert_crin <- ggplot(fert_barpl, mapping = aes(y=proportion, x = fct_inorder
   geom_line(data = fert_barpl %>% filter(!Year %in% years_na), 
             aes(x = fct_inorder(short_month), y = sst*3), 
             color = "darkred", linewidth = 1, alpha = 0.2) +
+  geom_ribbon(data = fert_barpl %>% filter(!Year %in% years_na),
+              aes(ymin = (no3 - no3_var_month)*10, ymax = (no3+no3_var_month)*10),
+              alpha = 0.1, color = "lightyellow2") +
+  geom_ribbon(data = fert_barpl %>% filter(!Year %in% years_na),
+              aes(ymin = (po4 - po4_var_month)*150, ymax = (po4+po4_var_month)*150),
+              alpha = 0.1, color = "cornsilk") +
+  geom_ribbon(data = fert_barpl %>% filter(!Year %in% years_na),
+              aes(ymin = (nh4 - nh4_var_month)*50, ymax = (nh4+nh4_var_month)*50),
+              alpha = 0.1, color = "bisque") +
+  geom_line(data = fert_barpl %>% filter(!Year %in% years_na), 
+            aes(x = fct_inorder(short_month), y = no3*10), 
+            color = "darkgreen", linewidth = 1, alpha = 0.2) +
+  geom_line(data = fert_barpl %>% filter(!Year %in% years_na), 
+            aes(x = fct_inorder(short_month), y = po4*150), 
+            color = "gold2", linewidth = 1, alpha = 0.2) +
+  geom_line(data = fert_barpl %>% filter(!Year %in% years_na), 
+            aes(x = fct_inorder(short_month), y = nh4*50), 
+            color = "darkorange2", linewidth = 1, alpha = 0.2) +
   scale_y_continuous(
     # Features of the first axis
     name = "Proportion",
@@ -682,7 +700,7 @@ popul = c("Cala Estreta", "Port de la Selva"); sp = unique(as.character(fertilit
 temp_series_CAT = list()
 
 #Loop to compute metrics x year
-for(j in 1:2){#START loop Population
+system.time(for(j in 1:2){#START loop Population
     for(s in 1:length(sp)){#START loop species
   print(paste(popul[j], sp[s]))
   
@@ -698,7 +716,7 @@ for(j in 1:2){#START loop Population
   
   #These duplicates need to be coalesced, as we cannot lose information
   
-  fert_barpl = melt(fertility_crin, id.vars = c(colnames(fertility_crin)[c(1:5, 20:32)]), measure.vars = c("prop_F0", "prop_F1", "prop_F2", "prop_F3", "prop_F4"),
+  fert_barpl = reshape2::melt(fertility_crin, id.vars = c(colnames(fertility_crin)[c(1:5,52,21:51)]), measure.vars = c("prop_F0", "prop_F1", "prop_F2", "prop_F3", "prop_F4"),
                     variable.name = "class", value.name = "proportion")
   fert_barpl$class = as.factor(fert_barpl$class); levels(fert_barpl$class) = c("F0", "F1", "F2", "F3", "F4")
   fert_barpl$class = factor(fert_barpl$class, levels = c("F0","F4", "F3", "F2", "F1"))
@@ -711,8 +729,8 @@ for(j in 1:2){#START loop Population
     geom_bar(stat="identity", position = "stack") + 
     facet_grid(~ as.factor(Year)) +
     scale_fill_manual(values = fert_colors) + 
-    scale_color_manual(values = fert_colors) +
-    geom_ribbon(data = fert_barpl %>% filter(!Year %in% years_na), 
+    scale_color_manual(values = fert_colors) + #Put all the interesting environmental variables in the time-series plot
+    geom_ribbon(data = fert_barpl %>% filter(!Year %in% years_na),
                 aes(ymin = (sst-sst_var_month)*3, ymax = (sst+sst_var_month)*3),
                 alpha = 0.1, color = "mistyrose") +
     geom_line(data = fert_barpl %>% filter(!Year %in% years_na),
@@ -720,7 +738,26 @@ for(j in 1:2){#START loop Population
               color = "darkblue", linewidth = 1) +
     geom_line(data = fert_barpl %>% filter(!Year %in% years_na), 
               aes(x = fct_inorder(short_month), y = sst*3), 
-              color = "darkred", linewidth = 1, alpha = 0.2) + labs(fill = "Fertility class", title = sp[s]) +  guides(color = "none") +
+              color = "darkred", linewidth = 1, alpha = 0.2) +
+    geom_ribbon(data = fert_barpl %>% filter(!Year %in% years_na),
+                aes(ymin = (no3 - no3_var_month)*10, ymax = (no3+no3_var_month)*10),
+                alpha = 0.1, color = "lightyellow2") +
+    geom_ribbon(data = fert_barpl %>% filter(!Year %in% years_na),
+                aes(ymin = (po4 - po4_var_month)*150, ymax = (po4+po4_var_month)*150),
+                alpha = 0.1, color = "cornsilk") +
+    geom_ribbon(data = fert_barpl %>% filter(!Year %in% years_na),
+                aes(ymin = (nh4 - nh4_var_month)*50, ymax = (nh4+nh4_var_month)*50),
+                alpha = 0.1, color = "bisque") +
+    geom_line(data = fert_barpl %>% filter(!Year %in% years_na), 
+              aes(x = fct_inorder(short_month), y = no3*10), 
+              color = "darkgreen", linewidth = 1, alpha = 0.2) +
+    geom_line(data = fert_barpl %>% filter(!Year %in% years_na), 
+              aes(x = fct_inorder(short_month), y = po4*150), 
+              color = "gold2", linewidth = 1, alpha = 0.2) +
+    geom_line(data = fert_barpl %>% filter(!Year %in% years_na), 
+              aes(x = fct_inorder(short_month), y = nh4*50), 
+              color = "darkorange2", linewidth = 1, alpha = 0.2) +
+    labs(fill = "Fertility class", title = sp[s]) +  guides(color = "none") +
     scale_y_continuous(
       # Features of the first axis
       name = "Proportion",
@@ -736,7 +773,7 @@ for(j in 1:2){#START loop Population
 
 
     }
-}
+})
 
 
 #Merge all plots in one
@@ -763,5 +800,5 @@ fertility_all = ggarrange(fertility_PS + theme(plot.margin = margin(0.5,0.5,0.5,
 fertility_all = annotate_figure(fertility_all, left = text_grob("Proportion of individuals (%)", rot = 90, vjust = 1, size = 35),
                 right = text_grob("Sea Surface Temperature (°C) & Photoperiod length (hours)", rot = -90, vjust = 1, size = 35))
 
-#ggsave(file="./Plot_fertility.png", plot=fertility_all, width=40, height=25, dpi = 600)
+#system.time(ggsave(file="./Plot_fertility.png", plot=fertility_all, width=40, height=25, dpi = 600))
 
