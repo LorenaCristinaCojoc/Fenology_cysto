@@ -114,7 +114,7 @@ crin = crin %>% select(-Comments) %>%
 
 str(crin)
 
-#Rename subpopulations
+#Rename subpopulations --- NOT USED
 c(crin %>% filter(Population == "Port de la Selva") %>% distinct(Subpopulation))
 c(crin %>% filter(Population == "Cala Estreta") %>% distinct(Subpopulation))
 
@@ -448,6 +448,8 @@ for (i in 1:nrow(tempNA)){
   
   tempNA$max_sst[i] = max(month)
   
+  tempNA$min_sst[i] = min(month)
+  
   year <- var[i,which(substr(colnames(var), 1,4) == tempNA$Year[i])]
   tempNA$sst_var[i] <- apply(year, 1, sd) #Variability in a specific year
   
@@ -456,13 +458,14 @@ for (i in 1:nrow(tempNA)){
   
   
 } 
-colnames(tempNA)[10:14] <- c("var1","var2", "var3", "var4", "var5", "var6"); #Now we merge the original data with the nearest non-NA values
+colnames(tempNA)[10:15] <- c("var1","var2", "var3", "var4", "var5", "var6"); #Now we merge the original data with the nearest non-NA values
 sst <- sst %>% full_join(tempNA) %>% #filter(!is.na(Date)) %>% 
   mutate(sst_day = coalesce(sst_day,var1),
          max_sst =coalesce(max_sst,var2),
-         sst = coalesce(sst,var3),
-         sst_var = coalesce(sst_var, var4),
-         sst_var_month = coalesce(sst_var_month, var5)) %>% dplyr::select(-var1, -var2, -var3, -var4, -var5); rm(temp, temp1)
+         min_sst =coalesce(min_sst,var3),
+         sst = coalesce(sst,var4),
+         sst_var = coalesce(sst_var, var5),
+         sst_var_month = coalesce(sst_var_month, var6)) %>% dplyr::select(-var1, -var2, -var3, -var4, -var5, -var6); rm(temp, temp1)
 
 # Nutrients concentration ----
 #coords: N = 42.424697392587376 / S = 41.3640154786213 / W = 2.1950003946838477 / E = 3.5036339249017425
@@ -602,7 +605,7 @@ for (i in 1:nrow(env)){
 #write.table(env,file="env_data_serie_temporal.txt",sep="\t", row.names = TRUE)
 
 #3: Plots of fertility time-series ---------
-env = read.csv("env_data_serie_temporal.txt",header=T,dec=".",sep="\t", check.names = F); env = env %>% filter(!is.na(sst))
+env = read.csv("env_data_serie_temporal.txt",header=T,dec=".",sep="\t", check.names = F); #env = env %>% filter(!is.na(sst))
 env = env %>% select(-stat_year, -year_day, -year_month) %>% mutate(Month = month.name[month_extract])
 #remove wrong date
 #env = env[!(env$Month == "September"  & env$Date == "2023-08-08"),]
