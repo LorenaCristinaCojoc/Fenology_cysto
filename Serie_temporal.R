@@ -4,7 +4,7 @@
 remove(list=ls())
 
 listoflibrary<-c("purrr", "ggplot2", "ggpubr", "car", "viridisLite", "viridis", "readxl", "data.table","raster", #"seegSDM"
-                 "geosphere", "mgcv", "tidyverse", "Rmisc",  "doParallel", "foreach", "parallel")
+                 "geosphere", "mgcv", "Rmisc",  "doParallel", "foreach", "parallel", "tidyverse")
 
 for (pkg in listoflibrary){
   if(!eval(bquote(require(.(pkg))))) {eval(bquote(install.packages(.(pkg))))}
@@ -71,12 +71,12 @@ cmed<-read.csv("./raw_data/temporal_series_C.mediterranea.txt",header=T,dec=".",
 str(cmed);
 
 #Change names and complete missing values
-cmed = cmed %>% select(-Comments) %>% 
+cmed = cmed %>% dplyr::select(-Comments) %>% 
   mutate(Population = case_when(Population %in% " PdS" ~ "Port de la Selva", #Correct current columns
                                 TRUE ~ "Cala Estreta"),
          Subpopulation = "CE",
          Quadrat = as.character(Quadrat),
-         Date = as.Date(Date, tryFormats = c("%m/%d/%Y")),
+         Date = as.Date(Date, tryFormats = c("%d/%m/%Y")),
          Cauloid_size = as.numeric(Cauloid_size),
          Fertility = as.numeric(ifelse(is.na(Fertility), 0, Fertility)),
          Leaf_size = as.numeric(Leaf_size),
@@ -94,7 +94,7 @@ str(crin); colnames(crin)[c(7:9)] = c("Cauloid_size", "Fertility", "Leaf_size")
 #crin_corr = crin %>% filter(!Species %in% c("Cystoseira crinita", "Cystoseira_crinita"), Month %in% "May")
 
 #Change names and complete missing values
-crin = crin %>% select(-Comments) %>% 
+crin = crin %>% dplyr::select(-Comments) %>% 
                 mutate(Population = case_when(Population %in% "PdS" ~ "Port de la Selva", #Correct current columns
                                               TRUE ~ "Cala Estreta"),
                        Species = case_when(Species %in% c("Cystoseira crinita", "Cystoseira_crinita") ~ "Ericaria crinita",
@@ -104,7 +104,7 @@ crin = crin %>% select(-Comments) %>%
                                            Species %in% c("Cystoseira compressa", "Cystoseira_compressa") ~ "Cystoseira compressa",
                                            Species %in% c("reclutes", "recluta") ~ "Reclutes",
                                            TRUE ~ Species),
-                       Date = as.Date(Date, tryFormats = c("%m/%d/%Y")),
+                       Date = as.Date(Date, tryFormats = c("%d/%m/%Y")),
                        Cauloid_size = as.numeric(Cauloid_size),
                        Fertility = as.numeric(ifelse(is.na(Fertility), 0, Fertility)),
                        Leaf_size = as.numeric(Leaf_size))%>%
@@ -138,14 +138,14 @@ prova = phen_all %>% filter(Species %in% c("Ericaria crinita"), Population %in% 
 table(phen_all$Species) #Total counts
 length(unique(phen_all$Date)) #Unique sampling days
 uniq_yr <- phen_all %>% filter(!Species %in% c("Reclutes", "Cystoseira compressa", "Cystoseira spinosa")) %>% 
-                        group_by(Species, Year) %>% summarise(count = n(), .groups = "drop_last") #Total obs per year
+                        group_by(Species, Year) %>% dplyr::summarise(count = n(), .groups = "drop_last") #Total obs per year
   
 #Fertility
 colnames(phen_all)
 fertility_class = phen_all %>% filter(!Species %in% c("Reclutes", "Cystoseira compressa", "Cystoseira spinosa"),
                                 Fertility <= 4) %>% 
                          group_by(uniq_id, Population, Species, Date, Month, Year, Fertility) %>% 
-                         summarise(count = n(), 
+                         dplyr::summarise(count = n(), 
                                    Cauloid_mean = mean(Cauloid_size, na.rm = T), 
                                    Cauloid_sd = sd(Cauloid_size, na.rm = T),
                                    Leaf_mean = mean(Leaf_size, na.rm = T), 
@@ -246,12 +246,13 @@ data$month_extract = str_pad(sapply(data$Month, function(x) which(month.name == 
 
 #season<-read.csv("./Data/Raw_data/species_site_AFDW_2005.txt",header=T,dec=".",sep="\t")
 #sample.mat <- dcast(season,station+year+ month +lon+lat~taxon, mean, value.var='wet_weight') #with this function we can create a matrix with the rows on the left side
-season <- data %>% select(Population, Year, month_extract) %>% distinct(.)
-data <- data %>% select(Population, Date, Year, month_extract) %>% distinct(.)
-season = expand(season, Population, Year, month_extract) %>% mutate(lon = case_when(Population %in% "Port de la Selva" ~ 3.185744, 
+season <- data %>% dplyr::select(Population, Year, month_extract) %>% distinct(.)
+data <- data %>% dplyr::select(Population, Date, Year, month_extract) %>% distinct(.)
+season = tidyr::expand(season, Population, Year, month_extract) %>% mutate(lon = case_when(Population %in% "Port de la Selva" ~ 3.185744, 
                                                                                     TRUE ~ 3.175610), 
                                                                     lat = case_when(Population %in% "Port de la Selva" ~ 42.346378, 
                                                                                     TRUE ~ 41.866430)) %>% filter(!is.na(month_extract), !is.na(Year))
+
 
 season$stat_year <- paste(season$Population, season$Year, sep = "_")
 #season$month_extract = format(season$Date,'%m')
@@ -264,7 +265,7 @@ env$year_month <- paste(env$Year,env$month_extract, sep = ".")
 #env = env %>% select(Population, Year, Month, lon, lat, year_month, stat_year, month_extract) %>% distinct(.)
 
 #Prepare the dataset and extract the coordinates for which we want information
-env <- env %>% filter(!year_month %in% c("2025.05", "2025.06", "2025.07", "2025.08", "2025.09", "2025.10", "2025.11", "2025.12")) #select the years of interest
+env <- env %>% filter(!year_month %in% c("2025.11", "2025.12")) #select the years of interest
 env = merge(env, data, by = c("Population", "Year", "month_extract"), all = T); 
 
 env = env %>% filter(!is.na(lon)); env$year_day = gsub("-", ".", env$Date)
@@ -273,9 +274,8 @@ datasp <- env[,4:5]; coordinates(datasp)=~lon+lat #Select the coordinates to ext
 # Bottom temperature ------------
 #coords: N = 42.424697392587376 / S = 41.3640154786213 / W = 2.1950003946838477 / E = 3.5036339249017425
 temperature <- env 
-#setwd("C:/Users/avipo/OneDrive - Danmarks Tekniske Universitet/Skrivebord/PhD/Project 1/MarenzelleriaSweden/env_data/")
 temp <- './Env_data/Temp_data_fenologia_2016_2023.nc'; temp <- brick(temp, var = "bottomT")
-temp1 <- './Env_data/Temp_data_fenologia_2023_2025.nc'; temp1 <- brick(temp1, var = "bottomT")
+temp1 <- './Env_data/Temp_data_fenologia_2023_2025.nc'; temp1 <- brick(temp1, var = "bottomT") # Start at 01/06/2023
 
 temp <- raster::stack(temp,temp1) #Join all the files in one
 
@@ -371,7 +371,7 @@ temperature <- temperature %>% full_join(tempNA) %>% #filter(!is.na(Date)) %>%
 sst <- env
 #setwd("C:/Users/avipo/OneDrive - Danmarks Tekniske Universitet/Skrivebord/PhD/Project 1/MarenzelleriaSweden/env_data/")
 temp <- './Env_data/Temp_data_fenologia_2016_2023.nc'; temp <- brick(temp, var = "thetao", level = 1)
-temp1 <- './Env_data/Temp_data_fenologia_2023_2025.nc'; temp1 <- brick(temp1, var = "thetao", level = 1)
+temp1 <- './Env_data/Temp_data_fenologia_2023_2025.nc'; temp1 <- brick(temp1, var = "thetao", level = 1) #Start at 01/06/2023, at 1m depth
 
 temp <- raster::stack(temp,temp1) #Join all the files in one
 
