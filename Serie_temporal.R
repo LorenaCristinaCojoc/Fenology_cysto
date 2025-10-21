@@ -601,11 +601,12 @@ for (i in 1:nrow(env)){
   # dayl$perc_diff_dayl[i] = case_when(dayl$month_extract[i] != "01" ~ (avg_mon_dl[as.numeric(dayl$month_extract[i])] - avg_mon_dl[as.numeric(dayl$month_extract[i]) - 1])/avg_mon_dl[as.numeric(dayl$month_extract[i]) - 1]*100,
   #                                 TRUE ~ (avg_mon_dl[as.numeric(dayl$month_extract[i])] - avg_mon_dl[12])/avg_mon_dl[as.numeric(dayl$month_extract[i])] * 100)
 } 
+env = env %>% filter(!is.na(photoperiod_month))
 
 #write.table(env,file="env_data_serie_temporal.txt",sep="\t", row.names = TRUE)
 
 #3: Plots of fertility time-series ---------
-env = read.csv("env_data_serie_temporal.txt",header=T,dec=".",sep="\t", check.names = F); #env = env %>% filter(!is.na(sst))
+#env = read.csv("env_data_serie_temporal.txt",header=T,dec=".",sep="\t", check.names = F); #env = env %>% filter(!is.na(sst))
 env = env %>% select(-stat_year, -year_day, -year_month) %>% mutate(Month = month.name[month_extract])
 #remove wrong date
 #env = env[!(env$Month == "September"  & env$Date == "2023-08-08"),]
@@ -614,7 +615,7 @@ env = env %>% select(-stat_year, -year_day, -year_month) %>% mutate(Month = mont
 env_reduced = env %>% filter(!is.na(Date)) 
 #merge fertility with environmental data
 fertility_metrics = readRDS("Fertility_metrics.RData")
-fertility_pop = fertility_metrics$Population; 
+fertility_pop = fertility_metrics$Population; fertility_pop = fertility_pop %>% filter(!is.na(Year))
 
 fertility_class = merge(fertility_metrics$`Size class`, env, by = c("Population", "Date", "Year"), all = T)
 
@@ -697,7 +698,7 @@ plot_fert_crin <- ggplot(fert_barpl, mapping = aes(y=proportion, x = fct_inorder
                           axis.text.y = element_text(size = 15), axis.title.x=element_blank(),
                           axis.text.x = element_text(size = 9, angle = 30)); plot_fert_crin
 
-# Convert that into a loop -------------
+#3.1: Convert that into a loop -------------
 fert_colors = c("F0" = "gray85","F1" = "#fce9db", "F2" = "#ead2ac", "F3" = "#e6b89c", "F4" = "#c99789")
 popul = c("Cala Estreta", "Port de la Selva"); sp = unique(as.character(fertility_pop$Species))
 temp_series_CAT = list()
