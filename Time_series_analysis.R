@@ -17,6 +17,7 @@ for (pkg in listoflibrary){
 numcores <- detectCores()
 registerDoParallel(numcores)
 
+# 1: Time-series data exploration ----
 # Load environmental and time-series data
 env = read.csv("env_data_serie_temporal.txt",header=T,dec=".",sep="\t", check.names = F); #env = env %>% filter(!is.na(sst))
 env = env %>% mutate(Month = month.name[month_extract]) %>% dplyr::select(-stat_year, -year_day, -year_month) 
@@ -65,7 +66,8 @@ time_s = fertility %>% filter(Species == "Ericaria crinita", Population == "Cala
 adf.test(time_s$prop_peak)
 kpss.test(time_s$prop_peak)
 
-#Cross-correlation analysis exploration
+# 2: Cross-correlation analysis ---------------------
+#Exploration with some packages
 time_s = fertility %>% filter(Species == "Ericaria mediterranea", Population == "Cala Estreta", !Year %in% c(2019))
 ts.plot(ts(time_s$prop_peak))
 cross_c = ccf(time_s$photoperiod, time_s$prop_peak,  lag.max = 6, type = "correlation", 
@@ -81,7 +83,7 @@ varnames = c("Sea Surface Temperature (°C)", "Bottom temperature (°C)", "Photo
              "Phosphate (mmol/m3)", "Nitrate (mmol/m3)", "Ammonium (mmol/m3)")
 cross = data.frame(); cross_plots = list()
 
-#Cross-correlation analysis for all species and populations
+#Cross-correlation analysis for ALL species and populations
 cross_corr_ALL = foreach(j = 1:2, .packages = c("dplyr", "stats", "forecast", "ggpubr"), 
                                .combine = c, .errorhandling = "stop")%do%{ #Loop per population
   #cross = data.frame(); cross_plots = list()
