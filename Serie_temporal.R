@@ -804,5 +804,5 @@ fertility_all = ggarrange(fertility_PS + theme(plot.margin = margin(0.5,0.5,0.5,
 fertility_all = annotate_figure(fertility_all, left = text_grob("Proportion of individuals (%)", rot = 90, vjust = 1, size = 35),
                 right = text_grob("Sea Surface Temperature (°C) & Photoperiod length (hours)", rot = -90, vjust = 1, size = 35))
 
-#system.time(ggsave(file="./Plot_fertility.png", plot=fertility_all, width=40, height=25, dpi = 600))
+#system.time(ggsave(file="./Plots/Plot_fertility.png", plot=fertility_all, width=40, height=25, dpi = 600))
 

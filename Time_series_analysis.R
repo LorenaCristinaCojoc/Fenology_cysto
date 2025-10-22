@@ -5,8 +5,8 @@ remove(list=ls())
 
 #Libraries and functions
 listoflibrary<-c("purrr", "ggplot2", "ggpubr", "car", "viridisLite", "viridis", "data.table", "mgcv", "car",
-                 "mgcv", "tidyverse", "Rmisc",  "doParallel", "foreach", "parallel", "lme4", "multcomp",
-                 "emmeans", "mgcViz", "tseries", "psych")
+                 "mgcv", "Rmisc",  "doParallel", "foreach", "parallel", "lme4", "multcomp", "forecast",
+                 "emmeans", "mgcViz", "tseries", "psych", "tidyverse")
 
 for (pkg in listoflibrary){
   if(!eval(bquote(require(.(pkg))))) {eval(bquote(install.packages(.(pkg))))}
@@ -14,8 +14,8 @@ for (pkg in listoflibrary){
 }
 
 #Set the number of cores to do functions in parallel
-# numcores <- detectCores()
-# registerDoParallel(numcores)
+numcores <- detectCores()
+registerDoParallel(numcores)
 
 # Load environmental and time-series data
 env = read.csv("env_data_serie_temporal.txt",header=T,dec=".",sep="\t", check.names = F); #env = env %>% filter(!is.na(sst))
@@ -65,7 +65,7 @@ time_s = fertility %>% filter(Species == "Ericaria crinita", Population == "Cala
 adf.test(time_s$prop_peak)
 kpss.test(time_s$prop_peak)
 
-#Cross-correlation analysis
+#Cross-correlation analysis exploration
 time_s = fertility %>% filter(Species == "Ericaria mediterranea", Population == "Cala Estreta", !Year %in% c(2019))
 ts.plot(ts(time_s$prop_peak))
 cross_c = ccf(time_s$photoperiod, time_s$prop_peak,  lag.max = 6, type = "correlation", 
@@ -77,34 +77,64 @@ lag2.plot(time_s$po4,time_s$prop_peak, 8)
 #Summarise all this cross-correlation information in one table for future use
 popul = c("Cala Estreta", "Port de la Selva"); sp = unique(as.character(fertility$Species))
 env_vars = c("sst", "bot_t", "photoperiod", "po4", "no3", "nh4")
-cross = data.frame()
-cross_corr_fertility = foreach(j = 1:2, .packages = c("dplyr", "stats"), .combine = rbind, .errorhandling = "stop")%dopar%{ #Loop per population
-  
+varnames = c("Sea Surface Temperature (°C)", "Bottom temperature (°C)", "Photoperiod length (hours)", 
+             "Phosphate (mmol/m3)", "Nitrate (mmol/m3)", "Ammonium (mmol/m3)")
+cross = data.frame(); cross_plots = list()
+
+#Cross-correlation analysis for all species and populations
+cross_corr_ALL = foreach(j = 1:2, .packages = c("dplyr", "stats", "forecast", "ggpubr"), 
+                               .combine = c, .errorhandling = "stop")%do%{ #Loop per population
+  #cross = data.frame(); cross_plots = list()
   for(s in 1:length(sp)){ #Include all species in the loop
     print(paste(popul[j], sp[s]))
     time_s = fertility %>% filter(Species %in%  sp[s], 
                                   Population %in% popul[j], !Date == 2019-09-26, !is.na(Year)) #Delete single point in the middle of time series
-  
+    plotlist = list()
     for(e in 1:length(env_vars)){
       var = env_vars[e]
-      cr = stats::ccf(time_s[,var],time_s$prop_peak,  lag.max = 6, type = "correlation", na.action = na.pass, plot = T);
-      cr = data.frame(Population = popul[j], Species = sp[s], env_var = var, lag = cr$lag, corr = cr$acf) %>% 
-                  mutate(CIupper = confint(lm(cr$corr ~ 1))[2])
+      cr = stats::ccf(time_s[,var],time_s$prop_peak,  lag.max = 6, type = "correlation", na.action = na.pass, plot = F);
+      cr = data.frame(Population = popul[j], Species = sp[s], env_var = var, lag = cr$lag, corr = cr$acf) #%>% 
+                  #mutate(CIupper = confint(lm(cr$corr ~ 1))[2])
       # cr = cr[c(which(cr[,"lag"] == 0),
       #           which.max(cr[,"corr"]),
       #           which.min(cr[,"corr"])),]
       cross = rbind(cross, cr)
       
+      ccf_plot = ggCcf(time_s[,var], time_s$prop_peak, lag.max = 6, 
+            type = c("correlation"), na.action = na.remove, linewidth = 1) + 
+        theme_minimal() + labs(x = NULL, y = NULL, title = varnames[e])
+      
+      plotlist = append(plotlist, list(ccf_plot))
+      
     }
     
+    cr_plots = ggarrange(plotlist = plotlist, ncol = 3, nrow = 2)
+      
+    cr_plots = annotate_figure(cr_plots + theme(plot.margin = margin(0.75,0.5,0,0, "cm")), 
+                    fig.lab = paste0(sp[s], " from ", popul[j]), fig.lab.size = 18,
+                    left = text_grob("Correlation", rot = 90, vjust = 1, size = 15),
+                    bottom = text_grob("Lag", vjust = 1, size = 15))
+    cr_plots = list(cr_plots); names(cr_plots) = paste(popul[j], sp[s])
+    cross_plots = append(cross_plots, cr_plots) 
   }
-  cross
+    # cross_correlation_population = ; names(cross_correlation_population) = popul[j]
+    # cross_correlation_population
+    list(list(data = cross, Plots = cross_plots))
+                                                             
 }
 
-#Plot the cross-correlation analysis
-plot = ggCcf(time_s$photoperiod, time_s$prop_peak, lag.max = 6, type = c("correlation"), na.action = na.remove) + theme_minimal()
+#Select the most relevant plots and store data for further analysis
+cross = cross_corr_ALL[[2]]$data %>% filter(!corr == 0)
+cross_plots = cross_corr_ALL[[2]]$Plots[c(1,3:5)]
 
+cross_correlation_analysis = ggarrange(plotlist = cross_plots, ncol = 2, nrow = 2) + theme(plot.margin = margin(0.5,0.5,0.5,0.5, "cm"))
+ggsave(file="./Plots/cross_correlation_ALL.png", plot=cross_correlation_analysis, width=20, height=12, dpi = 600)
 
+#Save plots individually
+ggsave(file="./Plots/cross_correlation_PdS_ele.png", plot=cross_plots$`Port de la Selva Gongolaria elegans`, width=12, height=8, dpi = 600)
+ggsave(file="./Plots/cross_correlation_PdS_crin.png", plot=cross_plots$`Port de la Selva Ericaria crinita`, width=12, height=8, dpi = 600)
+ggsave(file="./Plots/cross_correlation_CE_medi.png", plot=cross_plots$`Cala Estreta Ericaria mediterranea`, width=12, height=8, dpi = 600)
+ggsave(file="./Plots/cross_correlation_CE_crin.png", plot=cross_plots$`Cala Estreta Ericaria crinita`, width=12, height=8, dpi = 600)
 
 
 
