@@ -40,8 +40,7 @@ nas = table(nas$Year, nas$Month, nas$sp_pop)
 na_CalaE = as.data.frame.matrix(nas[,,1]) %>% dplyr::select(month.name); na_CalaE[na_CalaE == 1] = NA
 na_PdS = as.data.frame.matrix(nas[,,2]) %>% dplyr::select(month.name); na_PdS[na_PdS == 1] = NA
 
-
-#Data exploration
+#Initial data exploration
 #Multiple correlations among environmental variables
 variables <- fertility %>% dplyr::select(sst, bot_t, nh4, no3, po4, photoperiod); colnames(variables)
 cor(variables)
@@ -54,7 +53,7 @@ pairs.panels(variables,
 
 #Variance inflation factor
 variables <- fertility %>% dplyr::select(prop_peak,colnames(variables))
-vif <- lm(prop_peak ~ ., variables %>% dplyr::select(-sst), na.action = na.omit); #summary (vif)
+vif <- lm(prop_peak ~ ., variables, na.action = na.omit); #summary (vif)
 
 vif_values <- vif(vif)
 barplot(vif_values, main = "VIF Values", horiz = TRUE, col = "steelblue")
@@ -90,7 +89,7 @@ cross_corr_ALL = foreach(j = 1:2, .packages = c("dplyr", "stats", "forecast", "g
   for(s in 1:length(sp)){ #Include all species in the loop
     print(paste(popul[j], sp[s]))
     time_s = fertility %>% filter(Species %in%  sp[s], 
-                                  Population %in% popul[j], !Date == 2019-09-26, !is.na(Year)) #Delete single point in the middle of time series
+                                  Population %in% popul[j], !Date %in% c("2019-09-26", "2019-02-20"), !is.na(Year)) #Delete single point in the middle of time series
     plotlist = list()
     for(e in 1:length(env_vars)){
       var = env_vars[e]
@@ -129,6 +128,8 @@ cross_corr_ALL = foreach(j = 1:2, .packages = c("dplyr", "stats", "forecast", "g
 cross = cross_corr_ALL[[2]]$data %>% filter(!corr == 0)
 cross_plots = cross_corr_ALL[[2]]$Plots[c(1,3:5)]
 
+#write.table(cross, "Cross_correlation_table.txt", row.names = T,  sep="\t")
+
 cross_correlation_analysis = ggarrange(plotlist = cross_plots, ncol = 2, nrow = 2) + theme(plot.margin = margin(0.5,0.5,0.5,0.5, "cm"))
 ggsave(file="./Plots/cross_correlation_ALL.png", plot=cross_correlation_analysis, width=20, height=12, dpi = 600)
 
@@ -138,10 +139,26 @@ ggsave(file="./Plots/cross_correlation_PdS_crin.png", plot=cross_plots$`Port de 
 ggsave(file="./Plots/cross_correlation_CE_medi.png", plot=cross_plots$`Cala Estreta Ericaria mediterranea`, width=12, height=8, dpi = 600)
 ggsave(file="./Plots/cross_correlation_CE_crin.png", plot=cross_plots$`Cala Estreta Ericaria crinita`, width=12, height=8, dpi = 600)
 
+# 2: GAMM with lagged environmental variables ---------------------
+#Load data again and clean missing years
+env = read.csv("env_data_serie_temporal.txt",header=T,dec=".",sep="\t", check.names = F); #env = env %>% filter(!is.na(sst))
+env = env %>% mutate(Month = month.name[month_extract]) %>% dplyr::select(-stat_year, -year_day, -year_month) 
+env_reduced = env %>% filter(!is.na(Date))
 
+#merge fertility with environmental data
+fertility_metrics = readRDS("Fertility_metrics.RData")
+fertility_pop = fertility_metrics$Population; 
 
+fertility_pop = merge(fertility_pop, env, by = c("Population", "Date", "Year"), all = T); 
+fertility = fertility_pop %>% mutate(Month = coalesce(Month.x, Month.y)) %>% 
+                  dplyr::select(-Month.x, -Month.y) %>% filter(!is.na(Year), !is.na(Date))
 
+fertility = fertility %>% filter(!is.na(Year), !Date %in% c("2019-09-26", "2019-02-20"))
 
+#Explore the most correlated lags (before peak) for the model
+cross = read.csv("Cross_correlation_table.txt",header=T,dec=".",sep="\t", check.names = F) #env = env %>% filter(!is.na(sst))
+
+cross = cross %>% group_by(Population, Species, env_var)
 
 
 

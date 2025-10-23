@@ -1,0 +1,391 @@
+"Population"	"Species"	"env_var"	"lag"	"corr"
+"1"	"Cala Estreta"	"Ericaria crinita"	"sst"	-6	0.289284812203855
+"2"	"Cala Estreta"	"Ericaria crinita"	"sst"	-5	-0.0128534940501191
+"3"	"Cala Estreta"	"Ericaria crinita"	"sst"	-4	-0.292774133819835
+"4"	"Cala Estreta"	"Ericaria crinita"	"sst"	-3	-0.478990932090435
+"5"	"Cala Estreta"	"Ericaria crinita"	"sst"	-2	-0.415150299443833
+"6"	"Cala Estreta"	"Ericaria crinita"	"sst"	-1	-0.136049271730823
+"7"	"Cala Estreta"	"Ericaria crinita"	"sst"	0	0.227382278911104
+"8"	"Cala Estreta"	"Ericaria crinita"	"sst"	1	0.447941139143558
+"9"	"Cala Estreta"	"Ericaria crinita"	"sst"	2	0.470612472736741
+"10"	"Cala Estreta"	"Ericaria crinita"	"sst"	3	0.20154601903228
+"11"	"Cala Estreta"	"Ericaria crinita"	"sst"	4	-0.130268700609307
+"12"	"Cala Estreta"	"Ericaria crinita"	"sst"	5	-0.297799714518218
+"13"	"Cala Estreta"	"Ericaria crinita"	"sst"	6	-0.287821700677791
+"14"	"Cala Estreta"	"Ericaria crinita"	"bot_t"	-6	0.352182523399799
+"15"	"Cala Estreta"	"Ericaria crinita"	"bot_t"	-5	0.145245271303087
+"16"	"Cala Estreta"	"Ericaria crinita"	"bot_t"	-4	-0.0687758253800399
+"17"	"Cala Estreta"	"Ericaria crinita"	"bot_t"	-3	-0.458999293788629
+"18"	"Cala Estreta"	"Ericaria crinita"	"bot_t"	-2	-0.508291526479411
+"19"	"Cala Estreta"	"Ericaria crinita"	"bot_t"	-1	-0.260958685621382
+"20"	"Cala Estreta"	"Ericaria crinita"	"bot_t"	0	0.121727888543707
+"21"	"Cala Estreta"	"Ericaria crinita"	"bot_t"	1	0.225395516449062
+"22"	"Cala Estreta"	"Ericaria crinita"	"bot_t"	2	0.348383119345796
+"23"	"Cala Estreta"	"Ericaria crinita"	"bot_t"	3	0.243839159628295
+"24"	"Cala Estreta"	"Ericaria crinita"	"bot_t"	4	0.0678075517826363
+"25"	"Cala Estreta"	"Ericaria crinita"	"bot_t"	5	-0.152399620296888
+"26"	"Cala Estreta"	"Ericaria crinita"	"bot_t"	6	-0.329184806302189
+"27"	"Cala Estreta"	"Ericaria crinita"	"photoperiod"	-6	-0.149182102396555
+"28"	"Cala Estreta"	"Ericaria crinita"	"photoperiod"	-5	-0.397549137570903
+"29"	"Cala Estreta"	"Ericaria crinita"	"photoperiod"	-4	-0.521318320812549
+"30"	"Cala Estreta"	"Ericaria crinita"	"photoperiod"	-3	-0.324529353367229
+"31"	"Cala Estreta"	"Ericaria crinita"	"photoperiod"	-2	0.0248717673607647
+"32"	"Cala Estreta"	"Ericaria crinita"	"photoperiod"	-1	0.383706929173693
+"33"	"Cala Estreta"	"Ericaria crinita"	"photoperiod"	0	0.578645579060809
+"34"	"Cala Estreta"	"Ericaria crinita"	"photoperiod"	1	0.414685173052494
+"35"	"Cala Estreta"	"Ericaria crinita"	"photoperiod"	2	0.106609804579207
+"36"	"Cala Estreta"	"Ericaria crinita"	"photoperiod"	3	-0.154709991641499
+"37"	"Cala Estreta"	"Ericaria crinita"	"photoperiod"	4	-0.343196502299773
+"38"	"Cala Estreta"	"Ericaria crinita"	"photoperiod"	5	-0.318245127866803
+"39"	"Cala Estreta"	"Ericaria crinita"	"photoperiod"	6	-0.114104902411216
+"40"	"Cala Estreta"	"Ericaria crinita"	"po4"	-6	-0.244067848910288
+"41"	"Cala Estreta"	"Ericaria crinita"	"po4"	-5	0.0371554698164511
+"42"	"Cala Estreta"	"Ericaria crinita"	"po4"	-4	0.275614567360293
+"43"	"Cala Estreta"	"Ericaria crinita"	"po4"	-3	0.537829985304689
+"44"	"Cala Estreta"	"Ericaria crinita"	"po4"	-2	0.409588742301056
+"45"	"Cala Estreta"	"Ericaria crinita"	"po4"	-1	-0.0473342208805217
+"46"	"Cala Estreta"	"Ericaria crinita"	"po4"	0	-0.434170704873164
+"47"	"Cala Estreta"	"Ericaria crinita"	"po4"	1	-0.328188631786353
+"48"	"Cala Estreta"	"Ericaria crinita"	"po4"	2	-0.246016138470247
+"49"	"Cala Estreta"	"Ericaria crinita"	"po4"	3	-0.117409011022452
+"50"	"Cala Estreta"	"Ericaria crinita"	"po4"	4	0.0120657793520445
+"51"	"Cala Estreta"	"Ericaria crinita"	"po4"	5	0.167485547088783
+"52"	"Cala Estreta"	"Ericaria crinita"	"po4"	6	0.256127000152146
+"53"	"Cala Estreta"	"Ericaria crinita"	"no3"	-6	-0.253420381169571
+"54"	"Cala Estreta"	"Ericaria crinita"	"no3"	-5	-0.0646321877091014
+"55"	"Cala Estreta"	"Ericaria crinita"	"no3"	-4	0.115220090940284
+"56"	"Cala Estreta"	"Ericaria crinita"	"no3"	-3	0.342153832212564
+"57"	"Cala Estreta"	"Ericaria crinita"	"no3"	-2	0.325996089193544
+"58"	"Cala Estreta"	"Ericaria crinita"	"no3"	-1	0.0610284216351455
+"59"	"Cala Estreta"	"Ericaria crinita"	"no3"	0	-0.242776323737419
+"60"	"Cala Estreta"	"Ericaria crinita"	"no3"	1	-0.0753959961265447
+"61"	"Cala Estreta"	"Ericaria crinita"	"no3"	2	0.00121973321073654
+"62"	"Cala Estreta"	"Ericaria crinita"	"no3"	3	0.0589009648395625
+"63"	"Cala Estreta"	"Ericaria crinita"	"no3"	4	0.0513129369051274
+"64"	"Cala Estreta"	"Ericaria crinita"	"no3"	5	0.186613491561866
+"65"	"Cala Estreta"	"Ericaria crinita"	"no3"	6	0.256094074059551
+"66"	"Cala Estreta"	"Ericaria crinita"	"nh4"	-6	-0.263361823192297
+"67"	"Cala Estreta"	"Ericaria crinita"	"nh4"	-5	-0.16253507243248
+"68"	"Cala Estreta"	"Ericaria crinita"	"nh4"	-4	-0.0587980512703051
+"69"	"Cala Estreta"	"Ericaria crinita"	"nh4"	-3	0.106845588787187
+"70"	"Cala Estreta"	"Ericaria crinita"	"nh4"	-2	0.200067475703823
+"71"	"Cala Estreta"	"Ericaria crinita"	"nh4"	-1	0.277570128382965
+"72"	"Cala Estreta"	"Ericaria crinita"	"nh4"	0	0.197687665280621
+"73"	"Cala Estreta"	"Ericaria crinita"	"nh4"	1	0.0211914564616701
+"74"	"Cala Estreta"	"Ericaria crinita"	"nh4"	2	-0.10734663951212
+"75"	"Cala Estreta"	"Ericaria crinita"	"nh4"	3	-0.0634455507790323
+"76"	"Cala Estreta"	"Ericaria crinita"	"nh4"	4	0.100195539140593
+"77"	"Cala Estreta"	"Ericaria crinita"	"nh4"	5	0.0806602775623283
+"78"	"Cala Estreta"	"Ericaria crinita"	"nh4"	6	0.0649331459075426
+"79"	"Cala Estreta"	"Ericaria mediterranea"	"sst"	-6	-0.115915320832579
+"80"	"Cala Estreta"	"Ericaria mediterranea"	"sst"	-5	-0.308437295862567
+"81"	"Cala Estreta"	"Ericaria mediterranea"	"sst"	-4	-0.398004582766568
+"82"	"Cala Estreta"	"Ericaria mediterranea"	"sst"	-3	-0.224987811846338
+"83"	"Cala Estreta"	"Ericaria mediterranea"	"sst"	-2	0.0619352275288361
+"84"	"Cala Estreta"	"Ericaria mediterranea"	"sst"	-1	0.32148407547021
+"85"	"Cala Estreta"	"Ericaria mediterranea"	"sst"	0	0.473508847423786
+"86"	"Cala Estreta"	"Ericaria mediterranea"	"sst"	1	0.369694411997073
+"87"	"Cala Estreta"	"Ericaria mediterranea"	"sst"	2	0.100349496902995
+"88"	"Cala Estreta"	"Ericaria mediterranea"	"sst"	3	-0.17049497892499
+"89"	"Cala Estreta"	"Ericaria mediterranea"	"sst"	4	-0.340129472165655
+"90"	"Cala Estreta"	"Ericaria mediterranea"	"sst"	5	-0.342633051854544
+"91"	"Cala Estreta"	"Ericaria mediterranea"	"sst"	6	-0.193581997147967
+"92"	"Cala Estreta"	"Ericaria mediterranea"	"bot_t"	-6	0.0280578298350763
+"93"	"Cala Estreta"	"Ericaria mediterranea"	"bot_t"	-5	-0.274798303620468
+"94"	"Cala Estreta"	"Ericaria mediterranea"	"bot_t"	-4	-0.439390135601306
+"95"	"Cala Estreta"	"Ericaria mediterranea"	"bot_t"	-3	-0.243902859922733
+"96"	"Cala Estreta"	"Ericaria mediterranea"	"bot_t"	-2	0.0279877389675441
+"97"	"Cala Estreta"	"Ericaria mediterranea"	"bot_t"	-1	0.239610697074847
+"98"	"Cala Estreta"	"Ericaria mediterranea"	"bot_t"	0	0.304469372254903
+"99"	"Cala Estreta"	"Ericaria mediterranea"	"bot_t"	1	0.401454325940027
+"100"	"Cala Estreta"	"Ericaria mediterranea"	"bot_t"	2	0.362356328195535
+"101"	"Cala Estreta"	"Ericaria mediterranea"	"bot_t"	3	-0.0377914955817838
+"102"	"Cala Estreta"	"Ericaria mediterranea"	"bot_t"	4	-0.345555935887839
+"103"	"Cala Estreta"	"Ericaria mediterranea"	"bot_t"	5	-0.38083572567351
+"104"	"Cala Estreta"	"Ericaria mediterranea"	"bot_t"	6	-0.21318511444036
+"105"	"Cala Estreta"	"Ericaria mediterranea"	"photoperiod"	-6	-0.30766388119159
+"106"	"Cala Estreta"	"Ericaria mediterranea"	"photoperiod"	-5	-0.34493353918137
+"107"	"Cala Estreta"	"Ericaria mediterranea"	"photoperiod"	-4	-0.146437832551964
+"108"	"Cala Estreta"	"Ericaria mediterranea"	"photoperiod"	-3	0.25069097279866
+"109"	"Cala Estreta"	"Ericaria mediterranea"	"photoperiod"	-2	0.411320630784064
+"110"	"Cala Estreta"	"Ericaria mediterranea"	"photoperiod"	-1	0.393407273436477
+"111"	"Cala Estreta"	"Ericaria mediterranea"	"photoperiod"	0	0.237992200748621
+"112"	"Cala Estreta"	"Ericaria mediterranea"	"photoperiod"	1	-0.0237662888150322
+"113"	"Cala Estreta"	"Ericaria mediterranea"	"photoperiod"	2	-0.306978153985398
+"114"	"Cala Estreta"	"Ericaria mediterranea"	"photoperiod"	3	-0.363294729644534
+"115"	"Cala Estreta"	"Ericaria mediterranea"	"photoperiod"	4	-0.25964877373712
+"116"	"Cala Estreta"	"Ericaria mediterranea"	"photoperiod"	5	-0.0606716037782556
+"117"	"Cala Estreta"	"Ericaria mediterranea"	"photoperiod"	6	0.222792783207023
+"118"	"Cala Estreta"	"Ericaria mediterranea"	"po4"	-6	0.197894443602305
+"119"	"Cala Estreta"	"Ericaria mediterranea"	"po4"	-5	0.454425199197497
+"120"	"Cala Estreta"	"Ericaria mediterranea"	"po4"	-4	0.369733821727574
+"121"	"Cala Estreta"	"Ericaria mediterranea"	"po4"	-3	-0.0462808477951849
+"122"	"Cala Estreta"	"Ericaria mediterranea"	"po4"	-2	-0.23255027886219
+"123"	"Cala Estreta"	"Ericaria mediterranea"	"po4"	-1	-0.255485705132875
+"124"	"Cala Estreta"	"Ericaria mediterranea"	"po4"	0	-0.270930321999698
+"125"	"Cala Estreta"	"Ericaria mediterranea"	"po4"	1	-0.277395730123524
+"126"	"Cala Estreta"	"Ericaria mediterranea"	"po4"	2	-0.205679838557331
+"127"	"Cala Estreta"	"Ericaria mediterranea"	"po4"	3	0.133812027631664
+"128"	"Cala Estreta"	"Ericaria mediterranea"	"po4"	4	0.400506022174966
+"129"	"Cala Estreta"	"Ericaria mediterranea"	"po4"	5	0.317781814298554
+"130"	"Cala Estreta"	"Ericaria mediterranea"	"po4"	6	-0.0254240064012609
+"131"	"Cala Estreta"	"Ericaria mediterranea"	"no3"	-6	0.0340516066141529
+"132"	"Cala Estreta"	"Ericaria mediterranea"	"no3"	-5	0.211911445285251
+"133"	"Cala Estreta"	"Ericaria mediterranea"	"no3"	-4	0.171537843401144
+"134"	"Cala Estreta"	"Ericaria mediterranea"	"no3"	-3	-0.13951954024079
+"135"	"Cala Estreta"	"Ericaria mediterranea"	"no3"	-2	-0.259506705055197
+"136"	"Cala Estreta"	"Ericaria mediterranea"	"no3"	-1	-0.21441054520302
+"137"	"Cala Estreta"	"Ericaria mediterranea"	"no3"	0	-0.207862017859069
+"138"	"Cala Estreta"	"Ericaria mediterranea"	"no3"	1	-0.249623436700705
+"139"	"Cala Estreta"	"Ericaria mediterranea"	"no3"	2	-0.248969947628168
+"140"	"Cala Estreta"	"Ericaria mediterranea"	"no3"	3	0.0561916594957633
+"141"	"Cala Estreta"	"Ericaria mediterranea"	"no3"	4	0.318658281183468
+"142"	"Cala Estreta"	"Ericaria mediterranea"	"no3"	5	0.270397574158677
+"143"	"Cala Estreta"	"Ericaria mediterranea"	"no3"	6	-0.0165862427990986
+"144"	"Cala Estreta"	"Ericaria mediterranea"	"nh4"	-6	-0.0242730677973014
+"145"	"Cala Estreta"	"Ericaria mediterranea"	"nh4"	-5	0.00794401503991541
+"146"	"Cala Estreta"	"Ericaria mediterranea"	"nh4"	-4	0.172474170930364
+"147"	"Cala Estreta"	"Ericaria mediterranea"	"nh4"	-3	0.0503567505853857
+"148"	"Cala Estreta"	"Ericaria mediterranea"	"nh4"	-2	-0.0836775938720003
+"149"	"Cala Estreta"	"Ericaria mediterranea"	"nh4"	-1	-0.14458472892335
+"150"	"Cala Estreta"	"Ericaria mediterranea"	"nh4"	0	-0.189564013346205
+"151"	"Cala Estreta"	"Ericaria mediterranea"	"nh4"	1	-0.288124950915918
+"152"	"Cala Estreta"	"Ericaria mediterranea"	"nh4"	2	-0.190492416965932
+"153"	"Cala Estreta"	"Ericaria mediterranea"	"nh4"	3	0.0197630544849613
+"154"	"Cala Estreta"	"Ericaria mediterranea"	"nh4"	4	0.109595094283742
+"155"	"Cala Estreta"	"Ericaria mediterranea"	"nh4"	5	0.125544777649196
+"156"	"Cala Estreta"	"Ericaria mediterranea"	"nh4"	6	0.0714439899928117
+"157"	"Port de la Selva"	"Ericaria crinita"	"sst"	-6	0.0711209653612163
+"158"	"Port de la Selva"	"Ericaria crinita"	"sst"	-5	0.0319499601660886
+"159"	"Port de la Selva"	"Ericaria crinita"	"sst"	-4	-0.154299507602233
+"160"	"Port de la Selva"	"Ericaria crinita"	"sst"	-3	-0.354843712384125
+"161"	"Port de la Selva"	"Ericaria crinita"	"sst"	-2	-0.339724578897629
+"162"	"Port de la Selva"	"Ericaria crinita"	"sst"	-1	-0.177518045906287
+"163"	"Port de la Selva"	"Ericaria crinita"	"sst"	0	0.0962473856017615
+"164"	"Port de la Selva"	"Ericaria crinita"	"sst"	1	0.378679101856299
+"165"	"Port de la Selva"	"Ericaria crinita"	"sst"	2	0.44647622496705
+"166"	"Port de la Selva"	"Ericaria crinita"	"sst"	3	0.256455909098165
+"167"	"Port de la Selva"	"Ericaria crinita"	"sst"	4	0.0350080473004488
+"168"	"Port de la Selva"	"Ericaria crinita"	"sst"	5	-0.220275296469202
+"169"	"Port de la Selva"	"Ericaria crinita"	"sst"	6	-0.301319093193998
+"170"	"Port de la Selva"	"Ericaria crinita"	"bot_t"	-6	0.0163265732692019
+"171"	"Port de la Selva"	"Ericaria crinita"	"bot_t"	-5	0.0305109866198858
+"172"	"Port de la Selva"	"Ericaria crinita"	"bot_t"	-4	-0.11426529262901
+"173"	"Port de la Selva"	"Ericaria crinita"	"bot_t"	-3	-0.335368546464803
+"174"	"Port de la Selva"	"Ericaria crinita"	"bot_t"	-2	-0.350505727403126
+"175"	"Port de la Selva"	"Ericaria crinita"	"bot_t"	-1	-0.164144144349262
+"176"	"Port de la Selva"	"Ericaria crinita"	"bot_t"	0	0.0482261284061732
+"177"	"Port de la Selva"	"Ericaria crinita"	"bot_t"	1	0.239085406860349
+"178"	"Port de la Selva"	"Ericaria crinita"	"bot_t"	2	0.282149715125233
+"179"	"Port de la Selva"	"Ericaria crinita"	"bot_t"	3	0.231435746264212
+"180"	"Port de la Selva"	"Ericaria crinita"	"bot_t"	4	0.0811646247524241
+"181"	"Port de la Selva"	"Ericaria crinita"	"bot_t"	5	-0.203699776001479
+"182"	"Port de la Selva"	"Ericaria crinita"	"bot_t"	6	-0.272803586556947
+"183"	"Port de la Selva"	"Ericaria crinita"	"photoperiod"	-6	-0.185149271215977
+"184"	"Port de la Selva"	"Ericaria crinita"	"photoperiod"	-5	-0.244055711282109
+"185"	"Port de la Selva"	"Ericaria crinita"	"photoperiod"	-4	-0.291402151263446
+"186"	"Port de la Selva"	"Ericaria crinita"	"photoperiod"	-3	-0.227456114334044
+"187"	"Port de la Selva"	"Ericaria crinita"	"photoperiod"	-2	0.0261203474052613
+"188"	"Port de la Selva"	"Ericaria crinita"	"photoperiod"	-1	0.304818587249875
+"189"	"Port de la Selva"	"Ericaria crinita"	"photoperiod"	0	0.453955133418185
+"190"	"Port de la Selva"	"Ericaria crinita"	"photoperiod"	1	0.382390450079401
+"191"	"Port de la Selva"	"Ericaria crinita"	"photoperiod"	2	0.215363677160927
+"192"	"Port de la Selva"	"Ericaria crinita"	"photoperiod"	3	-0.0492739141433438
+"193"	"Port de la Selva"	"Ericaria crinita"	"photoperiod"	4	-0.288502162228974
+"194"	"Port de la Selva"	"Ericaria crinita"	"photoperiod"	5	-0.341809534586838
+"195"	"Port de la Selva"	"Ericaria crinita"	"photoperiod"	6	-0.209033868500541
+"196"	"Port de la Selva"	"Ericaria crinita"	"po4"	-6	-0.0849977537444986
+"197"	"Port de la Selva"	"Ericaria crinita"	"po4"	-5	-0.0421477833980945
+"198"	"Port de la Selva"	"Ericaria crinita"	"po4"	-4	0.130729039559743
+"199"	"Port de la Selva"	"Ericaria crinita"	"po4"	-3	0.281260029619014
+"200"	"Port de la Selva"	"Ericaria crinita"	"po4"	-2	0.273693125122046
+"201"	"Port de la Selva"	"Ericaria crinita"	"po4"	-1	0.0868806445474157
+"202"	"Port de la Selva"	"Ericaria crinita"	"po4"	0	-0.145727288346568
+"203"	"Port de la Selva"	"Ericaria crinita"	"po4"	1	-0.259896389100976
+"204"	"Port de la Selva"	"Ericaria crinita"	"po4"	2	-0.27151309192608
+"205"	"Port de la Selva"	"Ericaria crinita"	"po4"	3	-0.255138755233644
+"206"	"Port de la Selva"	"Ericaria crinita"	"po4"	4	-0.0201940460283329
+"207"	"Port de la Selva"	"Ericaria crinita"	"po4"	5	0.195199670948351
+"208"	"Port de la Selva"	"Ericaria crinita"	"po4"	6	0.178120436328448
+"209"	"Port de la Selva"	"Ericaria crinita"	"no3"	-6	-0.0786122970913983
+"210"	"Port de la Selva"	"Ericaria crinita"	"no3"	-5	-0.0768430520983601
+"211"	"Port de la Selva"	"Ericaria crinita"	"no3"	-4	0.0539210332962137
+"212"	"Port de la Selva"	"Ericaria crinita"	"no3"	-3	0.212825698937983
+"213"	"Port de la Selva"	"Ericaria crinita"	"no3"	-2	0.255423758995789
+"214"	"Port de la Selva"	"Ericaria crinita"	"no3"	-1	0.210776934508562
+"215"	"Port de la Selva"	"Ericaria crinita"	"no3"	0	0.0619124613750053
+"216"	"Port de la Selva"	"Ericaria crinita"	"no3"	1	-0.0509755242533529
+"217"	"Port de la Selva"	"Ericaria crinita"	"no3"	2	0.0103223172671095
+"218"	"Port de la Selva"	"Ericaria crinita"	"no3"	3	-0.0330960577318611
+"219"	"Port de la Selva"	"Ericaria crinita"	"no3"	4	0.072527791830262
+"220"	"Port de la Selva"	"Ericaria crinita"	"no3"	5	0.202997667578313
+"221"	"Port de la Selva"	"Ericaria crinita"	"no3"	6	0.220420096614123
+"222"	"Port de la Selva"	"Ericaria crinita"	"nh4"	-6	-0.203912388683774
+"223"	"Port de la Selva"	"Ericaria crinita"	"nh4"	-5	-0.181788491018308
+"224"	"Port de la Selva"	"Ericaria crinita"	"nh4"	-4	-0.0306986896318303
+"225"	"Port de la Selva"	"Ericaria crinita"	"nh4"	-3	0.260428323375904
+"226"	"Port de la Selva"	"Ericaria crinita"	"nh4"	-2	0.369619354304214
+"227"	"Port de la Selva"	"Ericaria crinita"	"nh4"	-1	0.426540562070084
+"228"	"Port de la Selva"	"Ericaria crinita"	"nh4"	0	0.356662760321448
+"229"	"Port de la Selva"	"Ericaria crinita"	"nh4"	1	0.0836082677784446
+"230"	"Port de la Selva"	"Ericaria crinita"	"nh4"	2	-0.0810461804190324
+"231"	"Port de la Selva"	"Ericaria crinita"	"nh4"	3	-0.136803838563079
+"232"	"Port de la Selva"	"Ericaria crinita"	"nh4"	4	-0.0654476523305368
+"233"	"Port de la Selva"	"Ericaria crinita"	"nh4"	5	0.0381514836159631
+"234"	"Port de la Selva"	"Ericaria crinita"	"nh4"	6	0.138327378172452
+"235"	"Port de la Selva"	"Gongolaria elegans"	"sst"	-6	-0.0562335989195857
+"236"	"Port de la Selva"	"Gongolaria elegans"	"sst"	-5	-0.0489448591638099
+"237"	"Port de la Selva"	"Gongolaria elegans"	"sst"	-4	-0.0959247238987739
+"238"	"Port de la Selva"	"Gongolaria elegans"	"sst"	-3	-0.212864517164249
+"239"	"Port de la Selva"	"Gongolaria elegans"	"sst"	-2	-0.241036499124413
+"240"	"Port de la Selva"	"Gongolaria elegans"	"sst"	-1	-0.137516257541282
+"241"	"Port de la Selva"	"Gongolaria elegans"	"sst"	0	0.0932513543525745
+"242"	"Port de la Selva"	"Gongolaria elegans"	"sst"	1	0.300697261073648
+"243"	"Port de la Selva"	"Gongolaria elegans"	"sst"	2	0.375650163365724
+"244"	"Port de la Selva"	"Gongolaria elegans"	"sst"	3	0.250344277040394
+"245"	"Port de la Selva"	"Gongolaria elegans"	"sst"	4	0.00315958509583007
+"246"	"Port de la Selva"	"Gongolaria elegans"	"sst"	5	-0.149256981848869
+"247"	"Port de la Selva"	"Gongolaria elegans"	"sst"	6	-0.208537146786413
+"248"	"Port de la Selva"	"Gongolaria elegans"	"bot_t"	-6	-1.73875603495818e-05
+"249"	"Port de la Selva"	"Gongolaria elegans"	"bot_t"	-5	-0.0642001967550971
+"250"	"Port de la Selva"	"Gongolaria elegans"	"bot_t"	-4	-0.107049696184863
+"251"	"Port de la Selva"	"Gongolaria elegans"	"bot_t"	-3	-0.24215017276234
+"252"	"Port de la Selva"	"Gongolaria elegans"	"bot_t"	-2	-0.221054992017825
+"253"	"Port de la Selva"	"Gongolaria elegans"	"bot_t"	-1	-0.11020931129983
+"254"	"Port de la Selva"	"Gongolaria elegans"	"bot_t"	0	0.0583517656354108
+"255"	"Port de la Selva"	"Gongolaria elegans"	"bot_t"	1	0.315235490759318
+"256"	"Port de la Selva"	"Gongolaria elegans"	"bot_t"	2	0.291776929346362
+"257"	"Port de la Selva"	"Gongolaria elegans"	"bot_t"	3	0.290140528531868
+"258"	"Port de la Selva"	"Gongolaria elegans"	"bot_t"	4	0.0706683732098295
+"259"	"Port de la Selva"	"Gongolaria elegans"	"bot_t"	5	-0.120024803430373
+"260"	"Port de la Selva"	"Gongolaria elegans"	"bot_t"	6	-0.206412808292623
+"261"	"Port de la Selva"	"Gongolaria elegans"	"photoperiod"	-6	-0.233347645820973
+"262"	"Port de la Selva"	"Gongolaria elegans"	"photoperiod"	-5	-0.211408383503291
+"263"	"Port de la Selva"	"Gongolaria elegans"	"photoperiod"	-4	-0.185760176221454
+"264"	"Port de la Selva"	"Gongolaria elegans"	"photoperiod"	-3	-0.100993215081817
+"265"	"Port de la Selva"	"Gongolaria elegans"	"photoperiod"	-2	0.0464178988641557
+"266"	"Port de la Selva"	"Gongolaria elegans"	"photoperiod"	-1	0.198119283233033
+"267"	"Port de la Selva"	"Gongolaria elegans"	"photoperiod"	0	0.328152045344102
+"268"	"Port de la Selva"	"Gongolaria elegans"	"photoperiod"	1	0.31242288887723
+"269"	"Port de la Selva"	"Gongolaria elegans"	"photoperiod"	2	0.20975392165629
+"270"	"Port de la Selva"	"Gongolaria elegans"	"photoperiod"	3	0.0244840319694517
+"271"	"Port de la Selva"	"Gongolaria elegans"	"photoperiod"	4	-0.133221927469607
+"272"	"Port de la Selva"	"Gongolaria elegans"	"photoperiod"	5	-0.203099429748307
+"273"	"Port de la Selva"	"Gongolaria elegans"	"photoperiod"	6	-0.140652975607723
+"274"	"Port de la Selva"	"Gongolaria elegans"	"po4"	-6	0.0683861259267646
+"275"	"Port de la Selva"	"Gongolaria elegans"	"po4"	-5	0.109233067254033
+"276"	"Port de la Selva"	"Gongolaria elegans"	"po4"	-4	0.204721455688276
+"277"	"Port de la Selva"	"Gongolaria elegans"	"po4"	-3	0.189960537201943
+"278"	"Port de la Selva"	"Gongolaria elegans"	"po4"	-2	0.0908240850797861
+"279"	"Port de la Selva"	"Gongolaria elegans"	"po4"	-1	-0.0576501617998377
+"280"	"Port de la Selva"	"Gongolaria elegans"	"po4"	0	-0.195419376932482
+"281"	"Port de la Selva"	"Gongolaria elegans"	"po4"	1	-0.249443752506474
+"282"	"Port de la Selva"	"Gongolaria elegans"	"po4"	2	-0.267449901817197
+"283"	"Port de la Selva"	"Gongolaria elegans"	"po4"	3	-0.239458466320012
+"284"	"Port de la Selva"	"Gongolaria elegans"	"po4"	4	-0.0354262974338544
+"285"	"Port de la Selva"	"Gongolaria elegans"	"po4"	5	0.111290646756804
+"286"	"Port de la Selva"	"Gongolaria elegans"	"po4"	6	0.168771310534038
+"287"	"Port de la Selva"	"Gongolaria elegans"	"no3"	-6	-0.0756494616738657
+"288"	"Port de la Selva"	"Gongolaria elegans"	"no3"	-5	-0.0485813170218751
+"289"	"Port de la Selva"	"Gongolaria elegans"	"no3"	-4	0.0583906735728786
+"290"	"Port de la Selva"	"Gongolaria elegans"	"no3"	-3	0.0548551207808098
+"291"	"Port de la Selva"	"Gongolaria elegans"	"no3"	-2	-0.0505510930517725
+"292"	"Port de la Selva"	"Gongolaria elegans"	"no3"	-1	-0.108333033792737
+"293"	"Port de la Selva"	"Gongolaria elegans"	"no3"	0	-0.19762728328984
+"294"	"Port de la Selva"	"Gongolaria elegans"	"no3"	1	-0.265852663201465
+"295"	"Port de la Selva"	"Gongolaria elegans"	"no3"	2	-0.253963303038799
+"296"	"Port de la Selva"	"Gongolaria elegans"	"no3"	3	-0.275077430573827
+"297"	"Port de la Selva"	"Gongolaria elegans"	"no3"	4	-0.0563575844863716
+"298"	"Port de la Selva"	"Gongolaria elegans"	"no3"	5	0.0653154464540729
+"299"	"Port de la Selva"	"Gongolaria elegans"	"no3"	6	0.130175145559781
+"300"	"Port de la Selva"	"Gongolaria elegans"	"nh4"	-6	-0.150652907721466
+"301"	"Port de la Selva"	"Gongolaria elegans"	"nh4"	-5	-0.146889400786403
+"302"	"Port de la Selva"	"Gongolaria elegans"	"nh4"	-4	-0.022928515963323
+"303"	"Port de la Selva"	"Gongolaria elegans"	"nh4"	-3	0.188233754235899
+"304"	"Port de la Selva"	"Gongolaria elegans"	"nh4"	-2	0.130026911948319
+"305"	"Port de la Selva"	"Gongolaria elegans"	"nh4"	-1	0.068903456277365
+"306"	"Port de la Selva"	"Gongolaria elegans"	"nh4"	0	-0.0732175235227311
+"307"	"Port de la Selva"	"Gongolaria elegans"	"nh4"	1	-0.224301859949391
+"308"	"Port de la Selva"	"Gongolaria elegans"	"nh4"	2	-0.24075347043067
+"309"	"Port de la Selva"	"Gongolaria elegans"	"nh4"	3	-0.243139489318847
+"310"	"Port de la Selva"	"Gongolaria elegans"	"nh4"	4	-0.0651037376383632
+"311"	"Port de la Selva"	"Gongolaria elegans"	"nh4"	5	0.0342263785442289
+"312"	"Port de la Selva"	"Gongolaria elegans"	"nh4"	6	0.0874011765631947
+"313"	"Port de la Selva"	"Ericaria mediterranea"	"sst"	-6	0.10434983175344
+"314"	"Port de la Selva"	"Ericaria mediterranea"	"sst"	-5	0.20832401727958
+"315"	"Port de la Selva"	"Ericaria mediterranea"	"sst"	-4	-0.311641522441854
+"316"	"Port de la Selva"	"Ericaria mediterranea"	"sst"	-3	-0.497908557666273
+"317"	"Port de la Selva"	"Ericaria mediterranea"	"sst"	-2	-0.203184695755428
+"318"	"Port de la Selva"	"Ericaria mediterranea"	"sst"	-1	0.0436156975436879
+"319"	"Port de la Selva"	"Ericaria mediterranea"	"sst"	0	0.479058191387138
+"320"	"Port de la Selva"	"Ericaria mediterranea"	"sst"	1	0.551200918118067
+"321"	"Port de la Selva"	"Ericaria mediterranea"	"sst"	2	0.206164676845251
+"322"	"Port de la Selva"	"Ericaria mediterranea"	"sst"	3	-0.158949135423322
+"323"	"Port de la Selva"	"Ericaria mediterranea"	"sst"	4	-0.230553933837551
+"324"	"Port de la Selva"	"Ericaria mediterranea"	"sst"	5	-0.14305941681316
+"325"	"Port de la Selva"	"Ericaria mediterranea"	"sst"	6	-0.0474160709895762
+"326"	"Port de la Selva"	"Ericaria mediterranea"	"bot_t"	-6	0.125689198337981
+"327"	"Port de la Selva"	"Ericaria mediterranea"	"bot_t"	-5	0.217361276601042
+"328"	"Port de la Selva"	"Ericaria mediterranea"	"bot_t"	-4	-0.446661588556989
+"329"	"Port de la Selva"	"Ericaria mediterranea"	"bot_t"	-3	-0.477487322434261
+"330"	"Port de la Selva"	"Ericaria mediterranea"	"bot_t"	-2	-0.00644656403575618
+"331"	"Port de la Selva"	"Ericaria mediterranea"	"bot_t"	-1	0.0753491725509989
+"332"	"Port de la Selva"	"Ericaria mediterranea"	"bot_t"	0	0.356138732266841
+"333"	"Port de la Selva"	"Ericaria mediterranea"	"bot_t"	1	0.274750591708741
+"334"	"Port de la Selva"	"Ericaria mediterranea"	"bot_t"	2	0.404006024246035
+"335"	"Port de la Selva"	"Ericaria mediterranea"	"bot_t"	3	-0.0463826512047709
+"336"	"Port de la Selva"	"Ericaria mediterranea"	"bot_t"	4	-0.222462366254871
+"337"	"Port de la Selva"	"Ericaria mediterranea"	"bot_t"	5	-0.153651093764776
+"338"	"Port de la Selva"	"Ericaria mediterranea"	"bot_t"	6	-0.100203409460216
+"339"	"Port de la Selva"	"Ericaria mediterranea"	"photoperiod"	-6	0.121568013878292
+"340"	"Port de la Selva"	"Ericaria mediterranea"	"photoperiod"	-5	0.101724676555061
+"341"	"Port de la Selva"	"Ericaria mediterranea"	"photoperiod"	-4	-0.616947460705622
+"342"	"Port de la Selva"	"Ericaria mediterranea"	"photoperiod"	-3	-0.171376662861167
+"343"	"Port de la Selva"	"Ericaria mediterranea"	"photoperiod"	-2	0.320596241708175
+"344"	"Port de la Selva"	"Ericaria mediterranea"	"photoperiod"	-1	0.52863976571559
+"345"	"Port de la Selva"	"Ericaria mediterranea"	"photoperiod"	0	0.405810406806751
+"346"	"Port de la Selva"	"Ericaria mediterranea"	"photoperiod"	1	-0.127024060957622
+"347"	"Port de la Selva"	"Ericaria mediterranea"	"photoperiod"	2	-0.649613499148113
+"348"	"Port de la Selva"	"Ericaria mediterranea"	"photoperiod"	3	-0.194403763718932
+"349"	"Port de la Selva"	"Ericaria mediterranea"	"photoperiod"	4	0.0681512357355668
+"350"	"Port de la Selva"	"Ericaria mediterranea"	"photoperiod"	5	0.114449350712741
+"351"	"Port de la Selva"	"Ericaria mediterranea"	"photoperiod"	6	0.0984257562792794
+"352"	"Port de la Selva"	"Ericaria mediterranea"	"po4"	-6	-0.187060852327986
+"353"	"Port de la Selva"	"Ericaria mediterranea"	"po4"	-5	-0.170831916185581
+"354"	"Port de la Selva"	"Ericaria mediterranea"	"po4"	-4	0.847316705992502
+"355"	"Port de la Selva"	"Ericaria mediterranea"	"po4"	-3	0.110425518766729
+"356"	"Port de la Selva"	"Ericaria mediterranea"	"po4"	-2	-0.278339058842767
+"357"	"Port de la Selva"	"Ericaria mediterranea"	"po4"	-1	-0.192122583861755
+"358"	"Port de la Selva"	"Ericaria mediterranea"	"po4"	0	-0.17275917102124
+"359"	"Port de la Selva"	"Ericaria mediterranea"	"po4"	1	-0.116211550938431
+"360"	"Port de la Selva"	"Ericaria mediterranea"	"po4"	2	-0.168878626690805
+"361"	"Port de la Selva"	"Ericaria mediterranea"	"po4"	3	0.0587827220041454
+"362"	"Port de la Selva"	"Ericaria mediterranea"	"po4"	4	0.124050846624591
+"363"	"Port de la Selva"	"Ericaria mediterranea"	"po4"	5	0.0971325632472549
+"364"	"Port de la Selva"	"Ericaria mediterranea"	"po4"	6	0.0484954032333421
+"365"	"Port de la Selva"	"Ericaria mediterranea"	"no3"	-6	-0.11642089249431
+"366"	"Port de la Selva"	"Ericaria mediterranea"	"no3"	-5	-0.126951154615599
+"367"	"Port de la Selva"	"Ericaria mediterranea"	"no3"	-4	0.438822266199753
+"368"	"Port de la Selva"	"Ericaria mediterranea"	"no3"	-3	0.0336979009294883
+"369"	"Port de la Selva"	"Ericaria mediterranea"	"no3"	-2	0.0638908069534562
+"370"	"Port de la Selva"	"Ericaria mediterranea"	"no3"	-1	0.2085366811546
+"371"	"Port de la Selva"	"Ericaria mediterranea"	"no3"	0	0.0568233230738349
+"372"	"Port de la Selva"	"Ericaria mediterranea"	"no3"	1	-0.446931448146512
+"373"	"Port de la Selva"	"Ericaria mediterranea"	"no3"	2	-0.647239847229629
+"374"	"Port de la Selva"	"Ericaria mediterranea"	"no3"	3	-0.0154967689121772
+"375"	"Port de la Selva"	"Ericaria mediterranea"	"no3"	4	0.221323070817226
+"376"	"Port de la Selva"	"Ericaria mediterranea"	"no3"	5	0.217647272940689
+"377"	"Port de la Selva"	"Ericaria mediterranea"	"no3"	6	0.112298789329181
+"378"	"Port de la Selva"	"Ericaria mediterranea"	"nh4"	-6	0.0503661614137412
+"379"	"Port de la Selva"	"Ericaria mediterranea"	"nh4"	-5	-0.00641064129567429
+"380"	"Port de la Selva"	"Ericaria mediterranea"	"nh4"	-4	-0.397240611037128
+"381"	"Port de la Selva"	"Ericaria mediterranea"	"nh4"	-3	0.0150478626073246
+"382"	"Port de la Selva"	"Ericaria mediterranea"	"nh4"	-2	0.580051656031696
+"383"	"Port de la Selva"	"Ericaria mediterranea"	"nh4"	-1	0.487753842938796
+"384"	"Port de la Selva"	"Ericaria mediterranea"	"nh4"	0	-0.00736059429000975
+"385"	"Port de la Selva"	"Ericaria mediterranea"	"nh4"	1	-0.568554235245904
+"386"	"Port de la Selva"	"Ericaria mediterranea"	"nh4"	2	-0.598410714006115
+"387"	"Port de la Selva"	"Ericaria mediterranea"	"nh4"	3	-0.0148018133092261
+"388"	"Port de la Selva"	"Ericaria mediterranea"	"nh4"	4	0.19893633577361
+"389"	"Port de la Selva"	"Ericaria mediterranea"	"nh4"	5	0.175518681742236
+"390"	"Port de la Selva"	"Ericaria mediterranea"	"nh4"	6	0.0851040686766529
