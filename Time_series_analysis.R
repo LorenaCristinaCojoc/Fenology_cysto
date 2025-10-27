@@ -42,7 +42,7 @@ na_PdS = as.data.frame.matrix(nas[,,2]) %>% dplyr::select(month.name); na_PdS[na
 
 #Initial data exploration
 #Multiple correlations among environmental variables
-variables <- fertility %>% dplyr::select(sst, bot_t, nh4, no3, po4, photoperiod); colnames(variables)
+variables <- fertility %>% dplyr::select(temp_month, sst, bot_t, nh4, no3, po4, photoperiod); colnames(variables)
 cor(variables)
 pairs.panels(variables, 
              method = "pearson", # correlation method
@@ -52,7 +52,7 @@ pairs.panels(variables,
 )
 
 #Variance inflation factor
-variables <- fertility %>% dplyr::select(prop_peak,colnames(variables))
+variables <- fertility %>% dplyr::select(prop_peak,colnames(variables), -sst, -bot_t)
 vif <- lm(prop_peak ~ ., variables, na.action = na.omit); #summary (vif)
 
 vif_values <- vif(vif)
@@ -77,8 +77,8 @@ lag2.plot(time_s$po4,time_s$prop_peak, 8)
 
 #Summarise all this cross-correlation information in one table for future use
 popul = c("Cala Estreta", "Port de la Selva"); sp = unique(as.character(fertility$Species))
-env_vars = c("sst", "bot_t", "photoperiod", "po4", "no3", "nh4")
-varnames = c("Sea Surface Temperature (°C)", "Bottom temperature (°C)", "Photoperiod length (hours)", 
+env_vars = c("temp_month", "bot_t", "photoperiod", "po4", "no3", "nh4")
+varnames = c("Sea Temperature (°C)", "Bottom temperature (°C)", "Photoperiod length (hours)", 
              "Phosphate (mmol/m3)", "Nitrate (mmol/m3)", "Ammonium (mmol/m3)")
 cross = data.frame(); cross_plots = list()
 

@@ -9,7 +9,7 @@ listoflibrary<-c("purrr", "ggplot2", "ggpubr", "car", "viridisLite", "viridis", 
 for (pkg in listoflibrary){
   if(!eval(bquote(require(.(pkg))))) {eval(bquote(install.packages(.(pkg))))}
   eval(bquote(library(.(pkg))))
-}
+}O
 
 #Set the number of cores to do functions in parallel
 numcores <- detectCores()
@@ -603,6 +603,75 @@ for (i in 1:nrow(env)){
 } 
 env = env %>% filter(!is.na(photoperiod_month))
 
+#write.table(env,file="env_data_serie_temporal.txt",sep="\t", row.names = TRUE)
+
+# Add temperature in situ from loggers -------
+env = read.csv("env_data_serie_temporal.txt",header=T,dec=".",sep="\t", check.names = F);
+env$Date = as.Date(env$Date, format = "%Y-%m-%d")
+temp_situ = read.csv("./Env_data/Daily_temperature_in_situ.txt",header=T,dec=",",sep="\t", check.names = F)
+temp_situ = temp_situ %>% mutate(Date = as.Date(Date, format = "%d/%m/%Y")) %>% filter(!is.na(temperature_day))
+
+# avail_temp = temp_situ[which(temp_situ$Population %in% env$Population & temp_situ$Date %in% env$Date),]
+test = merge(env, temp_situ, by = c("Population", "Date"))
+
+#Check how correlated is the in-situ data and the extracted one to complete missing points
+variables = test[,c(10,15,41)]
+cor(variables) #correlation of 0.93 between field and extracted data, it is safe to be used for completion
+pairs.panels(variables, 
+             method = "pearson", # correlation method
+             hist.col = "#00AFBB",
+             density = TRUE,  # show density plots
+             ellipses = TRUE # show correlation ellipses
+)
+
+t.test(test$sst_day, test$temperature_day) #Both temperatures are statistically the same (p = 0.264), 
+                                           # no differences among them, even more safer
+
+#Now extract the exact values for the days but also the monthly values for plotting
+env$temp_situ_day = NA; env$temp_day_var = NA; env$temp_month = NA
+
+#get the monthly mean for in situ data
+temp_situ$year_month = as.character(format(as.Date(temp_situ$Date), "%Y.%m"))
+temp_month = as.data.frame(temp_situ %>% group_by(Population, year_month) %>% summarise_at(.vars = "temperature_day", mean, na.rm = T))
+
+#join in situ with current environmental data
+for (i in 1:nrow(env)){
+  
+  #Daily in-situ temperature and deviation
+  if(length(temp_situ[which(temp_situ$Population == env$Population[i] & 
+                     temp_situ$Date == env$Date[i]), 3]) == 0){sst_day = NA; day_range = NA} 
+  else {sst_day = temp_situ[which(temp_situ$Population == env$Population[i] & 
+                                  temp_situ$Date == env$Date[i]), 3];
+  
+        day_range = temp_situ[which(temp_situ$Population == env$Population[i] & 
+                                  temp_situ$Date == env$Date[i]), 4]} #Environmental data for a specific day
+  
+  #Monthly in-situ temperature and deviation
+  if(length(temp_month[which(temp_month$Population == env$Population[i] & 
+                             temp_month$year_month == env$year_month[i]), 3]) == 0){sst_month = NA} 
+  else {sst_month= temp_month[which(temp_month$Population == env$Population[i] & 
+                                     temp_month$year_month == env$year_month[i]), 3]} #Environmental data for a specific day
+  
+  env$temp_situ_day[i] = sst_day; env$temp_day_var[i] = day_range; env$temp_month[i] = sst_month
+}
+
+#Assess the correlation among monthly metrics for data completion
+test = env %>% filter(!is.na(temp_month))
+
+variables = test[,c("bot_t","sst","temp_month")]
+cor(variables) #correlation of 0.94 between field and extracted data, it is safe to be used for completion
+pairs.panels(variables, 
+             method = "pearson", # correlation method
+             hist.col = "#00AFBB",
+             density = TRUE,  # show density plots
+             ellipses = TRUE # show correlation ellipses
+)
+
+t.test(test$sst - test$temp_month) #Both temperatures are statistically not the same (p = 0.03), slight differences among them but this is not used for modelling
+
+#Join the in situ and temperature extracted from copernicus in the environmental dataset
+env$temperature_day = coalesce(env$temp_situ_day,env$sst_day)
+env$temp_month = coalesce(env$temp_month, env$sst)
 #write.table(env,file="env_data_serie_temporal.txt",sep="\t", row.names = TRUE)
 
 #3: Plots of fertility time-series ---------
